@@ -1,0 +1,2 @@
+
+MSBTProfiles_SavedVarsPerChar = nil

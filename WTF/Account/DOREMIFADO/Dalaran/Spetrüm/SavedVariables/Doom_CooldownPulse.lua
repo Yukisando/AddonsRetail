@@ -1,0 +1,4 @@
+
+DCP_SavedPerCharacter = {
+	["ignoredSpells"] = "",
+}

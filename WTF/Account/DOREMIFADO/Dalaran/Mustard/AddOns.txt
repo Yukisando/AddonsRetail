@@ -1,0 +1,4 @@
+AutoTurnIn: disabled
+Chinchilla: disabled
+LazyKeystones: disabled
+MythicHelper: disabled

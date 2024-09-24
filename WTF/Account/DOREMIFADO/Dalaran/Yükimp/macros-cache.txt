@@ -1,0 +1,89 @@
+VER 3 0100000000000010 "Buff" "134400"
+#showtooltip Summon Demonic Tyrant
+/use 14
+/cast Summon Demonic Tyrant
+END
+VER 3 010000000000000D "Burning rush" "134400"
+#showtooltip
+/cancelaura burning rush
+/cast burning rush
+END
+VER 3 010000000000000A "Curse pull" "134400"
+#showtooltip
+/cast Curse of Tongues
+/petassist
+/petattack
+END
+VER 3 0100000000000002 "Cursor Guillotin" "134400"
+#showtooltip
+/cast [@cursor] Guillotine
+END
+VER 3 0100000000000001 "Cursor Rain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Rain of Fire
+END
+VER 3 010000000000000C "Def" "134400"
+#showtooltip Dark pact
+/use Escape Artist(Racial)
+/cast Dark pact
+/cast Unending Resolve
+END
+VER 3 0100000000000015 "Drain" "134400"
+#showtooltip Drain Life
+/cast Soulburn
+/cast Drain Life
+END
+VER 3 0100000000000014 "Funnel" "136168"
+#showtooltip Health Funnel
+/cast Soulburn
+/cast Health Funnel
+END
+VER 3 0100000000000005 "Gateway" "134400"
+#showtooltip Demonic Gateway
+/use Gateway Control Shard
+/cast Soulburn
+/cast [@cursor] Demonic Gateway
+END
+VER 3 0100000000000011 "Healthstone" "134400"
+#showtooltip Create Healthstone
+/cast [group] Create Soulwell; [nogroup] Create Healthstone
+/use Jiro Circle of Song
+END
+VER 3 010000000000001B "Immo" "134400"
+#Showtooltip
+/cast Immolate
+/petassist
+/petattack
+END
+VER 3 0100000000000013 "Mortal toy" "134400"
+#showtooltip Mortal Coil
+/use [@target,help,nodead][@target,noexists] Verdant Throwing Sphere; Mortal Coil
+END
+VER 3 010000000000000E "Shadowfury" "134400"
+#showtooltip
+/cast [@cursor] Shadowfury
+END
+VER 3 0100000000000018 "Soul" "134400"
+#showtooltip Create Soulwell
+/use Jiro Circle of Song
+/cast Create Soulwell
+END
+VER 3 0100000000000007 "Soulstone" "134400"
+#showtooltip Soulstone
+/cast [help] Soulstone; [@mouseover,exists] Soulstone
+END
+VER 3 0100000000000017 "TP" "134400"
+#showtooltip Ritual of Summoning
+/p Grande Teleporto!
+/cast Ritual of Summoning
+END
+VER 3 010000000000001A "Trink 2" "134400"
+#showtooltip
+/cast Summon Demonic Tyrant
+/use 14
+END
+VER 3 0100000000000019 "Trink1" "134400"
+#showtooltip Grimoire: Felguard
+/cast Grimoire: Felguard
+/use 13
+END

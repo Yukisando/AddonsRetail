@@ -1,0 +1,14 @@
+SexyCooldown2: disabled
+TellMeWhen: disabled
+TellMeWhen_Options: disabled
+AutoTurnIn: disabled
+Azeroth Auto Pilot: enabled
+OPie: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+WeakAurasCompanion: enabled
+LittleWigs: enabled
+WeakAurasArchive: enabled
+Details: disabled
+Details_EncounterDetails: enabled

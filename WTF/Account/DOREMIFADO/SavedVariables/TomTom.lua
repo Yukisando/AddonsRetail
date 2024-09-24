@@ -1,0 +1,119 @@
+
+TomTomDB = {
+["profileKeys"] = {
+["Elixïr - Eitrigg"] = "Default",
+["Yükisan - Dalaran"] = "Default",
+["Cailloux - Dalaran"] = "Default",
+["Pantoufle - Dalaran"] = "Default",
+["Coroutine - Dalaran"] = "Default",
+["Yükimp - Dalaran"] = "Default",
+["Yükikstarter - Dalaran"] = "Default",
+["Yükidnapé - Dalaran"] = "Default",
+["Yükringe - Dalaran"] = "Default",
+["Groskiki - Dalaran"] = "Default",
+["Feuman - Dalaran"] = "Default",
+["Wifi - Dalaran"] = "Default",
+["Yükatechisme - Dalaran"] = "Default",
+["Heretique - Dalaran"] = "Default",
+["Sojä - Dalaran"] = "Default",
+["Peestache - Dalaran"] = "Default",
+["Yukiwaifu - Dalaran"] = "Default",
+["Superbarbe - Dalaran"] = "Default",
+["Yüpi - Dalaran"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["poi"] = {
+["enable"] = false,
+},
+["arrow"] = {
+["arrival"] = 32,
+["stickycorpse"] = true,
+["position"] = {
+"TOP",
+nil,
+"TOP",
+444.0786743164063,
+-4.602347373962402,
+},
+["alpha"] = 0.85,
+},
+["block"] = {
+["width"] = 70,
+["fontsize"] = 8,
+["position"] = {
+"TOPRIGHT",
+nil,
+"TOPRIGHT",
+-172.5901336669922,
+-28.70520782470703,
+},
+["height"] = 22,
+},
+},
+},
+}
+TomTomWaypoints = nil
+TomTomWaypointsM = {
+["profileKeys"] = {
+["Elixïr - Eitrigg"] = "Elixïr - Eitrigg",
+["Yükisan - Dalaran"] = "Yükisan - Dalaran",
+["Cailloux - Dalaran"] = "Cailloux - Dalaran",
+["Pantoufle - Dalaran"] = "Pantoufle - Dalaran",
+["Coroutine - Dalaran"] = "Coroutine - Dalaran",
+["Yükimp - Dalaran"] = "Yükimp - Dalaran",
+["Yükikstarter - Dalaran"] = "Yükikstarter - Dalaran",
+["Yükidnapé - Dalaran"] = "Yükidnapé - Dalaran",
+["Yükringe - Dalaran"] = "Yükringe - Dalaran",
+["Groskiki - Dalaran"] = "Groskiki - Dalaran",
+["Feuman - Dalaran"] = "Feuman - Dalaran",
+["Wifi - Dalaran"] = "Wifi - Dalaran",
+["Yükatechisme - Dalaran"] = "Yükatechisme - Dalaran",
+["Heretique - Dalaran"] = "Heretique - Dalaran",
+["Sojä - Dalaran"] = "Sojä - Dalaran",
+["Peestache - Dalaran"] = "Peestache - Dalaran",
+["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
+["Superbarbe - Dalaran"] = "Superbarbe - Dalaran",
+["Yüpi - Dalaran"] = "Yüpi - Dalaran",
+},
+["profiles"] = {
+["Elixïr - Eitrigg"] = {
+},
+["Yükisan - Dalaran"] = {
+},
+["Cailloux - Dalaran"] = {
+},
+["Pantoufle - Dalaran"] = {
+},
+["Coroutine - Dalaran"] = {
+},
+["Yükimp - Dalaran"] = {
+},
+["Yükikstarter - Dalaran"] = {
+},
+["Yükidnapé - Dalaran"] = {
+},
+["Yükringe - Dalaran"] = {
+},
+["Groskiki - Dalaran"] = {
+},
+["Feuman - Dalaran"] = {
+},
+["Wifi - Dalaran"] = {
+},
+["Yükatechisme - Dalaran"] = {
+},
+["Heretique - Dalaran"] = {
+},
+["Sojä - Dalaran"] = {
+},
+["Peestache - Dalaran"] = {
+},
+["Yukiwaifu - Dalaran"] = {
+},
+["Superbarbe - Dalaran"] = {
+},
+["Yüpi - Dalaran"] = {
+},
+},
+}

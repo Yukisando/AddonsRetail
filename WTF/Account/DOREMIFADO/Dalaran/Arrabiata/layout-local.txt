@@ -1,0 +1,8 @@
+Version: 1
+Frame: PLH_LootedItemsFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 134
+Y: 158
+W: 600
+H: 294

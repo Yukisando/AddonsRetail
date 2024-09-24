@@ -1,0 +1,23 @@
+
+BlizzardBars_Mouseover_DB = {
+	["MultiBarRight"] = true,
+	["PetActionBar"] = true,
+	["MultiBar5"] = true,
+	["MaxRefreshRate"] = 0.01,
+	["MultiBarBottomLeft"] = false,
+	["FadeOutDuration"] = 0.1,
+	["FadeInDuration"] = 0.1,
+	["MainMenuBar"] = true,
+	["AlphaMin"] = 0.1,
+	["LinkActionBars"] = false,
+	["MultiBarLeft"] = true,
+	["MultiBar7"] = true,
+	["FadeOutDelay"] = 1,
+	["StanceBar"] = false,
+	["MultiBar6"] = true,
+	["FadeInDelay"] = 0,
+	["MultiBarBottomRight"] = false,
+	["FadeInAlphaStep"] = 0.09,
+	["FadeOutAlphaStep"] = 0.09,
+	["AlphaMax"] = 1,
+}

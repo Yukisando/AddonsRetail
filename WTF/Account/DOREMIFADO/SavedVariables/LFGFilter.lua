@@ -1,0 +1,2 @@
+
+LFGFilterSettingsGlobal = nil

@@ -1,0 +1,8 @@
+VER 3 0100000000000003 "Hide" "Ability_Rogue_Disguise"
+/cast Forme de félin(Changeforme)
+/cast Rôder
+END
+VER 3 0100000000000001 "Vite" "Ability_Druid_Dash"
+/cast Forme de félin(Changeforme)
+/cast Célérité(Rang 2)
+END

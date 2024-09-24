@@ -1,0 +1,8 @@
+Version: 1
+Frame: BaudBagContainer1_1
+FrameLevel: 1
+Anchor: RIGHT
+X: -119
+Y: -138
+W: 331
+H: 119

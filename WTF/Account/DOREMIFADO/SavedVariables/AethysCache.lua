@@ -1,0 +1,4 @@
+
+AethysCacheDB = {
+	["Enabled"] = true,
+}

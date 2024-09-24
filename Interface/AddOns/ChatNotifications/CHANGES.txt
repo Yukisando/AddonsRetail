@@ -1,0 +1,10 @@
+lightweight tag 7e3a060961decffe8910f9fb0cc569bf77fd6b1f 1.1.1
+Author:	GitHub <noreply@github.com>
+Date:	Thu Aug 29 14:08:31 2024 -0500
+
+commit 7e3a060961decffe8910f9fb0cc569bf77fd6b1f
+Author: Colton <owldyn@gmail.com>
+Date:   Thu Aug 29 14:08:31 2024 -0500
+
+    Update ChatNotifications.toc
+

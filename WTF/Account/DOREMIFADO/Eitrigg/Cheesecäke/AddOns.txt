@@ -1,0 +1,3 @@
+SexyCooldown2: disabled
+TellMeWhen: disabled
+TellMeWhen_Options: disabled

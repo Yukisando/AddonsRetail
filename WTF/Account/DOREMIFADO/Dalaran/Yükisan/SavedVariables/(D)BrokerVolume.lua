@@ -1,0 +1,2 @@
+
+CharacterSettingsDB = nil

@@ -1,0 +1,41 @@
+<Bindings>
+	<Binding name="MOUNTY_MAGIC" category="Mounty #TLV">
+		MountyKeyHandler()
+	</Binding>
+	<Binding name="MOUNTY_GROUND" category="Mounty #TLV">
+		MountyKeyHandler("ground")
+	</Binding>
+	<Binding name="MOUNTY_FLY" category="Mounty #TLV">
+		MountyKeyHandler("fly")
+	</Binding>
+	<Binding name="MOUNTY_DRAGONFLIGHT" category="Mounty #TLV">
+		MountyKeyHandler("dragonflight")
+	</Binding>
+	<Binding name="MOUNTY_WATER" category="Mounty #TLV">
+		MountyKeyHandler("water")
+	</Binding>
+	<Binding name="MOUNTY_TAXI" category="Mounty #TLV">
+		MountyKeyHandler("taxi")
+	</Binding>
+	<Binding name="MOUNTY_REPAIR" category="Mounty #TLV">
+		MountyKeyHandler("repair")
+	</Binding>
+	<Binding name="MOUNTY_SHOWOFF" category="Mounty #TLV">
+		MountyKeyHandler("showoff")
+	</Binding>
+	<Binding name="MOUNTY_CUSTOM1" category="Mounty #TLV">
+		MountyKeyHandler("custom1")
+	</Binding>
+	<Binding name="MOUNTY_CUSTOM2" category="Mounty #TLV">
+		MountyKeyHandler("custom2")
+	</Binding>
+	<Binding name="MOUNTY_CUSTOM3" category="Mounty #TLV">
+		MountyKeyHandler("custom3")
+	</Binding>
+	<Binding name="MOUNTY_RANDOM" category="Mounty #TLV">
+		MountyKeyHandler("random")
+	</Binding>
+	<Binding name="MOUNTY_DISMOUNT" category="Mounty #TLV">
+		MountyKeyHandler("forceoff")
+	</Binding>
+</Bindings>

@@ -1,0 +1,5 @@
+
+ConsolePortUtility = {
+	{
+	}, -- [1]
+}

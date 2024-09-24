@@ -1,0 +1,6 @@
+SexyCooldown2: disabled
+TellMeWhen: disabled
+TellMeWhen_Options: disabled
+AutoTurnIn: disabled
+Azeroth Auto Pilot: enabled
+OPie: disabled

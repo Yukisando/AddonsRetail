@@ -1,0 +1,7 @@
+
+QSV = {
+	["Peestache"] = {
+	},
+	["Yükisan"] = {
+	},
+}

@@ -1,0 +1,5 @@
+
+SilentWorldQuestVars = {
+true,
+true,
+}

@@ -1,0 +1,43 @@
+VER 3 0000000000000052 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('No spell available')
+END
+VER 3 0000000000000055 "Disc" "134400"
+#showtooltip Heroic Throw
+/use Dalaran Disk
+/cast Heroic Throw
+END
+VER 3 000000000000004A "Goblin Glider" "134400"
+#showtooltip
+/cancelaura Nitro Boosts
+/use 15
+/use Goblin Glider Kit
+END
+VER 3 0000000000000053 "Hearthstone" "134400"
+#showtooltip 
+/cast Dominated hearthstone
+/use Jiro Circle of Song
+END
+VER 3 0000000000000054 "Keybind" "413591"
+/run ShowUIPanel(QuickKeybindFrame)
+END
+VER 3 0000000000000056 "Martin" "134400"
+#showtooltip
+/use Argent Squire
+END
+VER 3 000000000000004B "Nitro Boost" "134400"
+#showtooltip
+/use 6
+/cancelaura Burning Rush
+/use Nitro Boost
+END
+VER 3 0000000000000051 "Notes" "4549168"
+bind ALT-SHIFT-BUTTON2 MULTIACTIONBAR3BUTTON10
+END
+VER 3 000000000000004F "Trinket1" "134400"
+#showtooltip
+/use 13
+END
+VER 3 0000000000000050 "Trinket2" "134400"
+#showtooltip
+/use 14
+END

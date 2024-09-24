@@ -1,0 +1,15 @@
+VER 3 0100000000000002 "Cursor Guillotin" "134400"
+#showtooltip
+/cast [@cursor] Guillotine
+END
+VER 3 0100000000000001 "Cursor Rain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Rain of Fire
+END
+VER 3 0100000000000003 "Pet attack" "135641"
+/petassist
+/petattack
+END
+VER 3 0100000000000004 "Pet stop" "134400"
+/petpassive
+END

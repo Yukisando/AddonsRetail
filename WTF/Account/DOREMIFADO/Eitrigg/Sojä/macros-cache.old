@@ -1,0 +1,8 @@
+MACRO 16777219 "Hide" Ability_Rogue_Disguise
+/cast Forme de félin(Changeforme)
+/cast Rôder
+END
+MACRO 16777217 "Vite" Ability_Druid_Dash
+/cast Forme de félin(Changeforme)
+/cast Célérité(Rang 2)
+END

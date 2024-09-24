@@ -1,0 +1,24 @@
+VER 3 0100000000000005 "Cov Ability" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Elysian Decree
+/cast Sinful Brand
+/cast The Hunt
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Elysian Decree" or G"Sinful Brand" or G"The Hunt")
+END
+VER 3 0100000000000001 "Dash" "1344646"
+/cast [harm] Felblade; Infernal Strike
+END
+VER 3 0100000000000004 "Decree" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Elysian Decree
+END
+VER 3 0100000000000003 "Metamouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopmacro [channeling:Eye Beam]
+/stopmacro [channeling:Fel Barrage]
+/cast [@cursor] Metamorphosis
+END
+VER 3 0100000000000002 "Torment [AM]" "1344654"
+#showtooltip
+/use [@mouseover,exists][] Torment
+END

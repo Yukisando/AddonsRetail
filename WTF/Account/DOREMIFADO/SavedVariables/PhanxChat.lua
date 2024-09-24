@@ -1,0 +1,21 @@
+
+PhanxChatDB = {
+	["ReplaceRealNames"] = true,
+	["HideRepeats"] = true,
+	["EnableResizeEdges"] = true,
+	["ShowClassColors"] = true,
+	["HideButtons"] = true,
+	["HideNotices"] = false,
+	["RemoveRealmNames"] = true,
+	["ShortenChannelNames"] = true,
+	["MoveEditBox"] = true,
+	["EnableArrows"] = true,
+	["LinkURLs"] = true,
+	["ShortenRealNames"] = "FIRSTNAME",
+	["FadeTime"] = 0,
+	["EnableSticky"] = "ALL",
+	["HideFlash"] = true,
+	["HidePetCombatLog"] = true,
+	["HideTextures"] = true,
+	["LockTabs"] = true,
+}

@@ -1,0 +1,3 @@
+VER 3 0100000000000001 " Quick hook" "1373912"
+/cast [@cursor] Grappling hook
+END

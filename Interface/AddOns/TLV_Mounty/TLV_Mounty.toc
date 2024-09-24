@@ -1,0 +1,14 @@
+## Interface: 110002
+## Title: Mounty |cfff0b040#TLV|r
+## Notes: Selects the perfect mount with a kind of magic
+## Author: the_last_voice
+## SavedVariablesPerCharacter: _Mounty_C
+## SavedVariables: _Mounty_A
+## Version: v3.0.7.1
+
+localization/enUS.lua
+localization/deDE.lua
+
+TLVlib/TLVlib.lua
+TLV_Upgrade.lua
+TLV_Mounty.lua
