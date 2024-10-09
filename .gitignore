@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Allow the .gitignore file itself
+!.gitignore
+
+# Allow the Interface and WTF folders
+!Interface/
+!WTF/
+
+# Allow all files within the Interface and WTF folders
+!Interface/**
+!WTF/**
