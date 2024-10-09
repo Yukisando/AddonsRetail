@@ -1,0 +1,209 @@
+20221028
+解决10.0.0主体框架不显示的问题
+Skada-lib-SpecializedLibBars-1.0-SpecializedLibBars-1.0.lua
+317行原:btn:SetHighlightTexture(highlighttex, 1.0)
+317行现:btn:SetHighlightTexture(highlighttex) --, 1.0
+499行原:list:SetMinResize(60,40)
+499行原:--list:SetMinResize(60,40)
+500行原:list:SetMaxResize(800,800)
+500行现:--list:SetMaxResize(800,800)
+
+20221107
+解决lua报错的问题
+Skada-lib-AceAddon-3.0
+Skada-lib-AceBucket-3.0
+Skada-lib-AceConfig-3.0
+Skada-lib-AceConsole-3.0
+Skada-lib-AceEvent-3.0
+Skada-lib-AceGUI-3.0
+Skada-lib-AceTimer-3.0
+Skada-lib-CallbackHandler-1.0
+Skada-lib-LibDataBroker-1.1
+Skada-lib-LibDBIcon-1.0
+Skada-lib-LibQTip-1.0
+Skada-lib-LibStub
+
+20221111
+解决过期插件的问题
+Skada-Skada.toc
+第1行原:## Interface: 90002
+第1行现:## Interface: 100000
+第15行原:## Version: 1.8.3
+第15行现:## Version: 10.0.0
+第21行原:## X-Curse-Project-ID: 17718
+第21行现:## X-Curse-Project-ID: 694380
+
+20221114
+解决增益减益显示超过100%的问题
+Skada-modules-Debuffs.lua
+
+20221119
+解决过期插件的问题
+第1行原:## Interface: 100000
+第1行现:## Interface: 100002
+
+20221206
+为小怪和首领添加不同的图标
+Skada-Skada.lua
+第1986行原:local bossicon = "Interface\\Icons\\Achievment_boss_ultraxion"
+第1986行现:local bossicon = "Interface\\Icons\\inv_misc_food_19"
+第1987行原:local nonbossicon = "Interface\\Icons\\icon_petfamily_critter"
+第1987行现:local nonbossicon = "Interface\\Icons\\inv_misc_food_24"
+
+20230122
+新增易爆球数量统计模块
+modules.xml
+Explosives.lua
+
+20230213
+解决过期插件的问题
+Skada-Skada.toc
+## Interface: 100002
+## Interface: 100005
+
+20230326
+解决过期插件的问题
+Skada-Skada.toc
+## Interface: 100005
+## Interface: 100007
+
+20230504
+解决过期插件的问题,为Skada增加图标
+Skada-Skada.toc
+## Interface: 100007
+## Interface: 100100
+## IconTexture: Interface\AddOns\Skada\media\logo\pic
+
+20230714
+解决过期插件的问题
+skada(DF)暂时没有添加增辉模块的计划以便真实反映每个人真正打了多少
+Skada-Skada.toc
+## Interface: 100100
+## Interface: 100105
+
+20231112
+解決過期插件的問題
+修復職業顏色的問題但包含lua錯誤,請使用宏/console scriptErrors 0
+Skada-Skada.toc
+## Interface: 100105
+## Interface: 100200
+Skada.lua
+第1691行原:local _, playerClass = UnitClass(playername)
+替換為:        
+local playerClass = nil
+        local maxRetries = 1
+        local retries = 0
+        while retries < maxRetries do
+            _, playerClass = UnitClass(playername)  
+            if playerClass ~= nil then
+                break
+            end
+            C_Timer.Sleep(0)
+            retries = retries + 1
+        end
+
+20231114
+回滾職業顏色的修正以避免lua錯誤
+Skada.lua
+第22行local realmName = ""
+第1063行realmName = GetNormalizedRealmName()
+第1692行local player_name, realm = string.split("-", playername, 2) -- Strip realm name
+		if realmName == realm then
+		    playername = player_name
+	    end
+第1709行刪除(移至1692行)
+
+20240119
+Skada.toc
+## Interface: 100205
+
+20240321
+Skada.toc
+## Interface: 100206
+
+20240509
+Skada.toc
+## Interface: 100207
+
+20240726
+修正伤害构成列表不能正常显示的问题
+Skada.toc
+## Interface: 110000
+Skada.lua
+第2892行:InterfaceOptions_AddCategory(panel)
+改成:local category, layout = Settings.RegisterCanvasLayoutCategory(panel, panelName)
+     Settings.RegisterAddOnCategory(category)
+BarDisplay.lua
+第312行:if data.spellid then
+		    local spell = data.spellid
+改成:if data.spellId then
+        local spell = data.spellId
+
+20240816
+https://warcraft.wiki.gg/wiki/Patch_11.0.2/API_changes
+Skada.toc
+## Interface: 110002
+Damage.lua第346行:
+Healing.lua第395行:
+DamageTaken.lua第137/239行:
+Debuffs.lua第182/327行:
+Overhealing.lua第92行:
+TotalHealing.lua第130行:
+local _, _, icon = GetSpellInfo(spell.id)
+改成:local _, _, icon = C_Spell.GetSpellInfo(spell.id)
+Explosives.lua第142/192行:
+Deaths.lua第97/263/320/340行:
+FriendlyFire.lua第68/128行:
+Power.lua第158行:
+GetSpellInfo
+改成:C_Spell.GetSpellInfo
+Deaths.lua第325行:GetSpellLink
+改成:C_Spell.GetSpellLink
+第263行:d.label = player.name .. ": " .. (spellname or C_Spell.GetSpellInfo(spellid))
+改成:d.label = player.name .. ": " .. spellid
+第336行:d.label =       label..spellname
+改成:d.label = label..spellid
+
+20240817
+Skada.lua第2892-2893行删除
+增加第2892行:panel.GetCategory = function() return nil end --from Baz4k
+    第2893行:panel.GetParentCategory = function() return nil end
+	第2894行
+    第2895行:local skadaCategory = Settings.RegisterCanvasLayoutCategory(panel, "Skada")
+	第2896行
+    第2897行:Settings.RegisterAddOnCategory(skadaCategory)
+	
+20240818
+Damage.lua第346行:
+DamageTaken.lua第137/239行:
+Debuffs.lua第182/327行:
+Healing.lua第395行:
+Overhealing.lua第92行:
+TotalHealing.lua第130行:
+改成:local SpellInfo = C_Spell.GetSpellInfo(spell.id)
+           icon = SpellInfo.iconID
+Power.lua第158行:
+改成local SpellInfo = C_Spell.GetSpellInfo(spellid)
+	local name = SpellInfo.name
+	local icon = SpellInfo.iconID
+	local castTime = SpellInfo.castTime
+	local minRange = SpellInfo.minRange
+	local maxRange = SpellInfo.maxRange
+	local SpellPower = C_Spell.GetSpellPowerCost(spellid)
+	local powerType = SpellPower.type
+	
+Deaths.lua
+第336行:d.label = label..spellid
+改成d.label = label..spellname
+第340行:local _, _, icon = C_Spell.GetSpellInfo(spellid)
+改成local SpellInfo = C_Spell.GetSpellInfo(spellid)
+	icon = SpellInfo.iconID
+第320行:local spellname = log.spellname or C_Spell.GetSpellInfo(spellid)
+改成local SpellInfo = C_Spell.GetSpellInfo(spellid)
+	local spellname = log.spellname or SpellInfo.name
+第263行:d.label = player.name .. ": " .. spellid
+改成d.label = player.name .. ": " .. (spellname or SpellInfo.name)
+第262行新增:local SpellInfo = C_Spell.GetSpellInfo(spellid)
+第97行:local spellname = string.format(L["%s dies"], C_Spell.GetSpellInfo(20711))
+改成local Redemption = C_Spell.GetSpellInfo(20711)
+	local spellname = string.format(L["%s dies"], Redemption.name)

@@ -1,9 +1,209 @@
 
 _Mounty_C = {
-["ShareProfiles"] = false,
+["CurrentProfile"] = "Mounty",
 ["WhyHistoryLog"] = {
 {
-["date"] = "23.09.2024 16:03",
+["date"] = "25.09.2024 20:11",
+["log"] = {
+{
+"\n",
+},
+{
+"repair.no",
+75,
+},
+{
+"\n",
+},
+{
+"taxi.no1",
+},
+{
+"\n",
+},
+{
+"showoff.no2",
+},
+{
+"\n",
+},
+{
+"fly.any",
+},
+{
+"fly.ok1",
+},
+{
+"fly.prefer.steadyflight",
+},
+{
+"fly.use",
+},
+{
+"usable.one",
+},
+{
+"\n",
+},
+{
+"picked",
+"Flying mount",
+"Hogrus, Swine of Good Fortune",
+},
+},
+},
+{
+["date"] = "25.09.2024 20:10",
+["log"] = {
+{
+"\n",
+},
+{
+"repair.no",
+75,
+},
+{
+"\n",
+},
+{
+"taxi.no1",
+},
+{
+"\n",
+},
+{
+"showoff.no2",
+},
+{
+"\n",
+},
+{
+"fly.any",
+},
+{
+"fly.ok1",
+},
+{
+"fly.prefer.steadyflight",
+},
+{
+"fly.use",
+},
+{
+"usable.one",
+},
+{
+"\n",
+},
+{
+"picked",
+"Flying mount",
+"Hogrus, Swine of Good Fortune",
+},
+},
+},
+{
+["date"] = "25.09.2024 20:10",
+["log"] = {
+{
+"\n",
+},
+{
+"repair.no",
+75,
+},
+{
+"\n",
+},
+{
+"taxi.no1",
+},
+{
+"\n",
+},
+{
+"showoff.no2",
+},
+{
+"\n",
+},
+{
+"fly.any",
+},
+{
+"fly.ok1",
+},
+{
+"fly.prefer.steadyflight",
+},
+{
+"fly.use",
+},
+{
+"usable.one",
+},
+{
+"\n",
+},
+{
+"picked",
+"Flying mount",
+"Hogrus, Swine of Good Fortune",
+},
+},
+},
+{
+["date"] = "24.09.2024 21:28",
+["log"] = {
+{
+"\n",
+},
+{
+"repair.no",
+75,
+},
+{
+"\n",
+},
+{
+"taxi.no1",
+},
+{
+"\n",
+},
+{
+"showoff.no2",
+},
+{
+"\n",
+},
+{
+"fly.any",
+},
+{
+"fly.ok1",
+},
+{
+"fly.prefer.steadyflight",
+},
+{
+"fly.use",
+},
+{
+"usable.one",
+},
+{
+"\n",
+},
+{
+"picked",
+"Flying mount",
+"Hogrus, Swine of Good Fortune",
+},
+},
+},
+{
+["date"] = "24.09.2024 21:27",
 ["log"] = {
 {
 "\n",
@@ -53,7 +253,7 @@ _Mounty_C = {
 },
 },
 {
-["date"] = "23.09.2024 16:03",
+["date"] = "24.09.2024 21:27",
 ["log"] = {
 {
 "\n",
@@ -103,7 +303,7 @@ _Mounty_C = {
 },
 },
 {
-["date"] = "23.09.2024 16:02",
+["date"] = "24.09.2024 21:27",
 ["log"] = {
 {
 "\n",
@@ -153,207 +353,7 @@ _Mounty_C = {
 },
 },
 {
-["date"] = "23.09.2024 16:02",
-["log"] = {
-{
-"\n",
-},
-{
-"repair.no",
-75,
-},
-{
-"\n",
-},
-{
-"taxi.no2",
-},
-{
-"\n",
-},
-{
-"showoff.no2",
-},
-{
-"\n",
-},
-{
-"fly.any",
-},
-{
-"fly.ok2",
-},
-{
-"fly.prefer.steadyflight",
-},
-{
-"fly.use",
-},
-{
-"usable.one",
-},
-{
-"\n",
-},
-{
-"picked",
-"Flying mount",
-"Hogrus, Swine of Good Fortune",
-},
-},
-},
-{
-["date"] = "23.09.2024 16:02",
-["log"] = {
-{
-"\n",
-},
-{
-"repair.no",
-75,
-},
-{
-"\n",
-},
-{
-"taxi.no2",
-},
-{
-"\n",
-},
-{
-"showoff.no2",
-},
-{
-"\n",
-},
-{
-"fly.any",
-},
-{
-"fly.ok2",
-},
-{
-"fly.prefer.steadyflight",
-},
-{
-"fly.use",
-},
-{
-"usable.one",
-},
-{
-"\n",
-},
-{
-"picked",
-"Flying mount",
-"Hogrus, Swine of Good Fortune",
-},
-},
-},
-{
-["date"] = "23.09.2024 16:02",
-["log"] = {
-{
-"\n",
-},
-{
-"repair.no",
-75,
-},
-{
-"\n",
-},
-{
-"taxi.no2",
-},
-{
-"\n",
-},
-{
-"showoff.no2",
-},
-{
-"\n",
-},
-{
-"fly.any",
-},
-{
-"fly.ok2",
-},
-{
-"fly.prefer.steadyflight",
-},
-{
-"fly.use",
-},
-{
-"usable.one",
-},
-{
-"\n",
-},
-{
-"picked",
-"Flying mount",
-"Hogrus, Swine of Good Fortune",
-},
-},
-},
-{
-["date"] = "23.09.2024 16:02",
-["log"] = {
-{
-"\n",
-},
-{
-"repair.no",
-75,
-},
-{
-"\n",
-},
-{
-"taxi.no2",
-},
-{
-"\n",
-},
-{
-"showoff.no2",
-},
-{
-"\n",
-},
-{
-"fly.any",
-},
-{
-"fly.ok2",
-},
-{
-"fly.prefer.steadyflight",
-},
-{
-"fly.use",
-},
-{
-"usable.one",
-},
-{
-"\n",
-},
-{
-"picked",
-"Flying mount",
-"Hogrus, Swine of Good Fortune",
-},
-},
-},
-{
-["date"] = "23.09.2024 15:49",
+["date"] = "24.09.2024 21:11",
 ["log"] = {
 {
 "\n",
@@ -403,7 +403,7 @@ _Mounty_C = {
 },
 },
 {
-["date"] = "23.09.2024 15:49",
+["date"] = "24.09.2024 21:11",
 ["log"] = {
 {
 "\n",
@@ -453,7 +453,7 @@ _Mounty_C = {
 },
 },
 {
-["date"] = "23.09.2024 15:49",
+["date"] = "24.09.2024 21:11",
 ["log"] = {
 {
 "\n",
@@ -1648,5 +1648,5 @@ _Mounty_C = {
 ["TaxiMode"] = false,
 },
 },
-["CurrentProfile"] = "Mounty",
+["ShareProfiles"] = false,
 }

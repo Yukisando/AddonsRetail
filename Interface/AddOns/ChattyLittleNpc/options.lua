@@ -1,8 +1,12 @@
----@class ChattyLittleNpc
-local ChattyLittleNpc = LibStub("AceAddon-3.0"):GetAddon("ChattyLittleNpc")
+---@class Options
+local Options = LibStub("AceAddon-3.0"):NewAddon("Options", "AceConsole-3.0")
 
-local Options = {}
-ChattyLittleNpc.Options = Options
+local ChattyLittleNpc
+
+-- Store a reference to ChattyLittleNpc
+function Options:SetChattyLittleNpcReference(reference)
+    ChattyLittleNpc = reference
+end
 
 local options = {
     name = "Chatty Little Npc",
@@ -40,6 +44,13 @@ local options = {
                     get = function(info) return ChattyLittleNpc.db.profile.printNpcTexts end,
                     set = function(info, value) ChattyLittleNpc.db.profile.printNpcTexts = value end,
                 },
+                debugMode = {
+                    type = 'toggle',
+                    name = 'Print Debug Messages',
+                    desc = 'Toggle to print debug messages.',
+                    get = function(info) return ChattyLittleNpc.db.profile.debugMode end,
+                    set = function(info, value) ChattyLittleNpc.db.profile.debugMode = value end,
+                },
             },
         },
         replayFrame = {
@@ -69,17 +80,34 @@ local options = {
             args = {
                 autoPlayVoiceovers = {
                     type = 'toggle',
-                    name = 'Play Voiceovers when interacting with npc or game object',
+                    name = 'Play on dialog window open',
                     desc = 'Toggle to play voiceovers when opening the gossip or quest window.',
                     get = function(info) return ChattyLittleNpc.db.profile.autoPlayVoiceovers end,
                     set = function(info, value) ChattyLittleNpc.db.profile.autoPlayVoiceovers = value end,
                 },
+                stopVoiceoverAfterDialogWindowClose = {
+                    type = 'toggle',
+                    name = 'Stop on dialog window close',
+                    desc = 'Only play voiceover while the npc dialog window is open, and auto stop voiceover after the dialog window is closed. (Quest queueing will be disabled)',
+                    get = function(info) return ChattyLittleNpc.db.profile.stopVoiceoverAfterDialogWindowClose end,
+                    set = function(info, value)
+                        ChattyLittleNpc.db.profile.stopVoiceoverAfterDialogWindowClose = value
+                        if value then
+                            ChattyLittleNpc.db.profile.enableQuestPlaybackQueueing = false
+                        end
+                    end
+                },
                 enableQuestPlaybackQueueing = {
                     type = 'toggle',
                     name = 'Enable Quest Playback Queueing',
-                    desc = 'Toggle to enable or disable quest playback queueing.',
+                    desc = 'Toggle to enable or disable quest playback queueing. (Stop on dialog window close will be disabled)',
                     get = function(info) return ChattyLittleNpc.db.profile.enableQuestPlaybackQueueing end,
-                    set = function(info, value) ChattyLittleNpc.db.profile.enableQuestPlaybackQueueing = value end,
+                    set = function(info, value)
+                        ChattyLittleNpc.db.profile.enableQuestPlaybackQueueing = value
+                        if value then
+                            ChattyLittleNpc.db.profile.stopVoiceoverAfterDialogWindowClose = false
+                        end
+                    end
                 },
                 playVoiceoverAfterDelay = {
                     type = 'range',
@@ -145,3 +173,6 @@ function Options:SetupOptions()
         self.optionsFrame = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("ChattyLittleNpc", "Chatty Little Npc")
     end
 end
+
+-- Initialize the Options module
+Options:SetupOptions()

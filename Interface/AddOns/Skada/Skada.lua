@@ -19,6 +19,7 @@ local dataobj = LibStub("LibDataBroker-1.1"):NewDataObject("Skada", {
 })
 
 local popup, cleuFrame
+local realmName = "" -- 定義伺服器名為空
 
 -- Used for automatic stop on wipe option
 local deathcounter = 0
@@ -1059,7 +1060,7 @@ end
 
 -- Fired on blue bar screen
 function Skada:PLAYER_ENTERING_WORLD()
-
+    realmName = GetNormalizedRealmName() -- 獲取規範化伺服器名
 	Skada:ZoneCheck() -- catch reloadui within a zone, which does not fire ZONE_CHANGED_NEW_AREA
 	-- If this event fired in response to a login or teleport, zone info is usually not yet available
 	-- and will be caught by a sunsequent ZONE_CHANGED_NEW_AREA
@@ -1688,6 +1689,11 @@ function Skada:get_player(set, playerid, playername)
 			return
 		end
 
+		local player_name, realm = string.split("-", playername, 2) -- Strip realm name
+		if realmName == realm then -- 分離伺服器名
+		    playername = player_name -- 獲取僅玩家名
+	    end
+		
 		local _, playerClass = UnitClass(playername)
 		local playerRole = UnitGroupRolesAssigned(playername)
 		player = {id = playerid, class = playerClass, role = playerRole, name = playername, first = time(), ["time"] = 0}
@@ -1701,7 +1707,6 @@ function Skada:get_player(set, playerid, playername)
 
 		-- Strip realm name
 		-- This is done after module processing due to cross-realm names messing with modules (death log for example, which needs to do UnitHealthMax on the playername).
-		local player_name, realm = string.split("-", playername, 2)
 		player.name = player_name or playername
 
 		tinsert(set.players, player)
@@ -1885,7 +1890,7 @@ local function cleuHandler(timestamp, eventtype, hideCaster, srcGUID, srcName, s
 	-- Pet scheme: save the GUID in a table along with the GUID of the owner.
 	-- Note to self: this needs 1) to be made self-cleaning so it can't grow too much, and 2) saved persistently.
 	-- Now also done on raid roster/party changes.
-	if eventtype == 'SPELL_SUMMON' and srcName and srcName ~= "" and (band(srcFlags, RAID_FLAGS) ~= 0 or band(srcFlags, PET_FLAGS) ~= 0 or (band(dstFlags, PET_FLAGS) ~= 0 and pets[dstGUID])) then
+	if eventtype == 'SPELL_SUMMON' and ( (band(srcFlags, RAID_FLAGS) ~= 0) or ( (band(srcFlags, PET_FLAGS)) ~= 0 ) or ((band(dstFlags, PET_FLAGS) ~= 0) and pets[dstGUID])) then
 		-- assign pet normally
 		pets[dstGUID] = {id = srcGUID, name = srcName}
 		if pets[srcGUID] then
@@ -1983,8 +1988,8 @@ function dataobj:OnClick(button)
 end
 
 local totalbarcolor = {r = 0.2, g = 0.2, b = 0.5, a = 1}
-local bossicon = "Interface\\Icons\\Achievment_boss_ultraxion"
-local nonbossicon = "Interface\\Icons\\icon_petfamily_critter"
+local bossicon = "Interface\\Icons\\inv_misc_food_19"
+local nonbossicon = "Interface\\Icons\\inv_misc_food_24"
 
 function Skada:UpdateDisplay(force)
 	-- Force an update by setting our "changed" flag to true.
@@ -2318,13 +2323,41 @@ function Skada:PlayerActiveTime(set, player)
 end
 
 do
+	local tooltip = CreateFrame("GameTooltip", "SkadaTooltip", nil, "GameTooltipTemplate")
+	tooltip:SetOwner(WorldFrame, "ANCHOR_NONE")
+
+	local function GetRussianOwnerID(owner)
+		if not _G.LOCALE_ruRU or not Skada.current then return end
+		for _, p in Skada.current.players do
+			local sex = UnitSex(p.name)
+			for set = 1, GetNumDeclensionSets(p.name, sex) do
+				local name = DeclineName(p.name, sex, set) -- first return is genitive
+				if owner == name then
+					return p.id
+				end
+			end
+		end
+	end
+
+	local ownerPatterns = {}
+	for i = 1, 44 do
+		local title = _G["UNITNAME_SUMMON_TITLE"..i]
+		if title and title ~= "%s" and title:find("%s", nil, true) then
+			local pattern = title:gsub("%%s", "(.-)")
+			tinsert(ownerPatterns, pattern)
+		end
+	end
 	local function GetPetOwner(guid)
-		local data = C_TooltipInfo.GetHyperlink("unit:" .. guid)
-		if not data then return end
-		for _, line in next, data.lines do
-			TooltipUtil.SurfaceArgs(line)
-			if line.type == 16 and line.guid then -- Enum.TooltipDataLineType.UnitOwner
-				return line.guid
+		tooltip:SetHyperlink("unit:" .. guid)
+		for i = 2, tooltip:NumLines() do
+			local text = _G["SkadaTooltipTextLeft"..i]:GetText()
+			if text then
+				for _, pattern in next, ownerPatterns do
+					local owner = text:match(pattern)
+					if owner then
+						return owner
+					end
+				end
 			end
 		end
 	end
@@ -2344,12 +2377,11 @@ do
 				owner = { id = UnitGUID("player"), name = UnitName("player") }
 				pets[action.playerid] = owner
 			else
-				local id = GetPetOwner(action.playerid)
-				if players[id] then
-					local name, server = select(6, GetPlayerInfoByGUID(id))
-					if name then
-						if server and server ~= "" then name = name.."-"..server end
-						owner = { id = id, name = name }
+				local ownerName = GetPetOwner(action.playerid)
+				if ownerName then
+					local id = UnitGUID(ownerName) or GetRussianOwnerID(ownerName)
+					if players[id] then
+						owner = { id = id, name = ownerName }
 						pets[action.playerid] = owner
 					end
 				end
@@ -2377,16 +2409,6 @@ do
 	end
 end
 
--- Takes a source GUID and name and returns the owner GUID and name if found.
-function Skada:FixMyPets(guid, name)
-	local owner = pets[guid]
-	if owner then
-		return owner.id, owner.name
-	end
-	-- No pet match, return the original source.
-	return guid, name
-end
-
 function Skada:SetTooltipPosition(tooltip, frame)
 	local p = self.db.profile.tooltippos
 	if p == "default" then
@@ -2408,6 +2430,16 @@ function Skada:SetTooltipPosition(tooltip, frame)
 			tooltip:SetPoint("TOPRIGHT", frame, "TOPLEFT", -10, 0)
 		end
 	end
+end
+
+-- Same thing, only takes two arguments and returns two arguments.
+function Skada:FixMyPets(playerGUID, playerName)
+	local pet = pets[playerGUID]
+	if pet then
+		return pet.id, pet.name
+	end
+	-- No pet match - return the player.
+	return playerGUID, playerName
 end
 
 -- Format value text in a standardized way. Up to 3 value and boolean (show/don't show) combinations are accepted.
@@ -2854,119 +2886,114 @@ function Skada:OnInitialize()
 		lds:EnhanceOptions(LibStub("AceDBOptions-3.0"):GetOptionsTable(self.db), self.db)
 	end
 
--- Blizzard options frame
-local panel = CreateFrame("Frame", "SkadaBlizzOptions")
-panel.name = "Skada"
+	-- Blizzard options frame
+	local panel = CreateFrame("Frame", "SkadaBlizzOptions")
+	panel.name = "Skada"
+    panel.GetCategory = function() return nil end --from Baz4k
+    panel.GetParentCategory = function() return nil end
 
--- Ensure the panel has necessary methods for the new API
-panel.GetCategory = function() return nil end
-panel.GetParentCategory = function() return nil end
+    local skadaCategory = Settings.RegisterCanvasLayoutCategory(panel, "Skada")
 
--- Create a category for Skada settings
-local skadaCategory = Settings.RegisterCanvasLayoutCategory(panel, "Skada")
+    Settings.RegisterAddOnCategory(skadaCategory)
+	
+	local fs = panel:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+	fs:SetPoint("TOPLEFT", 10, -15)
+	fs:SetPoint("BOTTOMRIGHT", panel, "TOPRIGHT", 10, -45)
+	fs:SetJustifyH("LEFT")
+	fs:SetJustifyV("TOP")
+	fs:SetText("Skada")
 
--- Register the category with the new Settings API
-Settings.RegisterAddOnCategory(skadaCategory)
+	local button = CreateFrame("Button", nil, panel, "UIPanelButtonTemplate")
+	button:SetText(L["Configure"])
+	button:SetWidth(128)
+	button:SetPoint("TOPLEFT", 10, -48)
+	button:SetScript('OnClick', function()
+		while CloseWindows() do end
+		return Skada:OpenOptions()
+	end)
 
-local fs = panel:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
-fs:SetPoint("TOPLEFT", 10, -15)
-fs:SetPoint("BOTTOMRIGHT", panel, "TOPRIGHT", 10, -45)
-fs:SetJustifyH("LEFT")
-fs:SetJustifyV("TOP")
-fs:SetText("Skada")
+	-- Slash Handler
+	SLASH_SKADA1 = "/skada"
+	SlashCmdList.SKADA = slashHandler
 
-local button = CreateFrame("Button", nil, panel, "UIPanelButtonTemplate")
-button:SetText(L["Configure"])
-button:SetWidth(128)
-button:SetPoint("TOPLEFT", 10, -48)
-button:SetScript('OnClick', function()
-    while CloseWindows() do end
-    return Skada:OpenOptions()
-end)
+	self.db.RegisterCallback(self, "OnProfileChanged", "ReloadSettings")
+	self.db.RegisterCallback(self, "OnProfileCopied", "ReloadSettings")
+	self.db.RegisterCallback(self, "OnProfileReset", "ReloadSettings")
+	self.db.RegisterCallback(self, "OnDatabaseShutdown", "ClearAllIndexes")
 
--- Slash Handler
-SLASH_SKADA1 = "/skada"
-SlashCmdList.SKADA = slashHandler
+	-- Migrate old settings.
+	if self.db.profile.barmax then
+		self:Print("Migrating old settings somewhat gracefully. This should only happen once.")
+		self.db.profile.barmax = nil
+		self.db.profile.background.height = 200
+	end
+	if self.db.profile.total then
+		self.db.profile.current = nil
+		self.db.profile.total = nil
+		self.db.profile.sets = nil
+	end
 
-self.db.RegisterCallback(self, "OnProfileChanged", "ReloadSettings")
-self.db.RegisterCallback(self, "OnProfileCopied", "ReloadSettings")
-self.db.RegisterCallback(self, "OnProfileReset", "ReloadSettings")
-self.db.RegisterCallback(self, "OnDatabaseShutdown", "ClearAllIndexes")
-
--- Migrate old settings.
-if self.db.profile.barmax then
-    self:Print("Migrating old settings somewhat gracefully. This should only happen once.")
-    self.db.profile.barmax = nil
-    self.db.profile.background.height = 200
+	self:SetNotifyIcon("Interface\\Icons\\Spell_Lightning_LightningBolt01")
+	self:SetNotifyStorage(self.db.profile.versions)
+	self:NotifyOnce(self.versions)
 end
-if self.db.profile.total then
-    self.db.profile.current = nil
-    self.db.profile.total = nil
-    self.db.profile.sets = nil
-end
-
-self:SetNotifyIcon("Interface\\Icons\\Spell_Lightning_LightningBolt01")
-self:SetNotifyStorage(self.db.profile.versions)
-self:NotifyOnce(self.versions)
--- Ensure this function ends properly
-end -- This end is to close the function at line 2794
 
 function Skada:OpenOptions(window)
-    acd:SetDefaultSize("Skada", 800, 600)
-    if window then
-        acd:Open("Skada")
-        acd:SelectGroup("Skada", "windows", window.db.name)
-    elseif not acd:Close("Skada") then
-        acd:Open("Skada")
-    end
+	acd:SetDefaultSize("Skada", 800, 600)
+	if window then
+		acd:Open("Skada")
+		acd:SelectGroup("Skada", "windows", window.db.name)
+	elseif not acd:Close("Skada") then
+		acd:Open("Skada")
+	end
 end
 
 function Skada:OnEnable()
-    self:ReloadSettings()
+	self:ReloadSettings()
 
-    cleuFrame:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
+	cleuFrame:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
 
-    popup:RegisterEvent("PLAYER_ENTERING_WORLD")
-    popup:RegisterEvent("ZONE_CHANGED_NEW_AREA")
-    popup:RegisterEvent("GROUP_ROSTER_UPDATE")
-    popup:RegisterEvent("UNIT_PET")
-    popup:RegisterEvent("PLAYER_REGEN_DISABLED")
+	popup:RegisterEvent("PLAYER_ENTERING_WORLD")
+	popup:RegisterEvent("ZONE_CHANGED_NEW_AREA")
+	popup:RegisterEvent("GROUP_ROSTER_UPDATE")
+	popup:RegisterEvent("UNIT_PET")
+	popup:RegisterEvent("PLAYER_REGEN_DISABLED")
 
-    popup:RegisterEvent("PET_BATTLE_OPENING_START")
-    popup:RegisterEvent("PET_BATTLE_CLOSE")
+	popup:RegisterEvent("PET_BATTLE_OPENING_START")
+	popup:RegisterEvent("PET_BATTLE_CLOSE")
 
-    popup:RegisterEvent("ENCOUNTER_START")
-    popup:RegisterEvent("ENCOUNTER_END")
+	popup:RegisterEvent("ENCOUNTER_START")
+	popup:RegisterEvent("ENCOUNTER_END")
 
-    if type(CUSTOM_CLASS_COLORS) == "table" then
-        Skada.classcolors = CUSTOM_CLASS_COLORS
-    end
+	if type(CUSTOM_CLASS_COLORS) == "table" then
+		Skada.classcolors = CUSTOM_CLASS_COLORS
+	end
 
-    if self.moduleList then
-        for i = 1, #self.moduleList do
-            self.moduleList[i](self, L)
-        end
-        self.moduleList = nil
-    end
+	if self.moduleList then
+		for i = 1, #self.moduleList do
+			self.moduleList[i](self, L)
+		end
+		self.moduleList = nil
+	end
 
-    -- Instead of listening for callbacks on SharedMedia we simply wait a few seconds and then re-apply settings
-    -- to catch any missing media. Lame? Yes.
-    self:ScheduleTimer("ApplySettings", 2)
+	-- Instead of listening for callbacks on SharedMedia we simply wait a few seconds and then re-apply settings
+	-- to catch any missing media. Lame? Yes.
+	self:ScheduleTimer("ApplySettings", 2)
 
-    -- Memory usage warning
-    self:ScheduleTimer("MemoryCheck", 3)
+	-- Memory usage warning
+	self:ScheduleTimer("MemoryCheck", 3)
 end
 
 function Skada:MemoryCheck()
-    UpdateAddOnMemoryUsage()
-    local mem = GetAddOnMemoryUsage("Skada")
-    if mem > 30000 then
-        self:Print(L["Memory usage is high. You may want to reset Skada, and enable one of the automatic reset options."])
-    end
+	UpdateAddOnMemoryUsage()
+	local mem = GetAddOnMemoryUsage("Skada")
+	if mem > 30000 then
+		self:Print(L["Memory usage is high. You may want to reset Skada, and enable one of the automatic reset options."])
+	end
 end
 
 function Skada:AddLoadableModule(name, description, func)
-    if not self.moduleList then self.moduleList = {} end
-    self.moduleList[#self.moduleList+1] = func
-    self:AddLoadableModuleCheckbox(name, L[name], description and L[description])
+	if not self.moduleList then self.moduleList = {} end
+	self.moduleList[#self.moduleList+1] = func
+	self:AddLoadableModuleCheckbox(name, L[name], description and L[description])
 end

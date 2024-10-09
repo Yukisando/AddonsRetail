@@ -1,4 +1,4 @@
-## Interface: 100002
+## Interface: 110000
 ## Title: Skada
 ## Notes: Modular damage meter.
 ## Notes-deDE: Ein Damage-Meter.
@@ -12,13 +12,14 @@
 ## Notes-zhCN: 模块化伤害统计。
 ## Notes-zhTW: 模組化的傷害統計。
 ## Author: Zarnivoop
-## Version: 1.8.4
+## Version: 10.0.0
+## IconTexture: Interface\AddOns\Skada\media\logo\pic
 ## SavedVariables: SkadaDB
 ## SavedVariablesPerCharacter: SkadaPerCharDB
 
 ## OptionalDeps: Ace3, LibSharedMedia-3.0, LibWindow-1.1, LibDBIcon-1.0, AceGUI-3.0-SharedMediaWidgets, LibBossIDs-1.0, LibDualSpec-1.0, LibNotify-1.0
 
-## X-Curse-Project-ID: 17718
+## X-Curse-Project-ID: 694380
 ## X-License: MIT/X
 ## X-Category: Combat
 

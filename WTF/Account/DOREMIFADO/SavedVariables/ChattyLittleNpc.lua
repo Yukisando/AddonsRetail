@@ -1,8 +1,8 @@
 
 ChattyLittleNpcDB = {
 ["profileKeys"] = {
-["Yükisan - Dalaran"] = "Default",
 ["Yükimp - Dalaran"] = "Default",
+["Yükisan - Dalaran"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

@@ -6,8 +6,8 @@ local boss = {
 
 ns.RegisterPoints(ns.ISLEOFDORN, {
     [50005880] = { -- Kordac
-        quest=nil,
-        worldquest=nil,
+        quest=81630, -- This is the world quest
+        worldquest=81630,
         npc=229334,
         loot={
             225730, -- Stone Gaze Ceinture
@@ -63,8 +63,8 @@ ns.RegisterPoints(ns.HALLOWFALL, {
 
 ns.RegisterPoints(ns.CITYOFTHREADS, {
     [17103340] = { -- Orta
-        quest=nil,
-        worldquest=nil,
+        quest=81624, -- this is the worldquest; a separate one didn't trip
+        worldquest=81624,
         npc=221067,
         loot={
             225730, -- Stone Gaze Ceinture

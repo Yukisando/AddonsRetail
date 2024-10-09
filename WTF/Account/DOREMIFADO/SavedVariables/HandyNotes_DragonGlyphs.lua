@@ -1,13 +1,13 @@
 
 HandyNotes_DragonGlyphsDB = {
 ["profileKeys"] = {
-["Yükisan - Dalaran"] = "Yükisan - Dalaran",
 ["Yükimp - Dalaran"] = "Yükimp - Dalaran",
+["Yükisan - Dalaran"] = "Yükisan - Dalaran",
 },
 ["profiles"] = {
-["Yükisan - Dalaran"] = {
-},
 ["Yükimp - Dalaran"] = {
+},
+["Yükisan - Dalaran"] = {
 },
 },
 }

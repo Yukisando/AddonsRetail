@@ -1,8 +1,8 @@
 
 DialogKeyDFDB = {
 ["profileKeys"] = {
-["Yükimp - Dalaran"] = "Default",
 ["Yükisan - Dalaran"] = "Default",
+["Yükimp - Dalaran"] = "Default",
 },
 ["global"] = {
 ["dontClickSummons"] = true,

@@ -1,8 +1,8 @@
-## Interface: 40400
+## Interface: 40400,40401
 ## Title: Mount Journal Enhanced
 ## Notes: Extends the default Mount Journal
 ## Author: eXochron
-## Version: 2.41.0
+## Version: 2.42.0
 ## SavedVariablesPerCharacter: MJEPersonalSettings
 ## SavedVariables: MJEGlobalSettings, MJETrackingData
 ## X-Curse-Project-ID: 86372
@@ -37,7 +37,6 @@ Settings\OptionsPanel.lua
 Favorites.lua
 Tracking.lua
 SlashCommand.lua
-LDB.lua
 
 UI\Templates.xml
 UI\Functions.lua
@@ -67,6 +66,8 @@ UI\MountSpecialButton.lua
 UI\SettingsDropDown.lua
 # UI\DressUpButton.lua # no mount preview possible yet
 UI\SummonRandomButton.lua
+UI\SyncTarget.lua
 UI\BlizzFixes.lua
 UI\Notes.lua
 UI\Fun.lua
+UI\LDB-Favorites.lua

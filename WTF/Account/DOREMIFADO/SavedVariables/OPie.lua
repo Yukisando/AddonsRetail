@@ -1,19 +1,21 @@
 
 OneRing_Config = nil
 OPie_SavedData = {
-["CenterActions"] = {
-["Tools"] = "ABuevjrtbE1",
-["OPieAutoQuest"] = "INTZAs441963:OPbQIZA",
-},
 ["CharProfiles"] = {
 ["Dalaran-Peestache"] = "Yuki",
-["Dalaran-Canplay"] = "Yuki",
-["Dalaran-Yükisan-3"] = "Yuki",
 ["Dalaran-Superbarbe-2"] = "Yuki",
+["Dalaran-Yükisan-3"] = "Yuki",
+["Dalaran-Canplay"] = "Yuki",
 ["Dalaran-Wifi-3"] = "Yuki",
 },
-["_GameVersion"] = "11.0.2",
-["_OPieVersion"] = "Ælling 5 (4.129)",
+["_OPieVersion"] = "Ørred 1a (4.131)",
+["_StoreVersion"] = 122,
+["_GameLocale"] = "enUS",
+["CenterActions"] = {
+["Tools"] = "ABuevjrtbE1",
+["OPieAutoQuest"] = "OPbQIEB",
+},
+["_StoreVersion2"] = 122,
 ["ProfileStorage"] = {
 ["default"] = {
 ["RotationTokens"] = {
@@ -24,12 +26,12 @@ OPie_SavedData = {
 ["SpecMenu"] = "ALT-2",
 ["CommonTrades"] = "ALT-3",
 ["CommonHearth"] = "ALT-5",
-["OPieAutoQuest"] = "1",
 ["WorldMarkers"] = false,
+["OPieTracking"] = false,
 ["Tools"] = "ALT-1",
 ["Targeting"] = false,
 ["MageTravel"] = "ALT-2",
-["OPieTracking"] = false,
+["OPieAutoQuest"] = "1",
 },
 },
 ["Yuki"] = {
@@ -39,12 +41,15 @@ OPie_SavedData = {
 ["SpecMenu"] = false,
 ["CommonTrades"] = false,
 ["CommonHearth"] = "ALT-3",
-["Tools"] = "ALT-1",
-["OPieTracking"] = false,
 ["MageTravel"] = "ALT-2",
+["OPieAutoQuest"] = "1",
+["Tools"] = "ALT-1",
 ["Targeting"] = false,
 ["WorldMarkers"] = false,
-["OPieAutoQuest"] = "1",
+["OPieTracking"] = false,
+},
+["RotationTokens"] = {
+["OPCTAt"] = "OPCHSdo",
 },
 },
 },
@@ -67,8 +72,8 @@ OPie_SavedData = {
 ["sliceToken"] = "ABuedvFrK1t",
 },
 ["save"] = true,
-["limit"] = "Sojä-Dalaran",
 ["name"] = "Normal",
+["limit"] = "Sojä-Dalaran",
 },
 ["OPieDeletedRings"] = {
 ["MageTools"] = true,
@@ -222,8 +227,8 @@ OPie_SavedData = {
 ["sliceToken"] = "ABuedntc0Ue",
 },
 ["save"] = true,
-["name"] = "Targeting",
 ["limit"] = "Yükisan-Dalaran",
+["name"] = "Targeting",
 },
 ["eportation"] = {
 {
@@ -269,9 +274,9 @@ OPie_SavedData = {
 221966,
 ["sliceToken"] = "ABueQL4t2iw",
 },
-["limit"] = "Yükimp-Dalaran",
-["save"] = true,
 ["name"] = "Teleportation",
+["save"] = true,
+["limit"] = "Yükimp-Dalaran",
 },
 ["CommonHearth"] = {
 {
@@ -455,5 +460,5 @@ OPie_SavedData = {
 },
 },
 },
-["_GameLocale"] = "enUS",
+["_GameVersion"] = "11.0.2",
 }

@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod("TirnaScitheTrash", "DBM-Party-Shadowlands", 3)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20240920064505")
+mod:SetRevision("20241005082557")
 --mod:SetModelID(47785)
 
 mod.isTrashMod = true
@@ -44,12 +44,12 @@ local warnMistveilTear					= mod:NewTargetNoFilterAnnounce(325021, 3, nil, "Tank
 --local specWarnGTFO					= mod:NewSpecialWarningGTFO(257274, nil, nil, nil, 1, 8)
 local specWarnAcidNova					= mod:NewSpecialWarningSpell(460092, nil, nil, nil, 2, 2)
 local specWarnBrambleBurst				= mod:NewSpecialWarningDodge(324923, nil, nil, nil, 2, 2)
-local specWarnSpearFlurry				= mod:NewSpecialWarningDodge(331718, nil, nil, nil, 2, 2)
+local specWarnSpearFlurry				= mod:NewSpecialWarningDodge(331718, nil, nil, nil, 2, 15)
 local specWarnPoisonousSecretions		= mod:NewSpecialWarningDodge(340304, nil, nil, nil, 2, 2)
 local specWarnTongueLashing				= mod:NewSpecialWarningDodge(340300, nil, nil, nil, 2, 2)
 local specWarnRadiantBreath				= mod:NewSpecialWarningDodge(340160, nil, nil, nil, 2, 2)
 local specWarnPoisonousDischarge		= mod:NewSpecialWarningDodge(340279, nil, nil, nil, 2, 2)
-local specWarnBewilderingPollen			= mod:NewSpecialWarningDodge(321968, nil, nil, nil, 1, 2)
+local specWarnBewilderingPollen			= mod:NewSpecialWarningDodge(321968, nil, nil, nil, 1, 15)
 local specWarnExpel						= mod:NewSpecialWarningDodge(463248, nil, nil, nil, 2, 2)
 local specWarnAcidGlobule				= mod:NewSpecialWarningDodge(326021, nil, nil, nil, 2, 2)
 local specWarnOvergrowth				= mod:NewSpecialWarningMoveTo(322486, nil, nil, nil, 1, 11)
@@ -93,7 +93,7 @@ local timerMistWardCD					= mod:NewCDNPTimer(22.9, 463256, nil, nil, nil, 5)--Va
 local timerRadiantBreathCD				= mod:NewCDPNPTimer(10.4, 340160, nil, nil, nil, 3)--Valid Aug 8
 local timerShredArmorCD					= mod:NewCDNPTimer(10.6, 340208, nil, nil, nil, 5)----Valid Aug 8, Possible same as breath
 local timerPoolofRadianceCD				= mod:NewCDNPTimer(28, 340189, nil, nil, nil, 5)--Valid Aug 8
-local timerAcidGlobuleCD				= mod:NewCDNPTimer(17.4, 326021, nil, nil, nil, 3)--Valid Aug 8
+local timerAcidGlobuleCD				= mod:NewCDNPTimer(15.7, 326021, nil, nil, nil, 3)--Valid Oct 3
 local timerMistveilBiteCD				= mod:NewCDNPTimer(10.4, 324987, nil, nil, nil, 5)--Valid Aug 8
 local timerTongueLashingCD				= mod:NewCDPNPTimer(7.7, 340300, nil, nil, nil, 3)--Valid Aug 8
 
@@ -133,7 +133,7 @@ function mod:SPELL_CAST_START(args)
 	if spellId == 321968 and self:AntiSpam(3, 2) then
 		if self:IsTanking("player", nil, nil, true, args.sourceGUID) then
 			specWarnBewilderingPollen:Show()
-			specWarnBewilderingPollen:Play("shockwave")
+			specWarnBewilderingPollen:Play("frontal")
 		end
 	elseif spellId == 324909 and self:AntiSpam(3, 4) then
 		warnFuriousThrashing:Show()
@@ -179,7 +179,7 @@ function mod:SPELL_CAST_START(args)
 --		self:ScheduleMethod(0.1, "BossTargetScanner", args.sourceGUID, "VolatileAcid", 0.1, 4)
 	elseif spellId == 331718 and self:AntiSpam(3, 2) then
 		specWarnSpearFlurry:Show()
-		specWarnSpearFlurry:Play("shockwave")
+		specWarnSpearFlurry:Play("frontal")
 	elseif spellId == 331743 then
 		warnBuckingRampage:Show()
 	elseif spellId == 460092 then
@@ -210,7 +210,7 @@ function mod:SPELL_CAST_SUCCESS(args)
 	local spellId = args.spellId
 	if spellId == 325418 then
 		timerVolatileAcidCD:Start(nil, args.sourceGUID)
---		if self:AntiSpam(3, args.destName) then--Backup, in case no one in party was targetting mob casting Volatile Acid (ie target scanning would fail)
+		if self:AntiSpam(3, args.destName) then--Backup, in case no one in party was targetting mob casting Volatile Acid (ie target scanning would fail)
 			if args:IsPlayer() then
 				specWarnVolatileAcid:Show()
 				specWarnVolatileAcid:Play("range5")
@@ -218,7 +218,7 @@ function mod:SPELL_CAST_SUCCESS(args)
 			else
 				warnVolatileAcid:Show(args.destName)
 			end
---		end
+		end
 	elseif spellId == 340544 then
 		timerStimulateRegenerationCD:Start(nil, args.sourceGUID)
 		if self:CheckInterruptFilter(args.sourceGUID, false, true) then
@@ -362,7 +362,7 @@ function mod:UNIT_DIED(args)
 		timerSpearFlurryCD:Stop(args.destGUID)--Removed ability?
 		timerExpelCD:Stop(args.destGUID)
 		timerMistWardCD:Stop(args.destGUID)
-	elseif cid == 164920 then--Drust Soulcleaver
+	elseif cid == 164920 or cid == 172991 then--Drust Soulcleaver
 		timerSoulSpiritCD:Stop(args.destGUID)
 	elseif cid == 166299 then--Mistveil Tender
 		timerNourishtheForestCD:Stop(args.destGUID)

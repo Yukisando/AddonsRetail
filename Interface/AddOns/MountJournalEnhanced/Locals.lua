@@ -57,6 +57,9 @@ L["FILTER_ONLY"] = "only"
 L["COPY_POPUP"] = "press CTRL+C to copy"
 L["LINK_WOWHEAD"] = "Link to Wowhead"
 L["CLICK_TO_SHOW_LINK"] = "Click to Show Link"
+L["SYNC_TARGET_TIP_TITLE"] = "Sync Journal with Target"
+L["SYNC_TARGET_TIP_TEXT"] = "Automatically select the mount of your current target."
+L["SYNC_TARGET_TIP_FLAVOR"] = "Get ready for a mount off!"
 
 -- Families
 L["Airplanes"] = "Airplanes"
@@ -317,6 +320,9 @@ L["STATS_TIP_TRAVEL_DISTANCE_HEAD"] = "Reisedistanz"
 L["STATS_TIP_TRAVEL_TIME_HEAD"] = "Reisedauer"
 L["STATS_TIP_TRAVEL_TIME_TEXT"] = "als Stunden:Minuten:Sekunden"
 L["STATS_TIP_USAGE_COUNT_HEAD"] = "Anzahl der Einsätze"
+L["SYNC_TARGET_TIP_FLAVOR"] = "Sei bereit zum Mount Off!"
+L["SYNC_TARGET_TIP_TEXT"] = "Zeige automatisch das Reittier deines aktuellen Ziels."
+L["SYNC_TARGET_TIP_TITLE"] = "Verknüpfe Journal mit Ziel"
 L["TASK_END"] = "[MJE] Uff! Endlich geschafft."
 L["TASK_FAVOR_START"] = "[MJE] Bitte warten. Deine Reittiere werden mit Sternen neu beklebt."
 L["TOGGLE_COLOR"] = "Zeige nächste Farbvariante"
@@ -586,6 +592,9 @@ L["STATS_TIP_TRAVEL_DISTANCE_HEAD"] = "Distancia de viaje"
 L["STATS_TIP_TRAVEL_TIME_HEAD"] = "Duración del viaje"
 L["STATS_TIP_TRAVEL_TIME_TEXT"] = "en horas:minutos:segundos"
 L["STATS_TIP_USAGE_COUNT_HEAD"] = "Contador de usos"
+L["SYNC_TARGET_TIP_FLAVOR"] = "¡Prepárate para montar!"
+L["SYNC_TARGET_TIP_TEXT"] = "Selecciona automáticamente la montura de tu objetivo actual."
+L["SYNC_TARGET_TIP_TITLE"] = "Sincroniza el diario con el objetivo"
 L["TASK_END"] = "[MJE] ¡Fiuuu! He acabado."
 L["TASK_FAVOR_START"] = "[MJE] Reaplicando estrellas a tus monturas. Por favor, espera unos segundos hasta que haya acabado."
 L["TOGGLE_COLOR"] = "Muestra las variaciones de colores"
@@ -902,6 +911,12 @@ elseif locale == "esMX" then
 --[[ L["STATS_TIP_TRAVEL_TIME_TEXT"] = "in hours:minutes:seconds"--]] 
 --[[Translation missing --]]
 --[[ L["STATS_TIP_USAGE_COUNT_HEAD"] = "Usage count"--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_FLAVOR"] = "Get ready for a mount off!"--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TEXT"] = "Automatically select the mount of your current target."--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TITLE"] = "Sync Journal with Target"--]] 
 --[[Translation missing --]]
 --[[ L["TASK_END"] = "[MJE] Phew! I'm done."--]] 
 --[[Translation missing --]]
@@ -1388,6 +1403,12 @@ L["STATS_TIP_TRAVEL_DISTANCE_HEAD"] = "Longueur des trajets"
 L["STATS_TIP_TRAVEL_TIME_HEAD"] = "Durée des trajets"
 L["STATS_TIP_TRAVEL_TIME_TEXT"] = "en heures:minutes:secondes"
 L["STATS_TIP_USAGE_COUNT_HEAD"] = "Nombre d’utilisations"
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_FLAVOR"] = "Get ready for a mount off!"--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TEXT"] = "Automatically select the mount of your current target."--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TITLE"] = "Sync Journal with Target"--]] 
 L["TASK_END"] = "[MJE] Ouf ! J’ai terminé."
 L["TASK_FAVOR_START"] = "[MJE] Ré-application des étoiles sur l’ensemble de vos montures. Veuillez patienter quelques secondes jusqu’à ce que j’aie terminé."
 L["TOGGLE_COLOR"] = "Afficher la variante de couleur suivante"
@@ -1707,6 +1728,12 @@ elseif locale == "itIT" then
 --[[ L["STATS_TIP_TRAVEL_TIME_TEXT"] = "in hours:minutes:seconds"--]] 
 --[[Translation missing --]]
 --[[ L["STATS_TIP_USAGE_COUNT_HEAD"] = "Usage count"--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_FLAVOR"] = "Get ready for a mount off!"--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TEXT"] = "Automatically select the mount of your current target."--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TITLE"] = "Sync Journal with Target"--]] 
 --[[Translation missing --]]
 --[[ L["TASK_END"] = "[MJE] Phew! I'm done."--]] 
 --[[Translation missing --]]
@@ -2211,6 +2238,12 @@ L["STATS_TIP_TRAVEL_DISTANCE_HEAD"] = "이동 거리"
 L["STATS_TIP_TRAVEL_TIME_HEAD"] = "이동 시간"
 L["STATS_TIP_TRAVEL_TIME_TEXT"] = "시간:분:초"
 L["STATS_TIP_USAGE_COUNT_HEAD"] = "사용 횟수"
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_FLAVOR"] = "Get ready for a mount off!"--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TEXT"] = "Automatically select the mount of your current target."--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TITLE"] = "Sync Journal with Target"--]] 
 L["TASK_END"] = "[MJE] 작업 완료"
 L["TASK_FAVOR_START"] = "[MJE] 탈것 목록 즐겨찾기 재설정을 시작합니다"
 --[[Translation missing --]]
@@ -2517,6 +2550,12 @@ L["STATS_TIP_TRAVEL_DISTANCE_HEAD"] = "Distância percorrida"
 L["STATS_TIP_TRAVEL_TIME_HEAD"] = "Tempo percorrido"
 L["STATS_TIP_TRAVEL_TIME_TEXT"] = "em horas:minutos:segundos"
 L["STATS_TIP_USAGE_COUNT_HEAD"] = "Contagem de uso"
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_FLAVOR"] = "Get ready for a mount off!"--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TEXT"] = "Automatically select the mount of your current target."--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TITLE"] = "Sync Journal with Target"--]] 
 L["TASK_END"] = "[MJE] Ufa! Terminei."
 L["TASK_FAVOR_START"] = "[MJE] Reaplicando estrelas em todas as suas montagens. Por favor, espere alguns segundos até eu terminar."
 L["TOGGLE_COLOR"] = "Mostrar próxima variação de cor"
@@ -2799,6 +2838,12 @@ L["STATS_TIP_TRAVEL_DISTANCE_HEAD"] = "Преодоленное расстоян
 L["STATS_TIP_TRAVEL_TIME_HEAD"] = "Продолжительность поездки"
 L["STATS_TIP_TRAVEL_TIME_TEXT"] = "В часах:минутах:секундах"
 L["STATS_TIP_USAGE_COUNT_HEAD"] = "Количество использований"
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_FLAVOR"] = "Get ready for a mount off!"--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TEXT"] = "Automatically select the mount of your current target."--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TITLE"] = "Sync Journal with Target"--]] 
 L["TASK_END"] = "[MJE] Фух! Все готово."
 L["TASK_FAVOR_START"] = "[MJE] Применяю звездочки для всего вашего транспорта. Пожалуйста подождите пару секунд  для завершения."
 L["TOGGLE_COLOR"] = "Показать следующую вариацию цвета"
@@ -3034,11 +3079,9 @@ L["ANIMATION_WALK"] = "走"
 L["ANIMATION_WALK_BACK"] = "倒退走"
 L["AUTO_ROTATE"] = "自动旋转"
 L["Black Market"] = "黑市"
---[[Translation missing --]]
---[[ L["CLICK_TO_SHOW_LINK"] = "Click to Show Link"--]] 
+L["CLICK_TO_SHOW_LINK"] = "点击显示链接"
 L["COMPARTMENT_TOOLTIP"] = "|cffeda55f左键点击|r切换显示坐骑收藏。|cffeda55f右键点击|r打开插件选项。"
---[[Translation missing --]]
---[[ L["COPY_POPUP"] = "press CTRL+C to copy"--]] 
+L["COPY_POPUP"] = "按 CTRL+C 复制"
 L["DRESSUP_LABEL"] = "日志"
 L["Family"] = "系列"
 L["FAVOR_AUTO"] = "自动偏好新坐骑"
@@ -3046,12 +3089,10 @@ L["FAVOR_DISPLAYED"] = "全部显示"
 L["FAVOR_PER_CHARACTER"] = "每个角色"
 L["FILTER_ONLY"] = "仅"
 L["FILTER_ONLY_LATEST"] = "仅有最新添加的内容"
---[[Translation missing --]]
---[[ L["FILTER_RETIRED"] = "No longer available"--]] 
+L["FILTER_RETIRED"] = "不再可用"
 L["FILTER_SECRET"] = "被游戏隐藏的"
 L["Hidden"] = "隐藏"
---[[Translation missing --]]
---[[ L["LINK_WOWHEAD"] = "Link to Wowhead"--]] 
+L["LINK_WOWHEAD"] = "Wowhead 链接"
 L["Mite"] = "螨"
 L["Only tradable"] = "仅可交易"
 L["Passenger"] = "载客"
@@ -3077,6 +3118,9 @@ L["STATS_TIP_TRAVEL_DISTANCE_HEAD"] = "旅行距离"
 L["STATS_TIP_TRAVEL_TIME_HEAD"] = "旅行时间"
 L["STATS_TIP_TRAVEL_TIME_TEXT"] = "以 时:分:秒 显示"
 L["STATS_TIP_USAGE_COUNT_HEAD"] = "使用次数"
+L["SYNC_TARGET_TIP_FLAVOR"] = "准备上马！"
+L["SYNC_TARGET_TIP_TEXT"] = "自动选择当前目标的坐标。"
+L["SYNC_TARGET_TIP_TITLE"] = "将日志与目标同步"
 L["TASK_END"] = "[MJE] 唷！完成了。"
 L["TASK_FAVOR_START"] = "[MJE] 正在给你的坐骑重新标记偏好。请稍等片刻，我马上就好。"
 L["TOGGLE_COLOR"] = "显示下一个颜色变体"
@@ -3108,8 +3152,7 @@ L["SETTING_PREVIEW_LINK"] = "在坐骑预览中显示藏品按钮"
 L["SETTING_SEARCH_FAMILY_NAME"] = "也可以搜索系列名"
 L["SETTING_SEARCH_MORE"] = "也同时在描述文本中搜索"
 L["SETTING_SEARCH_NOTES"] = "也同时在自己的笔记中搜索"
---[[Translation missing --]]
---[[ L["SETTING_SHOW_DATA"] = "Show mount data in display"--]] 
+L["SETTING_SHOW_DATA"] = "在屏幕上显示坐骑数据"
 L["SETTING_SHOW_RESIZE_EDGE"] = "激活底角边缘以调整窗口尺寸"
 L["SETTING_TRACK_USAGE"] = "跟踪所有角色的坐骑使用行为"
 L["SETTING_YCAMERA"] = "展示窗解锁鼠标Y轴旋转"
@@ -3394,6 +3437,12 @@ elseif locale == "zhTW" then
 --[[ L["STATS_TIP_TRAVEL_TIME_TEXT"] = "in hours:minutes:seconds"--]] 
 --[[Translation missing --]]
 --[[ L["STATS_TIP_USAGE_COUNT_HEAD"] = "Usage count"--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_FLAVOR"] = "Get ready for a mount off!"--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TEXT"] = "Automatically select the mount of your current target."--]] 
+--[[Translation missing --]]
+--[[ L["SYNC_TARGET_TIP_TITLE"] = "Sync Journal with Target"--]] 
 --[[Translation missing --]]
 --[[ L["TASK_END"] = "[MJE] Phew! I'm done."--]] 
 --[[Translation missing --]]

@@ -1,5 +1,23 @@
 # Changelog
 
+## Changed in v68
+
+* Hallowfall: show the locations for the Lost and Found quest turn-ins
+
+## Changed in v67
+
+* Added quests for this week's world boss Kordac
+* Hallowfall: fixed typo on Surveyor's Box questid
+
+## Changed in v66
+
+* Show information on the tooltips for the bountiful versions of delves as well (oops, thanks Numy for pointing this out)
+* Hide weave-rat caches before you choose the Weaver
+
+## Changed in v65
+
+* Added quests for this week's world boss Orta
+
 ## Changed in v64
 
 * Show where to tame the hidden spirit beast Aradan, for hunters only

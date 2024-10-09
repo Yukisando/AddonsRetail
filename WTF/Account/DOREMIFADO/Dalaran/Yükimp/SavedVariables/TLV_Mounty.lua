@@ -3,7 +3,7 @@ _Mounty_C = {
 ["ShareProfiles"] = false,
 ["WhyHistoryLog"] = {
 {
-["date"] = "23.09.2024 19:22",
+["date"] = "09.10.2024 09:50",
 ["log"] = {
 {
 "\n",
@@ -22,7 +22,7 @@ _Mounty_C = {
 "\n",
 },
 {
-"showoff.no2",
+"showoff.no1",
 },
 {
 "\n",
@@ -41,66 +41,11 @@ _Mounty_C = {
 },
 {
 "usable.all",
-4,
+5,
 },
 {
 "pick.iterator",
-4,
-},
-{
-"\n",
-},
-{
-"picked",
-"Flying mount",
-"Sapphire Skyblazer",
-},
-},
-},
-{
-["date"] = "23.09.2024 19:22",
-["log"] = {
-{
-"\n",
-},
-{
-"repair.no",
-76,
-},
-{
-"\n",
-},
-{
-"taxi.no1",
-},
-{
-"\n",
-},
-{
-"showoff.no2",
-},
-{
-"\n",
-},
-{
-"fly.any",
-},
-{
-"fly.ok1",
-},
-{
-"fly.prefer.steadyflight",
-},
-{
-"fly.use",
-},
-{
-"usable.all",
-4,
-},
-{
-"pick.iterator",
-4,
+5,
 },
 {
 "\n",
@@ -113,7 +58,7 @@ _Mounty_C = {
 },
 },
 {
-["date"] = "23.09.2024 19:22",
+["date"] = "09.10.2024 09:50",
 ["log"] = {
 {
 "\n",
@@ -132,7 +77,7 @@ _Mounty_C = {
 "\n",
 },
 {
-"showoff.no2",
+"showoff.no1",
 },
 {
 "\n",
@@ -151,11 +96,11 @@ _Mounty_C = {
 },
 {
 "usable.all",
-4,
+5,
 },
 {
 "pick.iterator",
-4,
+5,
 },
 {
 "\n",
@@ -168,7 +113,7 @@ _Mounty_C = {
 },
 },
 {
-["date"] = "23.09.2024 19:22",
+["date"] = "09.10.2024 09:50",
 ["log"] = {
 {
 "\n",
@@ -187,7 +132,7 @@ _Mounty_C = {
 "\n",
 },
 {
-"showoff.no2",
+"showoff.no1",
 },
 {
 "\n",
@@ -206,11 +151,11 @@ _Mounty_C = {
 },
 {
 "usable.all",
-4,
+5,
 },
 {
 "pick.iterator",
-4,
+5,
 },
 {
 "\n",
@@ -223,7 +168,7 @@ _Mounty_C = {
 },
 },
 {
-["date"] = "23.09.2024 19:22",
+["date"] = "09.10.2024 09:50",
 ["log"] = {
 {
 "\n",
@@ -242,7 +187,7 @@ _Mounty_C = {
 "\n",
 },
 {
-"showoff.no2",
+"showoff.no1",
 },
 {
 "\n",
@@ -261,11 +206,66 @@ _Mounty_C = {
 },
 {
 "usable.all",
-4,
+5,
 },
 {
 "pick.iterator",
-4,
+5,
+},
+{
+"\n",
+},
+{
+"picked",
+"Flying mount",
+"Machine Defense Unit 1-11",
+},
+},
+},
+{
+["date"] = "09.10.2024 09:50",
+["log"] = {
+{
+"\n",
+},
+{
+"repair.no",
+76,
+},
+{
+"\n",
+},
+{
+"taxi.no1",
+},
+{
+"\n",
+},
+{
+"showoff.no1",
+},
+{
+"\n",
+},
+{
+"fly.any",
+},
+{
+"fly.ok1",
+},
+{
+"fly.prefer.steadyflight",
+},
+{
+"fly.use",
+},
+{
+"usable.all",
+5,
+},
+{
+"pick.iterator",
+5,
 },
 {
 "\n",
@@ -278,7 +278,7 @@ _Mounty_C = {
 },
 },
 {
-["date"] = "23.09.2024 15:38",
+["date"] = "09.10.2024 09:50",
 ["log"] = {
 {
 "\n",
@@ -291,13 +291,13 @@ _Mounty_C = {
 "\n",
 },
 {
-"taxi.no2",
+"taxi.no1",
 },
 {
 "\n",
 },
 {
-"showoff.no2",
+"showoff.no1",
 },
 {
 "\n",
@@ -306,7 +306,7 @@ _Mounty_C = {
 "fly.any",
 },
 {
-"fly.ok2",
+"fly.ok1",
 },
 {
 "fly.prefer.steadyflight",
@@ -316,11 +316,11 @@ _Mounty_C = {
 },
 {
 "usable.all",
-4,
+5,
 },
 {
 "pick.iterator",
-4,
+5,
 },
 {
 "\n",
@@ -333,7 +333,7 @@ _Mounty_C = {
 },
 },
 {
-["date"] = "23.09.2024 15:38",
+["date"] = "09.10.2024 09:50",
 ["log"] = {
 {
 "\n",
@@ -346,13 +346,13 @@ _Mounty_C = {
 "\n",
 },
 {
-"taxi.no2",
+"taxi.no1",
 },
 {
 "\n",
 },
 {
-"showoff.no2",
+"showoff.no1",
 },
 {
 "\n",
@@ -361,7 +361,7 @@ _Mounty_C = {
 "fly.any",
 },
 {
-"fly.ok2",
+"fly.ok1",
 },
 {
 "fly.prefer.steadyflight",
@@ -371,11 +371,11 @@ _Mounty_C = {
 },
 {
 "usable.all",
-4,
+5,
 },
 {
 "pick.iterator",
-4,
+5,
 },
 {
 "\n",
@@ -388,7 +388,7 @@ _Mounty_C = {
 },
 },
 {
-["date"] = "23.09.2024 15:38",
+["date"] = "09.10.2024 09:50",
 ["log"] = {
 {
 "\n",
@@ -401,13 +401,13 @@ _Mounty_C = {
 "\n",
 },
 {
-"taxi.no2",
+"taxi.no1",
 },
 {
 "\n",
 },
 {
-"showoff.no2",
+"showoff.no1",
 },
 {
 "\n",
@@ -416,7 +416,7 @@ _Mounty_C = {
 "fly.any",
 },
 {
-"fly.ok2",
+"fly.ok1",
 },
 {
 "fly.prefer.steadyflight",
@@ -426,11 +426,11 @@ _Mounty_C = {
 },
 {
 "usable.all",
-4,
+5,
 },
 {
 "pick.iterator",
-4,
+5,
 },
 {
 "\n",
@@ -443,7 +443,7 @@ _Mounty_C = {
 },
 },
 {
-["date"] = "23.09.2024 15:38",
+["date"] = "09.10.2024 09:49",
 ["log"] = {
 {
 "\n",
@@ -456,13 +456,13 @@ _Mounty_C = {
 "\n",
 },
 {
-"taxi.no2",
+"taxi.no1",
 },
 {
 "\n",
 },
 {
-"showoff.no2",
+"showoff.no1",
 },
 {
 "\n",
@@ -471,7 +471,7 @@ _Mounty_C = {
 "fly.any",
 },
 {
-"fly.ok2",
+"fly.ok1",
 },
 {
 "fly.prefer.steadyflight",
@@ -481,11 +481,66 @@ _Mounty_C = {
 },
 {
 "usable.all",
-4,
+5,
 },
 {
 "pick.iterator",
-4,
+5,
+},
+{
+"\n",
+},
+{
+"picked",
+"Flying mount",
+"Machine Defense Unit 1-11",
+},
+},
+},
+{
+["date"] = "09.10.2024 09:49",
+["log"] = {
+{
+"\n",
+},
+{
+"repair.no",
+76,
+},
+{
+"\n",
+},
+{
+"taxi.no1",
+},
+{
+"\n",
+},
+{
+"showoff.no1",
+},
+{
+"\n",
+},
+{
+"fly.any",
+},
+{
+"fly.ok1",
+},
+{
+"fly.prefer.steadyflight",
+},
+{
+"fly.use",
+},
+{
+"usable.all",
+5,
+},
+{
+"pick.iterator",
+5,
 },
 {
 "\n",
@@ -494,61 +549,6 @@ _Mounty_C = {
 "picked",
 "Flying mount",
 "Sapphire Skyblazer",
-},
-},
-},
-{
-["date"] = "23.09.2024 15:38",
-["log"] = {
-{
-"\n",
-},
-{
-"repair.no",
-76,
-},
-{
-"\n",
-},
-{
-"taxi.no2",
-},
-{
-"\n",
-},
-{
-"showoff.no2",
-},
-{
-"\n",
-},
-{
-"fly.any",
-},
-{
-"fly.ok2",
-},
-{
-"fly.prefer.steadyflight",
-},
-{
-"fly.use",
-},
-{
-"usable.all",
-4,
-},
-{
-"pick.iterator",
-4,
-},
-{
-"\n",
-},
-{
-"picked",
-"Flying mount",
-"Zenet Hatchling",
 },
 },
 },
@@ -558,7 +558,7 @@ _Mounty_C = {
 ["Together"] = false,
 ["Iterator"] = {
 2,
-4,
+3,
 0,
 0,
 0,
@@ -686,7 +686,7 @@ _Mounty_C = {
 385262,
 385266,
 347812,
-0,
+448188,
 0,
 0,
 0,

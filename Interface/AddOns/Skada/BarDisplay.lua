@@ -240,6 +240,7 @@ function mod:SetTitle(win, title)
 	win.bargroup.button:SetText(title)
 end
 
+-- Called by Skada windows when the display should be updated to match the dataset.
 function mod:Update(win)
 	-- Some modes may alter title continously.
 	win.bargroup.button:SetText(win.metadata.title)
@@ -301,15 +302,16 @@ function mod:Update(win)
 				bar = mod:CreateBar(win, barid, barlabel, data.value, win.metadata.maxvalue or 1, data.icon, false)
 				bar.id = barid
 				bar.text = barlabel
-				bar.fixed = false
+								bar.fixed = false
 				if not data.ignore then
+
 					if data.icon then
 						bar:ShowIcon()
 
 						bar.link = nil
-						if data.spellid then
-							local spell = data.spellid
-							bar.link = C_Spell.GetSpellLink(spell)
+						if data.spellId then
+                            local spell = data.spellId
+							bar.link = GetSpellLink(spell)
 						elseif data.hyperlink then
 							bar.link = data.hyperlink
 						end
@@ -341,6 +343,7 @@ function mod:Update(win)
 
 				if data.role and data.role ~= "NONE" and win.db.roleicons then
 					bar:ShowIcon()
+					-- bar:SetIconWithCoord("Interface\\LFGFrame\\UI-LFG-ICON-ROLES", GetTexCoordsForRole(data.role))
 					bar:SetIconWithCoord("Interface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES", mod.role_icon_tcoords[data.role])
 				elseif data.class and win.db.classicons and mod.class_icon_tcoords[data.class] then
 					bar:ShowIcon()
@@ -457,8 +460,8 @@ function mod:Update(win)
 		win.bargroup:SetSortFunction(nil)
 		win.bargroup:SortBars()
 	end
-end
 
+end
 
 function mod:AnchorMoved(cbk, group, x, y)
 	libwindow.SavePosition(group)

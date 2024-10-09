@@ -1,19 +1,22 @@
 # Mount Journal Enhanced
 
-## [2.41.0](https://github.com/exochron/MountJournalEnhanced/tree/2.41.0) (2024-09-11)
-[Full Changelog](https://github.com/exochron/MountJournalEnhanced/compare/2.40.0...2.41.0) [Previous Releases](https://github.com/exochron/MountJournalEnhanced/releases)
+## [2.42.0](https://github.com/exochron/MountJournalEnhanced/tree/2.42.0) (2024-09-24)
+[Full Changelog](https://github.com/exochron/MountJournalEnhanced/compare/2.41.0...2.42.0) [Previous Releases](https://github.com/exochron/MountJournalEnhanced/releases)
 
 - chore(lib): updated MountsRarity  
-- chore: updated Screenshots  
-- chore(db): added Grizzly Hills Packmaster  
-- feat: added broker plugin to quickly mount favorites  
-- chore(db): added customization quests for Delver's Dirigible  
-- feat(display): added Map Pin for most Drop mounts  
-- refactor(ui): removed button to ingame store  
-- feat(ui): added link to ingame store  
-- fix(db): remove mop remix mounts from vendor list  
-- fix(display): replace achievement links more dynamically  
-- feat(filter): added new source filter for mounts which are no longer available  
-- chore(db): updated Black Market source list  
-- feat(display): added Wowhead link as part of mount statistics  
-- feat(display): added EncounterLinks to mounts with instance source  
+- chore: updated screenshots  
+- fix(ldb): don't toggle mount journal when in combat  
+- feat(ldb): added new broker plugin to switch flight mode  
+- chore(db): updated database and toc for 11.0.5  
+- chore: updated About panel in settings  
+- fix(ui): align only button in filter menu with label  
+- feat(ui): added icons to filter menu  
+- chore(toc): added support for 4.4.1  
+- fix(ui): fix some shifted names in list on 4.4.1  
+- chore(db): updated recent filter for classic  
+- feat(display): show related achievement in classic  
+- feat(ui): added button in settings dropdown menu to open Accessibility settings  
+- fix(ui): Summon random mount button in classic now uses also macro in UI  
+- feat(ui): added new button to sync journal with current target  
+- fix(ldb): activate scrolling on broker plugin for large favorite lists [cf#125](https://legacy.curseforge.com/wow/addons/mount-journal-enhanced/issues/125)  
+- feat(ldb): right click on broker menu opens mount entry  

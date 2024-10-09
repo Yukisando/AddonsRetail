@@ -1,3 +1,6 @@
+VER 3 0000000000000057 "asd" "134400"
+/run local o=0;for i,q in ipairs({84736,84737,84738,84739})do o=o+(C_QuestLog.IsQuestFlaggedCompleted(q) and 1 or 0) end print(o,'chests opened')
+END
 VER 3 0000000000000052 "Decursive" "INV_MISC_QUESTIONMARK"
 /script DecursiveRootTable.Dcr:Println('No spell available')
 END
@@ -14,7 +17,7 @@ VER 3 000000000000004A "Goblin Glider" "134400"
 END
 VER 3 0000000000000053 "Hearthstone" "134400"
 #showtooltip 
-/cast Broker Translocation Matrix
+/cast Dominated hearthstone
 /use Jiro Circle of Song
 END
 VER 3 0000000000000054 "Keybind" "413591"

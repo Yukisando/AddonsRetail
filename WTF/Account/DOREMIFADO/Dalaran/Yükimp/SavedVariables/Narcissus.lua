@@ -8,21 +8,21 @@ NarcissusDB_PC = {
 NarciStatisticsDB_PC = {
 ["Barbershop"] = {
 ["Locations"] = {
-[2023] = {
-["visit"] = 1,
-["time"] = 242,
-},
 [2112] = {
 ["visit"] = 20,
 ["time"] = 635,
 },
-[2339] = {
+[2023] = {
 ["visit"] = 1,
-["time"] = 59,
+["time"] = 242,
 },
 [84] = {
 ["visit"] = 7,
 ["time"] = 403,
+},
+[2339] = {
+["visit"] = 1,
+["time"] = 59,
 },
 },
 },

@@ -25,6 +25,7 @@ function module:Recolor(color1, desaturation)
         QuestObjectiveTracker,
         CampaignQuestObjectiveTracker,
         ScenarioObjectiveTracker,
+        AchievementObjectiveTracker,
     }) do
         for _,v in pairs ({tracker_frame:GetChildren()}) do
             if type(v) == "table" and v.Background then

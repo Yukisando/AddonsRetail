@@ -1,6 +1,6 @@
 -- LibBars-1.0 by Antiarc, all glory to him, ripped into pieces for Skada.
 local MAJOR = "SpecializedLibBars-1.0"
-local MINOR = 900002
+local MINOR = 900000 + tonumber(("$Revision: 1 $"):match("%d+"))
 
 local lib, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
 if not lib then return end -- No Upgrade needed.
@@ -314,7 +314,7 @@ function barListPrototype:AddButton(title, description, normaltex, highlighttex,
 	btn:SetHeight(12)
 	btn:SetWidth(12)
 	btn:SetNormalTexture(normaltex)
-	btn:SetHighlightTexture(highlighttex)
+	btn:SetHighlightTexture(highlighttex) --, 1.0
 	btn:SetAlpha(0.25)
 	btn:RegisterForClicks("LeftButtonUp", "RightButtonUp")
 	btn:SetScript("OnClick", clickfunc)
@@ -496,7 +496,8 @@ do
 		list:SetHeight(height)
 		list:SetWidth(length)
 		list:SetResizable(true)
-		list:SetResizeBounds(60, 40, 800, 800)
+		--list:SetMinResize(60,40)
+		--list:SetMaxResize(800,800)
 
 		list.showIcon = true
 		list.showLabel = true

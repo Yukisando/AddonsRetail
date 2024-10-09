@@ -1,9 +1,9 @@
-## Interface: 110002
+## Interface: 110002,110005
 ## Title: Mount Journal Enhanced
 ## Notes: Extends the default Mount Journal
 ## IconTexture: Interface\Addons\MountJournalEnhanced\UI\icons\mje.png
 ## Author: eXochron
-## Version: 2.41.0
+## Version: 2.42.0
 ## SavedVariablesPerCharacter: MJEPersonalSettings
 ## SavedVariables: MJEGlobalSettings, MJETrackingData
 ## X-Curse-Project-ID: 86372
@@ -39,7 +39,6 @@ Favorites.lua
 Tracking.lua
 SlashCommand.lua
 AddonCompartment.lua
-LDB.lua
 
 UI\Functions.lua
 UI\EnhancedList.lua
@@ -58,6 +57,7 @@ UI\DisplayBackground.lua
 UI\DisplayCamera.lua
 UI\DisplayText.lua
 UI\SkyridingButtons.lua
+UI\SyncTarget.lua
 UI\Resize.lua
 UI\DisplayStatistics.lua
 UI\Hotkeys.lua
@@ -69,3 +69,5 @@ UI\RarityNames.lua
 UI\BlizzFixes.lua
 UI\Notes.lua
 UI\Fun.lua
+UI\LDB-Favorites.lua
+UI\LDB-FlightMode.lua

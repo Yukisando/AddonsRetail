@@ -2,87 +2,45 @@
 AstralKeys = {
 {
 ["source"] = "guild",
-["weekly_best"] = 5,
-["class"] = "HUNTER",
-["key_level"] = 7,
-["unit"] = "Hamprym-Dalaran",
+["weekly_best"] = 0,
+["class"] = "WARLOCK",
+["key_level"] = 9,
+["unit"] = "Yükimp-Dalaran",
 ["dungeon_id"] = 501,
-["week"] = 374,
+["week"] = 376,
 ["faction"] = 0,
-["time_stamp"] = 0,
+["time_stamp"] = 4,
+},
+{
+["source"] = "guild",
+["weekly_best"] = 0,
+["class"] = "DRUID",
+["key_level"] = 6,
+["unit"] = "Bearwithme-Dalaran",
+["dungeon_id"] = 376,
+["week"] = 377,
+["faction"] = 0,
+["time_stamp"] = 1187,
 ["btag"] = "Havimo#2562",
 },
 {
 ["source"] = "guild",
-["weekly_best"] = 6,
-["class"] = "WARLOCK",
-["key_level"] = 2,
-["unit"] = "Yükimp-Dalaran",
-["dungeon_id"] = 375,
-["week"] = 374,
+["weekly_best"] = 0,
+["class"] = "HUNTER",
+["key_level"] = 9,
+["unit"] = "Hamprym-Dalaran",
+["dungeon_id"] = 502,
+["week"] = 377,
 ["faction"] = 0,
-["time_stamp"] = 469373,
-},
-{
-["source"] = "friend",
-["weekly_best"] = 2,
-["class"] = "DRUID",
-["key_level"] = 2,
-["unit"] = "Bearwithme-Dalaran",
-["dungeon_id"] = 353,
-["week"] = 374,
-["faction"] = "0",
-["time_stamp"] = 107952,
-},
-{
-["btag"] = "Gaufio#2235",
-["weekly_best"] = 4,
-["class"] = "MAGE",
-["key_level"] = 2,
-["unit"] = "Hàrmonia-Dalaran",
-["dungeon_id"] = 501,
-["week"] = 374,
-["faction"] = "0",
-["time_stamp"] = 132790,
-["source"] = "friend",
-},
-{
-["btag"] = "Greenisme#2619",
-["weekly_best"] = 8,
-["class"] = "WARLOCK",
-["key_level"] = 6,
-["unit"] = "Grinisme-Dalaran",
-["dungeon_id"] = 376,
-["week"] = 374,
-["faction"] = "0",
-["time_stamp"] = 0,
-["source"] = "friend",
-},
-{
-["btag"] = "Greenisme#2619",
-["weekly_best"] = 6,
-["class"] = "MONK",
-["key_level"] = 8,
-["unit"] = "Greenismonk-Dalaran",
-["dungeon_id"] = 376,
-["week"] = 374,
-["faction"] = "0",
-["time_stamp"] = 0,
-["source"] = "friend",
+["time_stamp"] = 1449,
 },
 }
 AstralCharacters = {
 {
-["weekly_best"] = 6,
+["weekly_best"] = 0,
 ["class"] = "WARLOCK",
 ["faction"] = 0,
 ["unit"] = "Yükimp-Dalaran",
-},
-{
-["weekly_best"] = 0,
-["class"] = "MAGE",
-["faction"] = 0,
-["unit"] = "Yükisan-Dalaran",
 },
 }
 AstralKeysSettings = {
@@ -94,7 +52,7 @@ AstralKeysSettings = {
 ["show_minimap_button"] = {
 ["isEnabled"] = false,
 },
-["init_time"] = 1727247600,
+["init_time"] = 1729062000,
 ["expanded_tooltip"] = {
 ["isEnabled"] = true,
 },
@@ -102,8 +60,8 @@ AstralKeysSettings = {
 ["party"] = true,
 ["guild"] = true,
 ["raid"] = true,
-["no_key"] = true,
 ["all_characters"] = false,
+["no_key"] = true,
 },
 ["show_tooltip_key"] = {
 ["isEnabled"] = true,
@@ -123,7 +81,6 @@ AstralKeysSettings = {
 ["isEnabled"] = true,
 },
 },
-["new_settings_config"] = true,
 ["frame"] = {
 ["rank_filter"] = {
 true,
@@ -137,9 +94,7 @@ true,
 true,
 true,
 },
-["show_offline"] = {
-["isEnabled"] = true,
-},
+["current_list"] = "GUILD",
 ["isCollapsed"] = {
 ["isEnabled"] = false,
 },
@@ -148,8 +103,11 @@ true,
 ["isEnabled"] = false,
 },
 ["sorth_method"] = "character_name",
-["current_list"] = "GUILD",
+["show_offline"] = {
+["isEnabled"] = true,
 },
+},
+["new_settings_config"] = true,
 }
 AstralMinimap = {
 ["profileKeys"] = {
@@ -161,26 +119,26 @@ AstralMinimap = {
 ["Cailloux - Dalaran"] = "Cailloux - Dalaran",
 ["Spetrüm - Dalaran"] = "Spetrüm - Dalaran",
 ["Pantoufle - Dalaran"] = "Pantoufle - Dalaran",
-["Uhm - Dalaran"] = "Uhm - Dalaran",
+["Yükatechisme - Dalaran"] = "Yükatechisme - Dalaran",
 ["Coroutine - Dalaran"] = "Coroutine - Dalaran",
-["Yükringe - Dalaran"] = "Yükringe - Dalaran",
+["Superbarbe - Dalaran"] = "Superbarbe - Dalaran",
 ["Yükimp - Dalaran"] = "Yükimp - Dalaran",
-["Poucévoux - Dalaran"] = "Poucévoux - Dalaran",
+["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
 ["Arrabiata - Dalaran"] = "Arrabiata - Dalaran",
 ["Yükikstarter - Dalaran"] = "Yükikstarter - Dalaran",
-["Wifi - Dalaran"] = "Wifi - Dalaran",
+["Pwout - Dalaran"] = "Pwout - Dalaran",
 ["Yükidnapé - Dalaran"] = "Yükidnapé - Dalaran",
 ["Canplay - Dalaran"] = "Canplay - Dalaran",
-["Groskiki - Dalaran"] = "Groskiki - Dalaran",
+["Yäta - Eitrigg"] = "Yäta - Eitrigg",
 ["Feuman - Dalaran"] = "Feuman - Dalaran",
 ["Sojä - Dalaran"] = "Sojä - Dalaran",
-["Yäta - Eitrigg"] = "Yäta - Eitrigg",
+["Groskiki - Dalaran"] = "Groskiki - Dalaran",
 ["Heretique - Dalaran"] = "Heretique - Dalaran",
-["Pwout - Dalaran"] = "Pwout - Dalaran",
+["Wifi - Dalaran"] = "Wifi - Dalaran",
 ["Peestache - Dalaran"] = "Peestache - Dalaran",
-["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
-["Superbarbe - Dalaran"] = "Superbarbe - Dalaran",
-["Yükatechisme - Dalaran"] = "Yükatechisme - Dalaran",
+["Poucévoux - Dalaran"] = "Poucévoux - Dalaran",
+["Yükringe - Dalaran"] = "Yükringe - Dalaran",
+["Uhm - Dalaran"] = "Uhm - Dalaran",
 },
 ["profiles"] = {
 ["Elixïr - Eitrigg"] = {
@@ -202,45 +160,45 @@ AstralMinimap = {
 },
 ["Pantoufle - Dalaran"] = {
 },
-["Uhm - Dalaran"] = {
+["Yükatechisme - Dalaran"] = {
 },
 ["Coroutine - Dalaran"] = {
 },
-["Yükringe - Dalaran"] = {
+["Superbarbe - Dalaran"] = {
 },
 ["Yükimp - Dalaran"] = {
 },
-["Poucévoux - Dalaran"] = {
+["Yukiwaifu - Dalaran"] = {
 },
 ["Arrabiata - Dalaran"] = {
 },
 ["Yükikstarter - Dalaran"] = {
 },
-["Wifi - Dalaran"] = {
+["Pwout - Dalaran"] = {
 },
 ["Yükidnapé - Dalaran"] = {
 },
 ["Canplay - Dalaran"] = {
 },
-["Groskiki - Dalaran"] = {
+["Yäta - Eitrigg"] = {
 },
 ["Feuman - Dalaran"] = {
 },
 ["Sojä - Dalaran"] = {
 },
-["Yäta - Eitrigg"] = {
+["Groskiki - Dalaran"] = {
 },
 ["Heretique - Dalaran"] = {
 },
-["Pwout - Dalaran"] = {
+["Wifi - Dalaran"] = {
 },
 ["Peestache - Dalaran"] = {
 },
-["Yukiwaifu - Dalaran"] = {
+["Poucévoux - Dalaran"] = {
 },
-["Superbarbe - Dalaran"] = {
+["Yükringe - Dalaran"] = {
 },
-["Yükatechisme - Dalaran"] = {
+["Uhm - Dalaran"] = {
 },
 },
 }
@@ -272,13 +230,13 @@ AstralLists = {
 ["Edgemonia-Dalaran"] = "Gaufio#2235",
 ["Dreamz-Dalaran"] = "Dreams#2559",
 ["Wellmemed-Dalaran"] = "Haiku#21226",
-["Darkmonia-Dalaran"] = "Gaufio#2235",
+["Papiku-Dalaran"] = "Haiku#21226",
 ["Gachigasm-Dalaran"] = true,
 ["Yükisan-Dalaran"] = true,
-["Hamprym-Dalaran"] = "Havimo#2562",
+["Hamprym-Dalaran"] = true,
 ["Kacsoh-Dalaran"] = "Gaufio#2235",
 ["Bearwithme-Dalaran"] = true,
-["Dadjoke-Dalaran"] = "Haiku#21226",
+["Lizard-Dalaran"] = true,
 ["Grinisme-Dalaran"] = "Greenisme#2619",
 ["Azendra-Dalaran"] = true,
 ["Hommebarbe-Dalaran"] = "Havimo#2562",
@@ -287,18 +245,18 @@ AstralLists = {
 ["Yükimp-Dalaran"] = true,
 ["Rhythm-Dalaran"] = "Haiku#21226",
 ["Màna-Dalaran"] = true,
-["Mellwet-Dalaran"] = "Haiku#21226",
-["Iota-Dalaran"] = "Nobzou#2321",
-["Venec-Dalaran"] = "Havimo#2562",
+["Peestache-Dalaran"] = true,
+["Gaufio-Dalaran"] = "Gaufio#2235",
+["Miranee-Dalaran"] = "Gaufio#2235",
 ["Shokku-Dalaran"] = "Nobzou#2321",
 ["Adamsavage-Dalaran"] = "Haiku#21226",
-["Miranee-Dalaran"] = true,
-["Gaufio-Dalaran"] = true,
-["Peestache-Dalaran"] = true,
+["Venec-Dalaran"] = "Havimo#2562",
+["Iota-Dalaran"] = "Nobzou#2321",
+["Mellwet-Dalaran"] = "Haiku#21226",
 ["Sheeplolz-Dalaran"] = "Dreams#2559",
 ["Drëâms-Dalaran"] = "Dreams#2559",
-["Lizard-Dalaran"] = true,
-["Papiku-Dalaran"] = "Haiku#21226",
+["Dadjoke-Dalaran"] = "Haiku#21226",
+["Darkmonia-Dalaran"] = "Gaufio#2235",
 },
 },
 {
@@ -331,21 +289,21 @@ AstralLists = {
 ["Miranee-Dalaran"] = "Gaufio#2235",
 ["Grenisme-Dalaran"] = "Greenisme#2619",
 ["Shokku-Dalaran"] = "Nobzou#2321",
-["Kadoewyn-Dalaran"] = "Havimo#2562",
+["Darkmonia-Dalaran"] = "Gaufio#2235",
+["Grinisme-Dalaran"] = "Greenisme#2619",
 ["Iota-Dalaran"] = "Nobzou#2321",
-["Màna-Dalaran"] = "Nobzou#2321",
 ["Dadjoke-Dalaran"] = "Haiku#21226",
 ["Azhenouge-TarrenMill"] = "Azhen#1135",
-["Bearwithme-Dalaran"] = true,
-["Udon-Dalaran"] = "Havimo#2562",
+["Bearwithme-Dalaran"] = "Havimo#2562",
+["Gachigasm-Dalaran"] = "Azhen#1135",
 ["Adamsavage-Dalaran"] = "Haiku#21226",
 ["Hommebarbe-Dalaran"] = "Havimo#2562",
-["Gachigasm-Dalaran"] = "Azhen#1135",
+["Udon-Dalaran"] = "Havimo#2562",
 ["Mellwet-Dalaran"] = "Haiku#21226",
 ["Sheeplolz-Dalaran"] = "Dreams#2559",
 ["Drëâms-Dalaran"] = "Dreams#2559",
-["Grinisme-Dalaran"] = "Greenisme#2619",
-["Darkmonia-Dalaran"] = "Gaufio#2235",
+["Màna-Dalaran"] = "Nobzou#2321",
+["Kadoewyn-Dalaran"] = "Havimo#2562",
 },
 },
 }

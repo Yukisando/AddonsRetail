@@ -9,27 +9,27 @@ SimulationCraftDB = {
 ["Cailloux - Dalaran"] = "Cailloux - Dalaran",
 ["Spetrüm - Dalaran"] = "Spetrüm - Dalaran",
 ["Pantoufle - Dalaran"] = "Pantoufle - Dalaran",
-["Canplay - Dalaran"] = "Canplay - Dalaran",
-["Yükringe - Dalaran"] = "Yükringe - Dalaran",
+["Yükatechisme - Dalaran"] = "Yükatechisme - Dalaran",
+["Superbarbe - Dalaran"] = "Superbarbe - Dalaran",
 ["Yükikstarter - Dalaran"] = "Yükikstarter - Dalaran",
-["Poucévoux - Dalaran"] = "Poucévoux - Dalaran",
+["Yäta - Eitrigg"] = "Yäta - Eitrigg",
 ["Yükimp - Dalaran"] = "Yükimp - Dalaran",
 ["Coroutine - Dalaran"] = "Coroutine - Dalaran",
 ["Arrabiata - Dalaran"] = "Arrabiata - Dalaran",
-["Wifi - Dalaran"] = "Wifi - Dalaran",
+["Pwout - Dalaran"] = "Pwout - Dalaran",
 ["Sojä - Dalaran"] = "Sojä - Dalaran",
 ["Yükidnapé - Dalaran"] = "Yükidnapé - Dalaran",
-["Uhm - Dalaran"] = "Uhm - Dalaran",
-["Yüpi - Dalaran"] = "Yüpi - Dalaran",
-["Feuman - Dalaran"] = "Feuman - Dalaran",
-["Groskiki - Dalaran"] = "Groskiki - Dalaran",
 ["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
+["Groskiki - Dalaran"] = "Groskiki - Dalaran",
+["Feuman - Dalaran"] = "Feuman - Dalaran",
+["Yüpi - Dalaran"] = "Yüpi - Dalaran",
+["Uhm - Dalaran"] = "Uhm - Dalaran",
 ["Heretique - Dalaran"] = "Heretique - Dalaran",
-["Pwout - Dalaran"] = "Pwout - Dalaran",
+["Wifi - Dalaran"] = "Wifi - Dalaran",
 ["Peestache - Dalaran"] = "Peestache - Dalaran",
-["Yäta - Eitrigg"] = "Yäta - Eitrigg",
-["Superbarbe - Dalaran"] = "Superbarbe - Dalaran",
-["Yükatechisme - Dalaran"] = "Yükatechisme - Dalaran",
+["Poucévoux - Dalaran"] = "Poucévoux - Dalaran",
+["Yükringe - Dalaran"] = "Yükringe - Dalaran",
+["Canplay - Dalaran"] = "Canplay - Dalaran",
 },
 ["profiles"] = {
 ["Elixïr - Eitrigg"] = {
@@ -37,11 +37,11 @@ SimulationCraftDB = {
 ["Yükit - Dalaran"] = {
 },
 ["Yükisan - Dalaran"] = {
-["frame"] = {
-["ofsx"] = -7.294639362953603e-05,
-},
 ["minimap"] = {
 ["minimapPos"] = 112.7210629244113,
+},
+["frame"] = {
+["ofsx"] = -7.294639362953603e-05,
 },
 },
 ["Aurï - Dalaran"] = {
@@ -61,21 +61,24 @@ SimulationCraftDB = {
 ["minimapPos"] = 34.95327834229504,
 },
 },
-["Canplay - Dalaran"] = {
+["Yükatechisme - Dalaran"] = {
 },
-["Yükringe - Dalaran"] = {
+["Superbarbe - Dalaran"] = {
+["minimap"] = {
+["hide"] = true,
+},
 },
 ["Yükikstarter - Dalaran"] = {
 },
-["Poucévoux - Dalaran"] = {
+["Yäta - Eitrigg"] = {
 },
 ["Yükimp - Dalaran"] = {
+["minimap"] = {
+["minimapPos"] = 112.15053390606,
+},
 ["frame"] = {
 ["ofsx"] = -7.294639362953603e-05,
 ["ofsy"] = 1.66667914390564,
-},
-["minimap"] = {
-["minimapPos"] = 112.15053390606,
 },
 },
 ["Coroutine - Dalaran"] = {
@@ -85,7 +88,10 @@ SimulationCraftDB = {
 },
 ["Arrabiata - Dalaran"] = {
 },
-["Wifi - Dalaran"] = {
+["Pwout - Dalaran"] = {
+["minimap"] = {
+["minimapPos"] = 347.0307004922193,
+},
 },
 ["Sojä - Dalaran"] = {
 ["minimap"] = {
@@ -95,11 +101,10 @@ SimulationCraftDB = {
 },
 ["Yükidnapé - Dalaran"] = {
 },
-["Uhm - Dalaran"] = {
+["Yukiwaifu - Dalaran"] = {
+["minimap"] = {
+["minimapPos"] = 33.63812361758188,
 },
-["Yüpi - Dalaran"] = {
-},
-["Feuman - Dalaran"] = {
 },
 ["Groskiki - Dalaran"] = {
 ["minimap"] = {
@@ -107,28 +112,23 @@ SimulationCraftDB = {
 ["hide"] = true,
 },
 },
-["Yukiwaifu - Dalaran"] = {
-["minimap"] = {
-["minimapPos"] = 33.63812361758188,
+["Feuman - Dalaran"] = {
 },
+["Yüpi - Dalaran"] = {
+},
+["Uhm - Dalaran"] = {
 },
 ["Heretique - Dalaran"] = {
 },
-["Pwout - Dalaran"] = {
-["minimap"] = {
-["minimapPos"] = 347.0307004922193,
-},
+["Wifi - Dalaran"] = {
 },
 ["Peestache - Dalaran"] = {
 },
-["Yäta - Eitrigg"] = {
+["Poucévoux - Dalaran"] = {
 },
-["Superbarbe - Dalaran"] = {
-["minimap"] = {
-["hide"] = true,
+["Yükringe - Dalaran"] = {
 },
-},
-["Yükatechisme - Dalaran"] = {
+["Canplay - Dalaran"] = {
 },
 },
 }

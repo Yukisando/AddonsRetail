@@ -197,7 +197,7 @@ else
 		["Regenerative Leech"] = "Leech",
 		["Watcher's Loam"] = "Stam",
 		["Rider's Reassurance"] = "Mount Speed",
-		["Accelerated Agility"] = "Speed & Agi",	
+		["Accelerated Agility"] = "Speed & Agi",
 		["Reserve of Int"] = "Mana & Int",
 		["Sustained Str"] = "Stam & Str",
 		["Waking Stats"] = "Primary Stat",
@@ -208,7 +208,7 @@ else
 		["Defender's March"] = "Stam",
 		["Stormrider's Agi"] = "Agi & Speed",
 		["Council's Intellect"] = "Int & Mana",
-		["Crystalline Radiance"] = "Int",
+		["Crystalline Radiance"] = "Primary Stat",
 		["Oathsworn's Strength"] = "Str & Stam",
 
 		["Chant of Armored Avoid"] = "Avoid",
@@ -475,6 +475,11 @@ end
 
 local function UpdateAdditionalDisplay(button,unit)
 	local additionalFrame = button.BCPDisplay;
+
+	-- This should never happen, but apparently it does sometimes for some reason.
+	-- Cant reproduce it, but it happens.
+	if(not additionalFrame)then return; end
+
 	local slot = button:GetID();
 	local itemLink = GetInventoryItemLink(unit,slot);
 

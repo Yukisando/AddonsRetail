@@ -1,5 +1,5 @@
 ## Interface: 110000
-## Version: 3.7.5
+## Version: 3.7.6
 ## Title: FrameColor
 ## Author: Slothpala
 ## SavedVariables: FrameColorDB

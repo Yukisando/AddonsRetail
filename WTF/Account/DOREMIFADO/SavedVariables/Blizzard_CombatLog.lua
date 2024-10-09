@@ -4,7 +4,7 @@ Blizzard_CombatLog_Filters = {
 ["filters"] = {
 {
 ["quickButtonName"] = "My actions",
-["onQuickBar"] = true,
+["onQuickBar"] = false,
 ["quickButtonDisplay"] = {
 ["party"] = true,
 ["solo"] = true,
@@ -108,7 +108,8 @@ nil,
 ["b"] = 0.7,
 },
 },
-["eventColoring"] = {
+["highlightedEvents"] = {
+["PARTY_KILL"] = true,
 },
 ["defaults"] = {
 ["spell"] = {
@@ -124,8 +125,7 @@ nil,
 ["b"] = 0,
 },
 },
-["highlightedEvents"] = {
-["PARTY_KILL"] = true,
+["eventColoring"] = {
 },
 },
 ["hasQuickButton"] = true,
@@ -156,8 +156,8 @@ nil,
 ["braces"] = false,
 ["unitBraces"] = true,
 ["schoolNameHighlighting"] = true,
-["hideBuffs"] = true,
 ["unitIcons"] = true,
+["hideBuffs"] = true,
 ["unitColoring"] = false,
 ["amountSchoolColoring"] = false,
 ["amountColoring"] = false,
@@ -248,7 +248,7 @@ nil,
 },
 {
 ["quickButtonName"] = "What happened to me?",
-["onQuickBar"] = true,
+["onQuickBar"] = false,
 ["quickButtonDisplay"] = {
 ["party"] = true,
 ["solo"] = true,
@@ -352,7 +352,8 @@ nil,
 ["b"] = 0.7,
 },
 },
-["eventColoring"] = {
+["highlightedEvents"] = {
+["PARTY_KILL"] = true,
 },
 ["defaults"] = {
 ["spell"] = {
@@ -368,8 +369,7 @@ nil,
 ["b"] = 0,
 },
 },
-["highlightedEvents"] = {
-["PARTY_KILL"] = true,
+["eventColoring"] = {
 },
 },
 ["hasQuickButton"] = true,
@@ -400,8 +400,8 @@ nil,
 ["braces"] = false,
 ["unitBraces"] = true,
 ["schoolNameHighlighting"] = true,
-["hideBuffs"] = true,
 ["unitIcons"] = true,
+["hideBuffs"] = true,
 ["unitColoring"] = false,
 ["amountSchoolColoring"] = false,
 ["amountColoring"] = false,
