@@ -56,7 +56,7 @@ BigWigs_Options: enabled
 BigWigs_Plugins: enabled
 WeakAurasCompanion: enabled
 AutoGear: disabled
-Skada: enabled
+Skada: disabled
 Details_RaidCheck: disabled
 Details_DataStorage: disabled
 Details_TinyThreat: disabled
@@ -230,3 +230,4 @@ SharedMedia: enabled
 SharedMedia_MyMedia: enabled
 TeleportCloak: enabled
 UnlimitedMapPinDistance: enabled
+DBM-Affixes: enabled

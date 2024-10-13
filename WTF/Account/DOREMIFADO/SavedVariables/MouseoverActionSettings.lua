@@ -9,13 +9,13 @@ MouseoverActionSettingsDB = {
 ["Pwout - Dalaran"] = "Default",
 ["Canplay - Dalaran"] = "Default",
 ["Yükatechisme - Dalaran"] = "Default",
-["Wifi - Dalaran"] = "Default",
-["Groskiki - Dalaran"] = "Default",
+["Yükringe - Dalaran"] = "Default",
+["Yukiwaifu - Dalaran"] = "Default",
 ["Pantoufle - Dalaran"] = "Default",
 ["Yükikstarter - Dalaran"] = "Default",
 ["Peestache - Dalaran"] = "Default",
-["Yukiwaifu - Dalaran"] = "Default",
-["Yükringe - Dalaran"] = "Default",
+["Groskiki - Dalaran"] = "Default",
+["Wifi - Dalaran"] = "Default",
 ["Yükimp - Dalaran"] = "Default",
 },
 ["profiles"] = {
@@ -39,8 +39,8 @@ MouseoverActionSettingsDB = {
 ["TargetFrame"] = {
 ["minAlpha"] = 0,
 },
-["MultiBar7"] = {
-["minAlpha"] = 0.08,
+["PlayerFrame"] = {
+["minAlpha"] = 0,
 },
 ["ChatFrame"] = {
 ["minAlpha"] = 0.8200000000000001,
@@ -54,8 +54,8 @@ MouseoverActionSettingsDB = {
 ["PetFrame"] = {
 ["minAlpha"] = 0.73,
 },
-["ActionBarConfig"] = {
-["MultiBar5"] = false,
+["BuffFrame"] = {
+["minAlpha"] = 0.77,
 },
 ["MainMenuBar"] = {
 ["minAlpha"] = 0.08,
@@ -63,14 +63,14 @@ MouseoverActionSettingsDB = {
 ["MultiBarLeft"] = {
 ["minAlpha"] = 0.08,
 },
-["MultiBar6"] = {
+["DebuffFrame"] = {
+["minAlpha"] = 0.79,
+},
+["ActionBarConfig"] = {
+["MultiBar5"] = false,
+},
+["MultiBar7"] = {
 ["minAlpha"] = 0.08,
-},
-["BuffFrame"] = {
-["minAlpha"] = 0.77,
-},
-["PlayerFrame"] = {
-["minAlpha"] = 0,
 },
 ["MiniMapButton"] = {
 ["minimapPos"] = 55.31533485661466,
@@ -78,8 +78,8 @@ MouseoverActionSettingsDB = {
 ["ObjectiveTracker"] = {
 ["minAlpha"] = 0.78,
 },
-["DebuffFrame"] = {
-["minAlpha"] = 0.79,
+["MultiBar6"] = {
+["minAlpha"] = 0.08,
 },
 ["MultiBarBottomRight"] = {
 ["minAlpha"] = 0.08,

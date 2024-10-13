@@ -10,7 +10,7 @@ Arh: disabled
 WorldQuestTracker: enabled
 Cecile_QuickLaunchSpells: enabled
 Cecile_QuickLaunchAchievements: disabled
-Skada: enabled
+Skada: disabled
 Cecile_MeterOverlay: disabled
 HandyNotes_LegionRaresTreasures: enabled
 HideChatButton: disabled
@@ -255,3 +255,4 @@ SharedMedia: enabled
 SharedMedia_MyMedia: enabled
 TeleportCloak: enabled
 UnlimitedMapPinDistance: enabled
+DBM-Affixes: enabled

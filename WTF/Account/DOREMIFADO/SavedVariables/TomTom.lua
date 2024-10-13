@@ -7,19 +7,19 @@ TomTomDB = {
 ["Pantoufle - Dalaran"] = "Default",
 ["Coroutine - Dalaran"] = "Default",
 ["Yükimp - Dalaran"] = "Default",
-["Yüpi - Dalaran"] = "Default",
+["Yükikstarter - Dalaran"] = "Default",
 ["Yükidnapé - Dalaran"] = "Default",
-["Superbarbe - Dalaran"] = "Default",
-["Yukiwaifu - Dalaran"] = "Default",
+["Yükringe - Dalaran"] = "Default",
+["Groskiki - Dalaran"] = "Default",
 ["Feuman - Dalaran"] = "Default",
 ["Wifi - Dalaran"] = "Default",
-["Sojä - Dalaran"] = "Default",
-["Heretique - Dalaran"] = "Default",
 ["Yükatechisme - Dalaran"] = "Default",
+["Heretique - Dalaran"] = "Default",
+["Sojä - Dalaran"] = "Default",
 ["Peestache - Dalaran"] = "Default",
-["Groskiki - Dalaran"] = "Default",
-["Yükringe - Dalaran"] = "Default",
-["Yükikstarter - Dalaran"] = "Default",
+["Yukiwaifu - Dalaran"] = "Default",
+["Yüpi - Dalaran"] = "Default",
+["Superbarbe - Dalaran"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -62,19 +62,19 @@ TomTomWaypointsM = {
 ["Pantoufle - Dalaran"] = "Pantoufle - Dalaran",
 ["Coroutine - Dalaran"] = "Coroutine - Dalaran",
 ["Yükimp - Dalaran"] = "Yükimp - Dalaran",
-["Yüpi - Dalaran"] = "Yüpi - Dalaran",
+["Yükikstarter - Dalaran"] = "Yükikstarter - Dalaran",
 ["Yükidnapé - Dalaran"] = "Yükidnapé - Dalaran",
-["Superbarbe - Dalaran"] = "Superbarbe - Dalaran",
-["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
+["Yükringe - Dalaran"] = "Yükringe - Dalaran",
+["Groskiki - Dalaran"] = "Groskiki - Dalaran",
 ["Feuman - Dalaran"] = "Feuman - Dalaran",
 ["Wifi - Dalaran"] = "Wifi - Dalaran",
-["Sojä - Dalaran"] = "Sojä - Dalaran",
-["Heretique - Dalaran"] = "Heretique - Dalaran",
 ["Yükatechisme - Dalaran"] = "Yükatechisme - Dalaran",
+["Heretique - Dalaran"] = "Heretique - Dalaran",
+["Sojä - Dalaran"] = "Sojä - Dalaran",
 ["Peestache - Dalaran"] = "Peestache - Dalaran",
-["Groskiki - Dalaran"] = "Groskiki - Dalaran",
-["Yükringe - Dalaran"] = "Yükringe - Dalaran",
-["Yükikstarter - Dalaran"] = "Yükikstarter - Dalaran",
+["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
+["Yüpi - Dalaran"] = "Yüpi - Dalaran",
+["Superbarbe - Dalaran"] = "Superbarbe - Dalaran",
 },
 ["profiles"] = {
 ["Elixïr - Eitrigg"] = {
@@ -89,31 +89,31 @@ TomTomWaypointsM = {
 },
 ["Yükimp - Dalaran"] = {
 },
-["Yüpi - Dalaran"] = {
+["Yükikstarter - Dalaran"] = {
 },
 ["Yükidnapé - Dalaran"] = {
 },
-["Superbarbe - Dalaran"] = {
+["Yükringe - Dalaran"] = {
 },
-["Yukiwaifu - Dalaran"] = {
+["Groskiki - Dalaran"] = {
 },
 ["Feuman - Dalaran"] = {
 },
 ["Wifi - Dalaran"] = {
 },
-["Sojä - Dalaran"] = {
+["Yükatechisme - Dalaran"] = {
 },
 ["Heretique - Dalaran"] = {
 },
-["Yükatechisme - Dalaran"] = {
+["Sojä - Dalaran"] = {
 },
 ["Peestache - Dalaran"] = {
 },
-["Groskiki - Dalaran"] = {
+["Yukiwaifu - Dalaran"] = {
 },
-["Yükringe - Dalaran"] = {
+["Yüpi - Dalaran"] = {
 },
-["Yükikstarter - Dalaran"] = {
+["Superbarbe - Dalaran"] = {
 },
 },
 }

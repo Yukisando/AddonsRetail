@@ -1,8 +1,9 @@
 
 FrameColorDB = {
 ["profileKeys"] = {
-["Yükimp - Dalaran"] = "Default",
+["Yükikstarter - Dalaran"] = "Default",
 ["Yükisan - Dalaran"] = "Default",
+["Yükimp - Dalaran"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -17,7 +18,7 @@ FrameColorDB = {
 },
 ["CharacterFrame"] = {
 },
-["MainMenuBar"] = {
+["MultiBarLeft"] = {
 ["classcolored1"] = true,
 },
 ["Ace3_Skin"] = {
@@ -48,13 +49,13 @@ FrameColorDB = {
 ["MultiBar6"] = {
 ["classcolored1"] = true,
 },
-["MultiBarLeft"] = {
+["MultiBar7"] = {
 ["classcolored1"] = true,
 },
 ["MultiBarBottomRight"] = {
 ["classcolored1"] = true,
 },
-["MultiBar7"] = {
+["MainMenuBar"] = {
 ["classcolored1"] = true,
 },
 },
@@ -67,7 +68,7 @@ FrameColorDB = {
 ["CompactRaidFrameManager"] = {
 ["classcolored1"] = true,
 },
-["TargetFrame"] = {
+["ClassTalentFrame"] = {
 },
 ["FrameColor_Skin"] = {
 },
@@ -75,18 +76,18 @@ FrameColorDB = {
 },
 ["DelvesFrame"] = {
 },
-["Ace3_Skin"] = {
+["PlayerSpellsFrame"] = {
 },
 ["PlayerFrame"] = {
 },
-["CharacterFrame"] = {
+["TargetFrame"] = {
 },
 ["PartyFrame"] = {
 ["classcolored1"] = true,
 },
-["ClassTalentFrame"] = {
+["CharacterFrame"] = {
 },
-["PlayerSpellsFrame"] = {
+["Ace3_Skin"] = {
 },
 ["CompactRaidGroupBorderFrame"] = {
 ["classcolored1"] = true,
@@ -101,12 +102,11 @@ FrameColorDB = {
 ["FocusFrameToT"] = {
 ["classcolored1"] = true,
 },
-["TargetFrame"] = {
-["classcolored1"] = true,
+["ClassTalentFrame"] = {
 },
-["FrameColor_Skin"] = {
+["CharacterFrame"] = {
 },
-["PetFrameTexture"] = {
+["TargetFrameToT"] = {
 ["classcolored1"] = true,
 },
 ["FocusFrame"] = {
@@ -116,19 +116,20 @@ FrameColorDB = {
 },
 ["DelvesFrame"] = {
 },
-["PlayerSpellsFrame"] = {
+["Ace3_Skin"] = {
 },
 ["PlayerFrame"] = {
 ["classcolored1"] = true,
 },
-["TargetFrameToT"] = {
+["PetFrameTexture"] = {
 ["classcolored1"] = true,
 },
-["CharacterFrame"] = {
+["FrameColor_Skin"] = {
 },
-["Ace3_Skin"] = {
+["PlayerSpellsFrame"] = {
 },
-["ClassTalentFrame"] = {
+["TargetFrame"] = {
+["classcolored1"] = true,
 },
 },
 ["Master"] = {
@@ -136,21 +137,21 @@ FrameColorDB = {
 },
 ["DelvesFrame"] = {
 },
-["ClassTalentFrame"] = {
+["Ace3_Skin"] = {
 },
 ["PlayerSpellsFrame"] = {
 },
-["TargetFrame"] = {
+["PlayerFrame"] = {
 },
 ["CharacterFrame"] = {
 },
-["PlayerFrame"] = {
+["FrameColor_Skin"] = {
 },
-["Ace3_Skin"] = {
+["TargetFrame"] = {
 },
 ["FriendsFrame"] = {
 },
-["FrameColor_Skin"] = {
+["ClassTalentFrame"] = {
 },
 },
 ["Windows"] = {
@@ -203,7 +204,7 @@ FrameColorDB = {
 ["ItemSocketingFrame"] = {
 ["classcolored1"] = true,
 },
-["CalendarFrame"] = {
+["PetStableFrame"] = {
 ["classcolored1"] = true,
 },
 ["QuestFrame"] = {
@@ -212,13 +213,13 @@ FrameColorDB = {
 ["TradeFrame"] = {
 ["classcolored1"] = true,
 },
-["PetStableFrame"] = {
+["CalendarFrame"] = {
 ["classcolored1"] = true,
 },
 ["ProfessionsCustomerOrdersFrame"] = {
 ["classcolored1"] = true,
 },
-["DelvesDifficultyPicker"] = {
+["EncounterJournal"] = {
 ["classcolored1"] = true,
 },
 ["AchievementFrame"] = {
@@ -230,7 +231,7 @@ FrameColorDB = {
 ["InspectFrame"] = {
 ["classcolored1"] = true,
 },
-["SettingsPanel"] = {
+["WardrobeFrame"] = {
 ["classcolored1"] = true,
 },
 ["CommunitiesFrame"] = {
@@ -239,29 +240,30 @@ FrameColorDB = {
 ["BankFrame"] = {
 ["classcolored1"] = true,
 },
-["TargetFrame"] = {
+["SettingsPanel"] = {
+["classcolored1"] = true,
 },
 ["FrameColor_Skin"] = {
 },
-["ClickBindingFrame"] = {
+["PVEFrame"] = {
 ["classcolored1"] = true,
 },
 ["ContainerFrame"] = {
 ["classcolored1"] = true,
 },
-["ItemUpgradeFrame"] = {
+["IslandsQueueFrame"] = {
 ["classcolored1"] = true,
 },
-["GossipFrame"] = {
+["StopwatchFrame"] = {
 ["classcolored1"] = true,
 },
 ["FriendsFrame"] = {
 ["classcolored1"] = true,
 },
-["ColorPickerFrame"] = {
+["GossipFrame"] = {
 ["classcolored1"] = true,
 },
-["LootFrame"] = {
+["AlliedRacesFrame"] = {
 ["classcolored1"] = true,
 },
 ["ProfessionsBookFrame"] = {
@@ -270,40 +272,39 @@ FrameColorDB = {
 ["MerchantFrame"] = {
 ["classcolored1"] = true,
 },
-["DelvesFrame"] = {
-},
-["DressUpFrame"] = {
+["ItemTextFrame"] = {
 ["classcolored1"] = true,
+},
+["DelvesFrame"] = {
 },
 ["WorldMapFrame"] = {
 ["classcolored1"] = true,
 },
-["ItemTextFrame"] = {
+["DressUpFrame"] = {
 ["classcolored1"] = true,
 },
 ["PlayerSpellsFrame"] = {
 ["classcolored2"] = false,
 ["classcolored1"] = true,
 },
-["AlliedRacesFrame"] = {
+["LootFrame"] = {
 ["classcolored1"] = true,
 },
-["StopwatchFrame"] = {
+["ColorPickerFrame"] = {
 ["classcolored1"] = true,
 },
-["IslandsQueueFrame"] = {
+["ItemUpgradeFrame"] = {
 ["classcolored1"] = true,
 },
-["PVEFrame"] = {
+["ClickBindingFrame"] = {
 ["classcolored1"] = true,
 },
-["WardrobeFrame"] = {
-["classcolored1"] = true,
+["TargetFrame"] = {
 },
 ["FlightMapFrame"] = {
 ["classcolored1"] = true,
 },
-["EncounterJournal"] = {
+["DelvesDifficultyPicker"] = {
 ["classcolored1"] = true,
 },
 ["ItemInteractionFrame"] = {
@@ -359,12 +360,12 @@ FrameColorDB = {
 ["classcolored2"] = false,
 ["classcolored1"] = false,
 },
-["CollectionsMicroButton"] = {
+["CharacterMicroButton"] = {
 ["classcolored3"] = false,
 ["classcolored2"] = false,
 ["classcolored1"] = false,
 },
-["CharacterMicroButton"] = {
+["CollectionsMicroButton"] = {
 ["classcolored3"] = false,
 ["classcolored2"] = false,
 ["classcolored1"] = false,
@@ -375,21 +376,21 @@ FrameColorDB = {
 },
 ["DelvesFrame"] = {
 },
+["TargetFrame"] = {
+},
 ["PlayerSpellsFrame"] = {
-},
-["Ace3_Skin"] = {
-},
-["ClassTalentFrame"] = {
-},
-["FrameColor_Skin"] = {
-},
-["CharacterFrame"] = {
 },
 ["PlayerFrame"] = {
 },
+["FrameColor_Skin"] = {
+},
+["ClassTalentFrame"] = {
+},
+["CharacterFrame"] = {
+},
 ["FriendsFrame"] = {
 },
-["TargetFrame"] = {
+["Ace3_Skin"] = {
 },
 },
 ["HUD"] = {
@@ -422,15 +423,14 @@ FrameColorDB = {
 ["PopUps"] = {
 ["classcolored1"] = true,
 },
+["Ace3_Skin"] = {
+},
 ["BuffFrame"] = {
 ["classcolored1"] = true,
 },
-["Ace3_Skin"] = {
-},
 ["PlayerFrame"] = {
 },
-["Castbars"] = {
-["classcolored1"] = true,
+["FrameColor_Skin"] = {
 },
 ["PlayerSpellsFrame"] = {
 },
@@ -442,7 +442,8 @@ FrameColorDB = {
 ["MinimapCompassTexture"] = {
 ["classcolored1"] = true,
 },
-["FrameColor_Skin"] = {
+["Castbars"] = {
+["classcolored1"] = true,
 },
 },
 },

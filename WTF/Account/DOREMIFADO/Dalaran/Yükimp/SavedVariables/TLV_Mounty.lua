@@ -3,7 +3,7 @@ _Mounty_C = {
 ["ShareProfiles"] = false,
 ["WhyHistoryLog"] = {
 {
-["date"] = "09.10.2024 09:50",
+["date"] = "12.10.2024 21:57",
 ["log"] = {
 {
 "\n",
@@ -34,196 +34,43 @@ _Mounty_C = {
 "fly.ok1",
 },
 {
-"fly.prefer.steadyflight",
+"fly.prefer.skyriding",
 },
 {
-"fly.use",
+"fly.skyriding.empty",
+},
+{
+"\n",
+},
+{
+"water.no",
+},
+{
+"\n",
+},
+{
+"ground.use",
 },
 {
 "usable.all",
-5,
+6,
 },
 {
 "pick.iterator",
-5,
+6,
 },
 {
 "\n",
 },
 {
 "picked",
-"Flying mount",
-"Zenet Hatchling",
-},
-},
-},
-{
-["date"] = "09.10.2024 09:50",
-["log"] = {
-{
-"\n",
-},
-{
-"repair.no",
-76,
-},
-{
-"\n",
-},
-{
-"taxi.no1",
-},
-{
-"\n",
-},
-{
-"showoff.no1",
-},
-{
-"\n",
-},
-{
-"fly.any",
-},
-{
-"fly.ok1",
-},
-{
-"fly.prefer.steadyflight",
-},
-{
-"fly.use",
-},
-{
-"usable.all",
-5,
-},
-{
-"pick.iterator",
-5,
-},
-{
-"\n",
-},
-{
-"picked",
-"Flying mount",
-"Duskwing Ohuna",
-},
-},
-},
-{
-["date"] = "09.10.2024 09:50",
-["log"] = {
-{
-"\n",
-},
-{
-"repair.no",
-76,
-},
-{
-"\n",
-},
-{
-"taxi.no1",
-},
-{
-"\n",
-},
-{
-"showoff.no1",
-},
-{
-"\n",
-},
-{
-"fly.any",
-},
-{
-"fly.ok1",
-},
-{
-"fly.prefer.steadyflight",
-},
-{
-"fly.use",
-},
-{
-"usable.all",
-5,
-},
-{
-"pick.iterator",
-5,
-},
-{
-"\n",
-},
-{
-"picked",
-"Flying mount",
-"Hogrus, Swine of Good Fortune",
-},
-},
-},
-{
-["date"] = "09.10.2024 09:50",
-["log"] = {
-{
-"\n",
-},
-{
-"repair.no",
-76,
-},
-{
-"\n",
-},
-{
-"taxi.no1",
-},
-{
-"\n",
-},
-{
-"showoff.no1",
-},
-{
-"\n",
-},
-{
-"fly.any",
-},
-{
-"fly.ok1",
-},
-{
-"fly.prefer.steadyflight",
-},
-{
-"fly.use",
-},
-{
-"usable.all",
-5,
-},
-{
-"pick.iterator",
-5,
-},
-{
-"\n",
-},
-{
-"picked",
-"Flying mount",
+"Ground mount",
 "Machine Defense Unit 1-11",
 },
 },
 },
 {
-["date"] = "09.10.2024 09:50",
+["date"] = "12.10.2024 21:56",
 ["log"] = {
 {
 "\n",
@@ -254,31 +101,43 @@ _Mounty_C = {
 "fly.ok1",
 },
 {
-"fly.prefer.steadyflight",
+"fly.prefer.skyriding",
 },
 {
-"fly.use",
+"fly.skyriding.empty",
+},
+{
+"\n",
+},
+{
+"water.no",
+},
+{
+"\n",
+},
+{
+"ground.use",
 },
 {
 "usable.all",
-5,
+6,
 },
 {
 "pick.iterator",
-5,
+6,
 },
 {
 "\n",
 },
 {
 "picked",
-"Flying mount",
-"Sapphire Skyblazer",
+"Ground mount",
+"Felcrystal Scorpion",
 },
 },
 },
 {
-["date"] = "09.10.2024 09:50",
+["date"] = "12.10.2024 21:56",
 ["log"] = {
 {
 "\n",
@@ -309,31 +168,43 @@ _Mounty_C = {
 "fly.ok1",
 },
 {
-"fly.prefer.steadyflight",
+"fly.prefer.skyriding",
 },
 {
-"fly.use",
+"fly.skyriding.empty",
+},
+{
+"\n",
+},
+{
+"water.no",
+},
+{
+"\n",
+},
+{
+"ground.use",
 },
 {
 "usable.all",
-5,
+6,
 },
 {
 "pick.iterator",
-5,
+6,
 },
 {
 "\n",
 },
 {
 "picked",
-"Flying mount",
-"Zenet Hatchling",
+"Ground mount",
+"Seething Slug",
 },
 },
 },
 {
-["date"] = "09.10.2024 09:50",
+["date"] = "12.10.2024 21:56",
 ["log"] = {
 {
 "\n",
@@ -364,31 +235,43 @@ _Mounty_C = {
 "fly.ok1",
 },
 {
-"fly.prefer.steadyflight",
+"fly.prefer.skyriding",
 },
 {
-"fly.use",
+"fly.skyriding.empty",
+},
+{
+"\n",
+},
+{
+"water.no",
+},
+{
+"\n",
+},
+{
+"ground.use",
 },
 {
 "usable.all",
-5,
+6,
 },
 {
 "pick.iterator",
-5,
+6,
 },
 {
 "\n",
 },
 {
 "picked",
-"Flying mount",
-"Duskwing Ohuna",
+"Ground mount",
+"Slatestone Ramolith",
 },
 },
 },
 {
-["date"] = "09.10.2024 09:50",
+["date"] = "12.10.2024 21:56",
 ["log"] = {
 {
 "\n",
@@ -419,31 +302,43 @@ _Mounty_C = {
 "fly.ok1",
 },
 {
-"fly.prefer.steadyflight",
+"fly.prefer.skyriding",
 },
 {
-"fly.use",
+"fly.skyriding.empty",
+},
+{
+"\n",
+},
+{
+"water.no",
+},
+{
+"\n",
+},
+{
+"ground.use",
 },
 {
 "usable.all",
-5,
+6,
 },
 {
 "pick.iterator",
-5,
+6,
 },
 {
 "\n",
 },
 {
 "picked",
-"Flying mount",
-"Hogrus, Swine of Good Fortune",
+"Ground mount",
+"Springfur Alpaca",
 },
 },
 },
 {
-["date"] = "09.10.2024 09:49",
+["date"] = "12.10.2024 21:56",
 ["log"] = {
 {
 "\n",
@@ -474,31 +369,110 @@ _Mounty_C = {
 "fly.ok1",
 },
 {
-"fly.prefer.steadyflight",
+"fly.prefer.skyriding",
 },
 {
-"fly.use",
+"fly.skyriding.empty",
+},
+{
+"\n",
+},
+{
+"water.no",
+},
+{
+"\n",
+},
+{
+"ground.use",
 },
 {
 "usable.all",
-5,
+6,
 },
 {
 "pick.iterator",
-5,
+6,
 },
 {
 "\n",
 },
 {
 "picked",
-"Flying mount",
+"Ground mount",
+"Arboreal Gulper",
+},
+},
+},
+{
+["date"] = "12.10.2024 21:56",
+["log"] = {
+{
+"\n",
+},
+{
+"repair.no",
+76,
+},
+{
+"\n",
+},
+{
+"taxi.no1",
+},
+{
+"\n",
+},
+{
+"showoff.no1",
+},
+{
+"\n",
+},
+{
+"fly.any",
+},
+{
+"fly.ok1",
+},
+{
+"fly.prefer.skyriding",
+},
+{
+"fly.skyriding.empty",
+},
+{
+"\n",
+},
+{
+"water.no",
+},
+{
+"\n",
+},
+{
+"ground.use",
+},
+{
+"usable.all",
+6,
+},
+{
+"pick.iterator",
+6,
+},
+{
+"\n",
+},
+{
+"picked",
+"Ground mount",
 "Machine Defense Unit 1-11",
 },
 },
 },
 {
-["date"] = "09.10.2024 09:49",
+["date"] = "12.10.2024 21:56",
 ["log"] = {
 {
 "\n",
@@ -529,26 +503,172 @@ _Mounty_C = {
 "fly.ok1",
 },
 {
-"fly.prefer.steadyflight",
+"fly.prefer.skyriding",
 },
 {
-"fly.use",
+"fly.skyriding.empty",
+},
+{
+"\n",
+},
+{
+"water.no",
+},
+{
+"\n",
+},
+{
+"ground.use",
 },
 {
 "usable.all",
-5,
+6,
 },
 {
 "pick.iterator",
-5,
+6,
 },
 {
 "\n",
 },
 {
 "picked",
-"Flying mount",
-"Sapphire Skyblazer",
+"Ground mount",
+"Felcrystal Scorpion",
+},
+},
+},
+{
+["date"] = "12.10.2024 21:56",
+["log"] = {
+{
+"\n",
+},
+{
+"repair.no",
+76,
+},
+{
+"\n",
+},
+{
+"taxi.no1",
+},
+{
+"\n",
+},
+{
+"showoff.no1",
+},
+{
+"\n",
+},
+{
+"fly.any",
+},
+{
+"fly.ok1",
+},
+{
+"fly.prefer.skyriding",
+},
+{
+"fly.skyriding.empty",
+},
+{
+"\n",
+},
+{
+"water.no",
+},
+{
+"\n",
+},
+{
+"ground.use",
+},
+{
+"usable.all",
+6,
+},
+{
+"pick.iterator",
+6,
+},
+{
+"\n",
+},
+{
+"picked",
+"Ground mount",
+"Seething Slug",
+},
+},
+},
+{
+["date"] = "12.10.2024 21:56",
+["log"] = {
+{
+"\n",
+},
+{
+"repair.no",
+76,
+},
+{
+"\n",
+},
+{
+"taxi.no1",
+},
+{
+"\n",
+},
+{
+"showoff.no1",
+},
+{
+"\n",
+},
+{
+"fly.any",
+},
+{
+"fly.ok1",
+},
+{
+"fly.prefer.skyriding",
+},
+{
+"fly.skyriding.empty",
+},
+{
+"\n",
+},
+{
+"water.no",
+},
+{
+"\n",
+},
+{
+"ground.use",
+},
+{
+"usable.all",
+6,
+},
+{
+"pick.iterator",
+6,
+},
+{
+"\n",
+},
+{
+"picked",
+"Ground mount",
+"Slatestone Ramolith",
 },
 },
 },
@@ -557,7 +677,7 @@ _Mounty_C = {
 ["Mounty"] = {
 ["Together"] = false,
 ["Iterator"] = {
-2,
+3,
 3,
 0,
 0,
@@ -686,7 +806,7 @@ _Mounty_C = {
 385262,
 385266,
 347812,
-448188,
+0,
 0,
 0,
 0,

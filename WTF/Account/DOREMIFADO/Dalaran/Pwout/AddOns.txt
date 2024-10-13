@@ -27,7 +27,7 @@ ShadowedUnitFrames: disabled
 SilentWorldQuest: enabled
 SilentWorldQuestOptions: enabled
 Simulationcraft: enabled
-Skada: enabled
+Skada: disabled
 SlowFaller: enabled
 SoulbindCacheOpener: enabled
 TeleportCloak: enabled
@@ -105,3 +105,5 @@ Narcissus_GamePad: enabled
 SharedMedia: enabled
 SharedMedia_MyMedia: enabled
 TomTom: enabled
+DBM-Affixes: enabled
+DBM-Core: enabled

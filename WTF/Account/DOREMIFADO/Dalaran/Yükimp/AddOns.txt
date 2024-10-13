@@ -15,7 +15,7 @@ RaiderIO_DB_KR_F: disabled
 WeakAuras: enabled
 SlowFaller: enabled
 RaiderIO: enabled
-Skada: enabled
+Skada: disabled
 DynamicCam: disabled
 PersonalLootHelper: enabled
 WorldQuestTracker: disabled
@@ -102,11 +102,11 @@ TomCats-HallowsEnd: disabled
 TomCats-LoveIsInTheAir: disabled
 TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
-DBM-Core: disabled
+DBM-Core: enabled
 DBM-StatusBarTimers: enabled
 LittleWigs_BattleForAzeroth: enabled
 LittleWigs_Cataclysm: enabled
-DBM-Affixes: disabled
+DBM-Affixes: enabled
 ShadowedUnitFrames: disabled
 WagoAppCompanion: disabled
 BigWigs_Aberrus: enabled

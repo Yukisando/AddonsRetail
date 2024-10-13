@@ -57,7 +57,7 @@ ShadowedUnitFrames: disabled
 SilentWorldQuest: enabled
 SilentWorldQuestOptions: enabled
 Simulationcraft: enabled
-Skada: enabled
+Skada: disabled
 SlowFaller: enabled
 SoulbindCacheOpener: enabled
 TeleportCloak: enabled
@@ -111,3 +111,5 @@ Ace3: enabled
 TLV_Mounty: enabled
 SharedMedia: enabled
 SharedMedia_MyMedia: enabled
+DBM-Affixes: enabled
+DBM-Core: enabled

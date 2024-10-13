@@ -11,11 +11,12 @@ HandyNotesDB = {
 ["Pantoufle - Dalaran"] = "Pantoufle - Dalaran",
 ["Coroutine - Dalaran"] = "Coroutine - Dalaran",
 ["Yükimp - Dalaran"] = "Yükimp - Dalaran",
-["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
-["Poucévoux - Dalaran"] = "Poucévoux - Dalaran",
+["Yükikstarter - Dalaran"] = "Yükikstarter - Dalaran",
 ["Groskiki - Dalaran"] = "Groskiki - Dalaran",
-["Peestache - Dalaran"] = "Peestache - Dalaran",
 ["Yäta - Eitrigg"] = "Yäta - Eitrigg",
+["Poucévoux - Dalaran"] = "Poucévoux - Dalaran",
+["Peestache - Dalaran"] = "Peestache - Dalaran",
+["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
 ["Superbarbe - Dalaran"] = "Superbarbe - Dalaran",
 ["Yükisan - Dalaran"] = "Yükisan - Dalaran",
 },
@@ -40,15 +41,17 @@ HandyNotesDB = {
 },
 ["Yükimp - Dalaran"] = {
 },
-["Yukiwaifu - Dalaran"] = {
-},
-["Poucévoux - Dalaran"] = {
+["Yükikstarter - Dalaran"] = {
 },
 ["Groskiki - Dalaran"] = {
 },
+["Yäta - Eitrigg"] = {
+},
+["Poucévoux - Dalaran"] = {
+},
 ["Peestache - Dalaran"] = {
 },
-["Yäta - Eitrigg"] = {
+["Yukiwaifu - Dalaran"] = {
 },
 ["Superbarbe - Dalaran"] = {
 },
@@ -68,11 +71,12 @@ HandyNotes_HandyNotesDB = {
 ["Pantoufle - Dalaran"] = "Pantoufle - Dalaran",
 ["Coroutine - Dalaran"] = "Coroutine - Dalaran",
 ["Yükimp - Dalaran"] = "Yükimp - Dalaran",
-["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
-["Poucévoux - Dalaran"] = "Poucévoux - Dalaran",
+["Yükikstarter - Dalaran"] = "Yükikstarter - Dalaran",
 ["Groskiki - Dalaran"] = "Groskiki - Dalaran",
-["Peestache - Dalaran"] = "Peestache - Dalaran",
 ["Yäta - Eitrigg"] = "Yäta - Eitrigg",
+["Poucévoux - Dalaran"] = "Poucévoux - Dalaran",
+["Peestache - Dalaran"] = "Peestache - Dalaran",
+["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
 ["Superbarbe - Dalaran"] = "Superbarbe - Dalaran",
 ["Yükisan - Dalaran"] = "Yükisan - Dalaran",
 },
@@ -97,15 +101,17 @@ HandyNotes_HandyNotesDB = {
 },
 ["Yükimp - Dalaran"] = {
 },
-["Yukiwaifu - Dalaran"] = {
-},
-["Poucévoux - Dalaran"] = {
+["Yükikstarter - Dalaran"] = {
 },
 ["Groskiki - Dalaran"] = {
 },
+["Yäta - Eitrigg"] = {
+},
+["Poucévoux - Dalaran"] = {
+},
 ["Peestache - Dalaran"] = {
 },
-["Yäta - Eitrigg"] = {
+["Yukiwaifu - Dalaran"] = {
 },
 ["Superbarbe - Dalaran"] = {
 },

@@ -1,3 +1,13 @@
+### 1.2.0
+- Updated behavior and option "Double Click to Recast while Fishing (Modifier Key Hooks), inverted when off"
+So when you double click now when the option is off (which is the default) it hooks now instead of doing nothing
+
+- Did you know? You can use controller bindings to fish
+/console GamePadEnable 1 to enable gamepad mode
+/console GamePadEnable 0 to disable gamepad mode again
+in the keybinding ui you can then bind your controller key, and use that to fish with, sit back and relax
+use the fantastic **ConsolePort** addon if you want a controller optimized UI
+
 ### 1.1.28
 - Version Update
 

@@ -45,7 +45,7 @@ WeakAuras: enabled
 OPie: enabled
 Peddler: enabled
 ReagentBanker: disabled
-Skada: enabled
+Skada: disabled
 SlowFaller: enabled
 Doom_CooldownPulse: enabled
 Auctionator: enabled
@@ -134,3 +134,5 @@ WeakAurasModelPaths: enabled
 WeakAurasOptions: enabled
 WeakAurasTemplates: enabled
 WorldQuestsList: enabled
+DBM-Affixes: enabled
+DBM-Core: enabled

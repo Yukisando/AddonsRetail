@@ -119,6 +119,8 @@ WorldFrame:HookScript("OnMouseDown", function(_, button, down)
       if (doubleClickTime >= internal.DOUBLECLICK_MIN_SECONDS and doubleClickTime <= BetterFishingDB.doubleClickSpeed) then
         if BetterFishing:AllowFishing() then
           SetOverrideBindingClick(BetterFishing:GetSecureButton(), true, "BUTTON2", addonName.."Button")
+        elseif BetterFishing:IsFishing() then
+          SetOverrideBinding(BetterFishing:GetSecureButton(), true, "BUTTON2", "INTERACTTARGET")
         end
         internal.previousClickTime = nil
       end
@@ -170,8 +172,12 @@ function BetterFishing:AllowFishing()
     return false
   end
 
-  if self:IsFishing() and not BetterFishingDB.recastOnDoubleClick or (not BetterFishingDB.overrideLunker and self:IsLunkerActive()) then
+  if not BetterFishingDB.overrideLunker and self:IsLunkerActive() then
     return false
+  end
+
+  if self:IsFishing() then
+    return (BetterFishingDB.recastOnDoubleClick and not IsModifierKeyDown()) or (not BetterFishingDB.recastOnDoubleClick and IsModifierKeyDown())
   end
 
   return true

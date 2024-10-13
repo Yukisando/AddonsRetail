@@ -105,7 +105,7 @@ ControlPanel: disabled
 ControlPanel_Options: disabled
 Arh: disabled
 WorldQuestTracker: enabled
-Skada: enabled
+Skada: disabled
 Cecile_MeterOverlay: disabled
 HandyNotes_LegionRaresTreasures: enabled
 HideChatButton: disabled
@@ -358,3 +358,4 @@ SharedMedia: enabled
 SharedMedia_MyMedia: enabled
 TeleportCloak: enabled
 UnlimitedMapPinDistance: enabled
+DBM-Affixes: enabled

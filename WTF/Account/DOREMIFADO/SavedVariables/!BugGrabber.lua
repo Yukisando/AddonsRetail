@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 702,
 ["lastSanitation"] = 3,
+["session"] = 711,
 ["errors"] = {
 {
 ["message"] = "Lua error in aura 'Mythic+ Interrupt Tracker v3': init\nWeakAuras Version: 5.0.5\nAura Version: 1.0.0-18\n[string \"return function() aura_env.inspectLib = Lib...\"]:26: attempt to index field 'displays' (a nil value)",
@@ -381,26 +381,26 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/savageauction/core.lua:1 Interface/AddOns/savageauction/core.lua:61: 'then' expected near 'end'",
-["time"] = "2022/12/06 17:21:47",
 ["session"] = 238,
+["time"] = "2022/12/06 17:21:47",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/savageauction/core.lua:1 Interface/AddOns/savageauction/core.lua:61: 'then' expected near 'end'",
-["time"] = "2022/12/06 17:21:47",
 ["session"] = 238,
+["time"] = "2022/12/06 17:21:47",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:4 Error loading Interface/AddOns/savageauction/MyAuctionAddon.lua",
-["session"] = 239,
 ["time"] = "2022/12/06 17:25:58",
+["session"] = 239,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface\\FrameXML\\Bindings.xml:4 Error loading Interface/AddOns/savageauction/MyAuctionAddon.lua",
-["session"] = 239,
 ["time"] = "2022/12/06 17:25:58",
+["session"] = 239,
 ["counter"] = 1,
 },
 {
@@ -413,14 +413,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/savageauction/MyAuctionAddon.lua:1 (null)",
-["time"] = "2022/12/06 17:26:29",
 ["session"] = 240,
+["time"] = "2022/12/06 17:26:29",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/savageauction/MyAuctionAddon.lua:1 (null)",
-["time"] = "2022/12/06 17:26:29",
 ["session"] = 240,
+["time"] = "2022/12/06 17:26:29",
 ["counter"] = 1,
 },
 {
@@ -433,14 +433,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/savageauction/core.lua:1 (null)",
-["session"] = 241,
 ["time"] = "2022/12/06 17:27:25",
+["session"] = 241,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/savageauction/core.lua:1 (null)",
-["session"] = 241,
 ["time"] = "2022/12/06 17:27:25",
+["session"] = 241,
 ["counter"] = 1,
 },
 {
@@ -453,14 +453,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/SavageAuction/core.lua:1 (null)",
-["time"] = "2022/12/06 17:28:30",
 ["session"] = 242,
+["time"] = "2022/12/06 17:28:30",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/SavageAuction/core.lua:1 (null)",
-["time"] = "2022/12/06 17:28:30",
 ["session"] = 242,
+["time"] = "2022/12/06 17:28:30",
 ["counter"] = 1,
 },
 {
@@ -473,14 +473,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/SavageAuction/core.lua:1 Interface/AddOns/SavageAuction/core.lua:17: function arguments expected near ')'",
-["session"] = 243,
 ["time"] = "2022/12/06 17:33:39",
+["session"] = 243,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/SavageAuction/core.lua:1 Interface/AddOns/SavageAuction/core.lua:17: function arguments expected near ')'",
-["session"] = 243,
 ["time"] = "2022/12/06 17:33:39",
+["session"] = 243,
 ["counter"] = 1,
 },
 {
@@ -565,14 +565,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:2 File Interface/AddOns/SavageAuction/core.lua is empty.",
-["session"] = 275,
 ["time"] = "2022/12/06 17:35:44",
+["session"] = 275,
 ["counter"] = 31,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface\\FrameXML\\Bindings.xml:2 File Interface/AddOns/SavageAuction/core.lua is empty.",
-["session"] = 275,
 ["time"] = "2022/12/06 17:35:44",
+["session"] = 275,
 ["counter"] = 31,
 },
 {
@@ -630,26 +630,26 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/WorldQuestsList/util.lua:1 (null)",
-["time"] = "2022/12/12 10:09:21",
 ["session"] = 307,
+["time"] = "2022/12/12 10:09:21",
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/WorldQuestsList/WorldQuestsList.lua:1 (null)",
-["time"] = "2022/12/12 10:09:21",
 ["session"] = 307,
+["time"] = "2022/12/12 10:09:21",
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/WorldQuestsList/util.lua:1 (null)",
-["time"] = "2022/12/12 10:09:21",
 ["session"] = 307,
+["time"] = "2022/12/12 10:09:21",
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/WorldQuestsList/WorldQuestsList.lua:1 (null)",
-["time"] = "2022/12/12 10:09:21",
 ["session"] = 307,
+["time"] = "2022/12/12 10:09:21",
 ["counter"] = 2,
 },
 {
@@ -678,62 +678,62 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:312 Unrecognized XML: Backdrop",
-["session"] = 313,
 ["time"] = "2022/12/12 16:58:24",
+["session"] = 313,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:312 Unrecognized XML attribute: bgFile",
-["session"] = 313,
 ["time"] = "2022/12/12 16:58:24",
+["session"] = 313,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:312 Unrecognized XML attribute: edgeFile",
-["session"] = 313,
 ["time"] = "2022/12/12 16:58:24",
+["session"] = 313,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:312 Unrecognized XML attribute: tile",
-["session"] = 313,
 ["time"] = "2022/12/12 16:58:24",
+["session"] = 313,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:313 Unrecognized XML: EdgeSize",
-["session"] = 313,
 ["time"] = "2022/12/12 16:58:24",
+["session"] = 313,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:314 Unrecognized XML: AbsValue",
-["session"] = 313,
 ["time"] = "2022/12/12 16:58:24",
+["session"] = 313,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:314 Unrecognized XML attribute: val",
-["session"] = 313,
 ["time"] = "2022/12/12 16:58:24",
+["session"] = 313,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:316 Unrecognized XML: TileSize",
-["session"] = 313,
 ["time"] = "2022/12/12 16:58:24",
+["session"] = 313,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:317 Unrecognized XML: AbsValue",
-["session"] = 313,
 ["time"] = "2022/12/12 16:58:24",
+["session"] = 313,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:317 Unrecognized XML attribute: val",
-["session"] = 313,
 ["time"] = "2022/12/12 16:58:24",
+["session"] = 313,
 ["counter"] = 1,
 },
 {
@@ -770,8 +770,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/DBM-DragonIsles/Liskanoth.lua:1 (null)",
-["session"] = 315,
 ["time"] = "2022/12/14 12:58:56",
+["session"] = 315,
 ["counter"] = 2,
 },
 {
@@ -991,8 +991,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/EasyScrap/Frames/EasyScrapXMLFrames.xml:72 Couldn't find inherited node: AutoCastShineTemplate",
-["time"] = "2024/08/06 09:26:27",
 ["session"] = 532,
+["time"] = "2024/08/06 09:26:27",
 ["counter"] = 15,
 },
 {
@@ -1085,8 +1085,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/Blizzard_APIDocumentationGenerated/PetConstantsDocumentation.lua:1 .../AddOns/Blizzard_APIDocumentationGenerated/PetConstantsDocumentation.lua:14: '}' expected near 'MAX_SUMMONABLE_HUNTER_PETS'",
-["session"] = 541,
 ["time"] = "2024/08/17 16:31:22",
+["session"] = 541,
 ["counter"] = 6,
 },
 {
@@ -1299,14 +1299,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/MythicDungeonTools/MythicDungeonTools.toc:27 Error loading Interface/AddOns/MythicDungeonTools/Utility.lua",
-["time"] = "2024/08/19 20:15:02",
 ["session"] = 553,
+["time"] = "2024/08/19 20:15:02",
 ["counter"] = 4,
 },
 {
 ["message"] = "Interface/AddOns/MythicDungeonTools/MythicDungeonTools.toc:35 Couldn't open Interface/AddOns/MythicDungeonTools/TheWarWithin/load_thewarwithin.xml",
-["time"] = "2024/08/19 20:15:02",
 ["session"] = 553,
+["time"] = "2024/08/19 20:15:02",
 ["counter"] = 4,
 },
 {
@@ -1554,6 +1554,14 @@ BugGrabberDB = {
 ["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `SetPassThroughButtons'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua\"]:224: in function `CheckMouseButtonPassthrough'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua\"]:209: in function `AcquirePin'\n[string \"@Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua\"]:97: in function <...haredMapDataProviders/BonusObjectiveDataProvider.lua:92>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua\"]:76: in function `FireCallbacks'\n[string \"@Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua\"]:35: in function <.../Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua:31>\n[string \"=[C]\"]: in function `accessor'\n[string \"@Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua\"]:52: in function `AddCallback'\n[string \"@Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua\"]:60: in function `AddCancelableCallback'\n[string \"@Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua\"]:92: in function `RefreshAllData'\n[string \"@Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua\"]:65: in function `OnEvent'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua\"]:99: in function `SignalEvent'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua\"]:106: in function <...ace/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua:105>\n[string \"=[C]\"]: in function `secureexecuterange'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua\"]:109: in function `OnEvent'\n[string \"@Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua\"]:148: in function <...rface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua:147>",
 ["session"] = 698,
 ["counter"] = 8,
+},
+{
+["message"] = "...ib/SpecializedLibBars-1.0-900001/SpecializedLibBars-1.0.lua:1039: Action[SetPoint] failed because[Cannot anchor to a region dependent on it]: attempted from: Frame:SetPoint.",
+["time"] = "2024/10/09 17:14:36",
+["locals"] = "(*temporary) = Frame {\n order = 9\n ownerGroup = SkadaBarWindowSkada {\n }\n gradMap = <table> {\n }\n iconFrame = Frame {\n }\n value = 549276\n length = 321.750061\n icon = Texture {\n }\n iconTexture = 134400\n maxValue = 560701\n text = \"Yükimp\"\n timerLabel = FontString {\n }\n name = \"Player-1621-06D67496\"\n lastamount = 1\n win = <table> {\n }\n label = FontString {\n }\n callbacks = <table> {\n }\n bgtexture = Texture {\n }\n showLabel = true\n showIcon = false\n targetdist = 321.750061\n id = \"Player-1621-06D67496\"\n targetamount = 0.979624\n thickness = 26\n fixed = true\n showTimerLabel = true\n emphathize_set = false\n orientation = 1\n texture = Texture {\n }\n colors = <table> {\n }\n}\n(*temporary) = \"BOTTOMLEFT\"\n(*temporary) = Frame {\n order = 7\n ownerGroup = SkadaBarWindowSkada {\n }\n gradMap = <table> {\n }\n iconFrame = Frame {\n }\n value = 560701\n length = 321.750061\n icon = Texture {\n }\n iconTexture = 134400\n maxValue = 560701\n text = \"Adamsavage\"\n timerLabel = FontString {\n }\n name = \"Player-1621-063C318F\"\n lastamount = 0.964562\n win = <table> {\n }\n label = FontString {\n }\n callbacks = <table> {\n }\n bgtexture = Texture {\n }\n showLabel = true\n showIcon = false\n targetdist = 321.750061\n id = \"Player-1621-063C318F\"\n targetamount = 1\n thickness = 26\n fixed = false\n showTimerLabel = true\n emphathize_set = false\n orientation = 1\n texture = Texture {\n }\n colors = <table> {\n }\n}\n(*temporary) = \"TOPLEFT\"\n(*temporary) = 0\n(*temporary) = 0\n",
+["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/AddOns/Skada/lib/SpecializedLibBars-1.0-900001/SpecializedLibBars-1.0.lua\"]:1039: in function `SortBars'\n[string \"@Interface/AddOns/Skada/BarDisplay.lua\"]:461: in function `Update'\n[string \"@Interface/AddOns/Skada/Skada.lua\"]:349: in function `UpdateDisplay'\n[string \"@Interface/AddOns/Skada/Skada.lua\"]:2057: in function `?'\n[string \"@Interface/AddOns/Ace3/AceTimer-3.0-17/AceTimer-3.0.lua\"]:55: in function <Interface/AddOns/Ace3/AceTimer-3.0/AceTimer-3.0.lua:50>",
+["session"] = 704,
+["counter"] = 37,
 },
 },
 }

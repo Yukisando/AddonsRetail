@@ -4,7 +4,7 @@ SlowFaller_DB = {
 ["Slowfall"] = true,
 ["Levitate"] = true,
 ["Flightform"] = true,
-["Zenflight"] = true,
-["Flap"] = true,
 ["Custom"] = false,
+["Flap"] = true,
+["Zenflight"] = true,
 }

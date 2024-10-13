@@ -1,4 +1,4 @@
 
 EasyScrap_IgnoreList = {
-["addonVersion"] = 34,
+["addonVersion"] = 39,
 }

@@ -39,7 +39,7 @@ RaiderIO_DB_EU_R: disabled
 RaiderIO_DB_EU_F: disabled
 ReagentBanker: disabled
 Simulationcraft: enabled
-Skada: enabled
+Skada: disabled
 Glass: disabled
 SharedMedia_Celestian: enabled
 Sorted: disabled
@@ -139,3 +139,5 @@ WeakAurasModelPaths: enabled
 WeakAurasOptions: enabled
 WeakAurasTemplates: enabled
 WorldQuestsList: enabled
+DBM-Affixes: enabled
+DBM-Core: enabled
