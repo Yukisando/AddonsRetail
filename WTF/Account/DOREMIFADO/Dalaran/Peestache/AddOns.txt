@@ -256,3 +256,5 @@ SharedMedia_MyMedia: enabled
 TeleportCloak: enabled
 UnlimitedMapPinDistance: enabled
 DBM-Affixes: enabled
+Sorted_Scrap: enabled
+NameplateContextMenu: disabled

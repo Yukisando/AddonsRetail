@@ -1,3 +1,6 @@
+### 1.3.0
+- Double-click Fishing in Delves/Dungeons works now regardless of group size
+
 ### 1.2.0
 - Updated behavior and option "Double Click to Recast while Fishing (Modifier Key Hooks), inverted when off"
 So when you double click now when the option is off (which is the default) it hooks now instead of doing nothing

@@ -147,7 +147,7 @@ Immersion: disabled
 WarpDeplete: disabled
 Sorted_CanIMogIt: disabled
 Sorted_Pawn: disabled
-Sorted_Scrap: disabled
+Sorted_Scrap: enabled
 DBM-Party-MoP: enabled
 AverageItemLevel: disabled
 BtWQuests: enabled
@@ -231,3 +231,4 @@ SharedMedia_MyMedia: enabled
 TeleportCloak: enabled
 UnlimitedMapPinDistance: enabled
 DBM-Affixes: enabled
+NameplateContextMenu: disabled

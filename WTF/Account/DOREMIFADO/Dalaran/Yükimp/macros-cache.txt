@@ -74,7 +74,7 @@ VER 3 0100000000000007 "Soulstone" "134400"
 END
 VER 3 0100000000000017 "TP" "134400"
 #showtooltip Ritual of Summoning
-/p Grande Teleporto!
+/yell Grande Teleporto!
 /cast Ritual of Summoning
 END
 VER 3 010000000000001A "Trink 2" "134400"

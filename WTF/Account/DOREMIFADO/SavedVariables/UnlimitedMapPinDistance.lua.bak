@@ -6,9 +6,9 @@ UMPD = {
 ["pinAlphaShort"] = 100,
 ["minDistance"] = 70,
 ["maxDistance"] = 0,
-["useMeters"] = false,
+["fadeDistance"] = 113,
+["shortNumbers"] = false,
 ["pinAlphaLong"] = 60,
 ["fadeMouseOver"] = true,
-["shortNumbers"] = false,
-["fadeDistance"] = 113,
+["useMeters"] = false,
 }

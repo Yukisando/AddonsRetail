@@ -13,6 +13,7 @@ MSBTProfiles_SavedVars = {
 ["textShadowingDisabled"] = true,
 ["creationVersion"] = "5.7.149",
 ["critFontSize"] = 38,
+["groupNumbers"] = true,
 ["events"] = {
 ["PET_INCOMING_HOT_CRIT"] = {
 ["disabled"] = true,
@@ -149,22 +150,22 @@ MSBTProfiles_SavedVars = {
 ["NOTIFICATION_NPC_KILLING_BLOW"] = {
 ["disabled"] = false,
 },
-["INCOMING_PARRY"] = {
+["SELF_HEAL"] = {
 ["disabled"] = true,
 },
 ["INCOMING_SPELL_DOT"] = {
 ["disabled"] = true,
 },
-["NOTIFICATION_EXPERIENCE_GAIN"] = {
-["disabled"] = false,
+["PET_INCOMING_IMMUNE"] = {
+["disabled"] = true,
 },
 ["INCOMING_HEAL_CRIT"] = {
 ["disabled"] = true,
 },
-["PET_INCOMING_SPELL_BLOCK"] = {
+["INCOMING_HOT"] = {
 ["disabled"] = true,
 },
-["PET_INCOMING_DAMAGE_CRIT"] = {
+["PET_INCOMING_ABSORB"] = {
 ["disabled"] = true,
 },
 ["PET_INCOMING_SPELL_ABSORB"] = {
@@ -176,13 +177,13 @@ MSBTProfiles_SavedVars = {
 ["INCOMING_SPELL_INTERRUPT"] = {
 ["disabled"] = true,
 },
-["INCOMING_MISS"] = {
+["INCOMING_SPELL_BLOCK"] = {
 ["disabled"] = true,
 },
 ["PET_INCOMING_HEAL_CRIT"] = {
 ["disabled"] = true,
 },
-["INCOMING_ENVIRONMENTAL"] = {
+["PET_INCOMING_SPELL_DEFLECT"] = {
 ["disabled"] = true,
 },
 ["OUTGOING_HOT"] = {
@@ -203,51 +204,50 @@ MSBTProfiles_SavedVars = {
 ["INCOMING_SPELL_DAMAGE_SHIELD"] = {
 ["disabled"] = true,
 },
-["PET_INCOMING_SPELL_DEFLECT"] = {
+["INCOMING_ENVIRONMENTAL"] = {
 ["disabled"] = true,
 },
 ["INCOMING_SPELL_RESIST"] = {
 ["disabled"] = true,
 },
-["INCOMING_SPELL_BLOCK"] = {
+["INCOMING_MISS"] = {
 ["disabled"] = true,
 },
 ["PET_INCOMING_HOT"] = {
 ["disabled"] = true,
 },
-["PET_INCOMING_ABSORB"] = {
+["PET_INCOMING_DAMAGE_CRIT"] = {
 ["disabled"] = true,
 },
-["INCOMING_HOT"] = {
+["PET_INCOMING_SPELL_BLOCK"] = {
 ["disabled"] = true,
 },
-["PET_INCOMING_IMMUNE"] = {
+["NOTIFICATION_EXPERIENCE_GAIN"] = {
+["disabled"] = false,
+},
+["INCOMING_PARRY"] = {
 ["disabled"] = true,
 },
-["SELF_HEAL"] = {
-["disabled"] = true,
 },
-},
-["groupNumbers"] = true,
+["hideSkills"] = true,
 ["scrollAreas"] = {
+["Outgoing"] = {
+["offsetX"] = 250,
+["offsetY"] = -158,
+},
 ["Static"] = {
 ["disabled"] = true,
 ["offsetY"] = -250,
+},
+["Notification"] = {
+["disabled"] = true,
 },
 ["Incoming"] = {
 ["offsetY"] = -158,
 ["offsetX"] = -270,
 ["disabled"] = true,
 },
-["Notification"] = {
-["disabled"] = true,
 },
-["Outgoing"] = {
-["offsetX"] = 250,
-["offsetY"] = -158,
-},
-},
-["hideSkills"] = true,
 ["normalFontName"] = "2002 Bold",
 ["healThreshold"] = 1500,
 ["damageThreshold"] = 700,

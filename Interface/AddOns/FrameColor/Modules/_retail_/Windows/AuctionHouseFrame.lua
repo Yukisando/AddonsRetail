@@ -66,7 +66,7 @@ function module:Recolor(color1, color2, color3, color4, desaturation)
         AuctionHouseFrameAuctionsFrame.AllAuctionsList,
         AuctionHouseFrameAuctionsFrame.BidsList,
         AuctionHouseFrame.CommoditiesSellFrame,
-        AuctionHouseFrame.CommoditiesSellList
+        AuctionHouseFrame.CommoditiesSellList,
     }) do 
         addon:SkinNineSliced(frame, color1, desaturation)
     end

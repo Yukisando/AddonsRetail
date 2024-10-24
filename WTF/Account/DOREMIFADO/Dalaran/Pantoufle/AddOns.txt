@@ -195,3 +195,5 @@ TeleportCloak: enabled
 UnlimitedMapPinDistance: enabled
 DBM-Affixes: enabled
 DBM-Core: enabled
+Sorted_Scrap: enabled
+NameplateContextMenu: disabled

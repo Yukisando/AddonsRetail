@@ -158,7 +158,7 @@ end
 
 function BetterFishing:AllowFishing()
   if not IsSpellKnown(self:GetFishingID())
-  or internal.isClassic and not self:IsFishingpoleEquipped()
+  or (internal.isClassic and not self:IsFishingpoleEquipped())
   or IsPlayerMoving()
   or IsMounted()
   or BetterFishing:IsFlying()
@@ -166,9 +166,8 @@ function BetterFishing:AllowFishing()
   or IsStealthed()
   or IsSwimming()
   or IsSubmerged()
-  or not HasFullControl()
   or UnitHasVehicleUI("player")
-  or IsInInstance() and GetNumGroupMembers() > 1 then
+  or not HasFullControl() then
     return false
   end
 

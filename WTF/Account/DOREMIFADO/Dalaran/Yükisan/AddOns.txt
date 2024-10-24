@@ -294,7 +294,7 @@ Parrot: disabled
 !BugGrabber: enabled
 HideBlizzard: disabled
 MouseoverActionBars: disabled
-Sorted_Scrap: disabled
+Sorted_Scrap: enabled
 Sorted_CanIMogIt: disabled
 Sorted_Pawn: disabled
 WarpDeplete: enabled
@@ -359,3 +359,4 @@ SharedMedia_MyMedia: enabled
 TeleportCloak: enabled
 UnlimitedMapPinDistance: enabled
 DBM-Affixes: enabled
+NameplateContextMenu: disabled

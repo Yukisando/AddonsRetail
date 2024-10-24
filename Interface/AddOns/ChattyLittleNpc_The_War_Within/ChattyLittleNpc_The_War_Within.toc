@@ -1,6 +1,6 @@
-## Interface: 110002
+## Interface: 110005
 ## Title: Chatty Little NPC: The War Withing
 ## Notes: This is a quest voiceover pack for Chatty Little NPC addon.
 ## Author: Tuubby
-## Version: 1.1.3
+## Version: 1.1.4
 ## Dependencies: ChattyLittleNPC

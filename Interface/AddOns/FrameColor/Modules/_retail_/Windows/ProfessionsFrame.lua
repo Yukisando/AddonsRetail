@@ -56,7 +56,9 @@ function module:Recolor(color1, color2, color3, color4, desaturation)
     for _,frame in pairs({
         ProfessionsFrame,
         ProfessionsFrame.CraftingPage.SchematicForm,
-        ProfessionsFrame.CraftingPage.CraftingOutputLog
+        ProfessionsFrame.CraftingPage.CraftingOutputLog,
+        ProfessionsFrame.CraftingPage.SchematicForm.QualityDialog,
+        ProfessionsFrame.OrdersPage.OrderView.CraftingOutputLog,
     }) do 
         addon:SkinNineSliced(frame, color1, desaturation)
     end
@@ -67,7 +69,7 @@ function module:Recolor(color1, color2, color3, color4, desaturation)
     end
     --reskin tabs
     addon:SkinTabs(ProfessionsFrame, color3)
-    for _, texture in pairs({
+        for _, texture in pairs({
         ProfessionsFrame.OrdersPage.BrowseFrame.PublicOrdersButton.Left,
         ProfessionsFrame.OrdersPage.BrowseFrame.PublicOrdersButton.Middle,
         ProfessionsFrame.OrdersPage.BrowseFrame.PublicOrdersButton.Right,

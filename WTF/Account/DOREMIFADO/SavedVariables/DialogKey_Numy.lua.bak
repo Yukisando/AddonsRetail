@@ -15,11 +15,11 @@ DialogKeyNumyDB = {
 ["dontClickSummons"] = true,
 ["dontClickRevives"] = true,
 ["dontClickDuels"] = true,
-["numKeysForPlayerChoice"] = true,
+["numKeysForGossip"] = true,
 ["useSoulstoneRez"] = true,
 ["handleCraftingOrders"] = true,
 ["dialogBlacklist"] = {
 },
 ["dontClickReleases"] = true,
-["numKeysForGossip"] = true,
+["numKeysForPlayerChoice"] = true,
 }

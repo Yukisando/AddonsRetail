@@ -60,7 +60,7 @@ WeakAurasTemplates: enabled
 WorldBossTimers: enabled
 BetterFishing: enabled
 Sorted_CanIMogIt: disabled
-Sorted_Scrap: disabled
+Sorted_Scrap: enabled
 Sorted_Pawn: disabled
 Sorted: disabled
 DragonBinds: disabled
@@ -167,3 +167,4 @@ Plumber: enabled
 SharedMedia: enabled
 SharedMedia_MyMedia: enabled
 TeleportCloak: enabled
+NameplateContextMenu: disabled

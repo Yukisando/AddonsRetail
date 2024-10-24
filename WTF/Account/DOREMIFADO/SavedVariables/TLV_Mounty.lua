@@ -2295,7 +2295,7 @@ _Mounty_A = {
 ["AutoOpen"] = false,
 ["Version"] = "03000700",
 ["QuickStart"] = false,
-["WhyAutoShort"] = false,
 ["JournalButtonOffset"] = 0,
+["WhyAutoShort"] = false,
 ["DebugMode"] = false,
 }

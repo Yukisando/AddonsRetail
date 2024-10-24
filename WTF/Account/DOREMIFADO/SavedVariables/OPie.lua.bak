@@ -3,9 +3,9 @@ OneRing_Config = nil
 OPie_SavedData = {
 ["CharProfiles"] = {
 ["Dalaran-Peestache"] = "Yuki",
-["Dalaran-Superbarbe-2"] = "Yuki",
-["Dalaran-Yükisan-3"] = "Yuki",
 ["Dalaran-Canplay"] = "Yuki",
+["Dalaran-Yükisan-3"] = "Yuki",
+["Dalaran-Superbarbe-2"] = "Yuki",
 ["Dalaran-Wifi-3"] = "Yuki",
 },
 ["_OPieVersion"] = "Ørred 1a (4.131)",
@@ -26,12 +26,12 @@ OPie_SavedData = {
 ["SpecMenu"] = "ALT-2",
 ["CommonTrades"] = "ALT-3",
 ["CommonHearth"] = "ALT-5",
-["OPieAutoQuest"] = "1",
 ["WorldMarkers"] = false,
+["OPieTracking"] = false,
 ["Tools"] = "ALT-1",
 ["Targeting"] = false,
 ["MageTravel"] = "ALT-2",
-["OPieTracking"] = false,
+["OPieAutoQuest"] = "1",
 },
 },
 ["Yuki"] = {
@@ -41,12 +41,12 @@ OPie_SavedData = {
 ["SpecMenu"] = false,
 ["CommonTrades"] = false,
 ["CommonHearth"] = "ALT-3",
-["MageTravel"] = "ALT-2",
-["OPieAutoQuest"] = "1",
 ["Tools"] = "ALT-1",
+["OPieTracking"] = false,
+["MageTravel"] = "ALT-2",
 ["Targeting"] = false,
 ["WorldMarkers"] = false,
-["OPieTracking"] = false,
+["OPieAutoQuest"] = "1",
 },
 ["RotationTokens"] = {
 ["OPCTAt"] = "OPCHSdo",
@@ -72,8 +72,8 @@ OPie_SavedData = {
 ["sliceToken"] = "ABuedvFrK1t",
 },
 ["save"] = true,
-["name"] = "Normal",
 ["limit"] = "Sojä-Dalaran",
+["name"] = "Normal",
 },
 ["OPieDeletedRings"] = {
 ["MageTools"] = true,
@@ -227,8 +227,8 @@ OPie_SavedData = {
 ["sliceToken"] = "ABuedntc0Ue",
 },
 ["save"] = true,
-["limit"] = "Yükisan-Dalaran",
 ["name"] = "Targeting",
+["limit"] = "Yükisan-Dalaran",
 },
 ["eportation"] = {
 {

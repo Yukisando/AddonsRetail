@@ -113,3 +113,6 @@ SharedMedia: enabled
 SharedMedia_MyMedia: enabled
 DBM-Affixes: enabled
 DBM-Core: enabled
+Sorted: disabled
+Sorted_Scrap: enabled
+NameplateContextMenu: disabled

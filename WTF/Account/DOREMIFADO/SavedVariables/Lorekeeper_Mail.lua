@@ -1,0 +1,2 @@
+
+LoreKMail_DB = nil

@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+["session"] = 724,
 ["lastSanitation"] = 3,
-["session"] = 711,
 ["errors"] = {
 {
 ["message"] = "Lua error in aura 'Mythic+ Interrupt Tracker v3': init\nWeakAuras Version: 5.0.5\nAura Version: 1.0.0-18\n[string \"return function() aura_env.inspectLib = Lib...\"]:26: attempt to index field 'displays' (a nil value)",
@@ -381,26 +381,26 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/savageauction/core.lua:1 Interface/AddOns/savageauction/core.lua:61: 'then' expected near 'end'",
-["session"] = 238,
 ["time"] = "2022/12/06 17:21:47",
+["session"] = 238,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/savageauction/core.lua:1 Interface/AddOns/savageauction/core.lua:61: 'then' expected near 'end'",
-["session"] = 238,
 ["time"] = "2022/12/06 17:21:47",
+["session"] = 238,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:4 Error loading Interface/AddOns/savageauction/MyAuctionAddon.lua",
-["time"] = "2022/12/06 17:25:58",
 ["session"] = 239,
+["time"] = "2022/12/06 17:25:58",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface\\FrameXML\\Bindings.xml:4 Error loading Interface/AddOns/savageauction/MyAuctionAddon.lua",
-["time"] = "2022/12/06 17:25:58",
 ["session"] = 239,
+["time"] = "2022/12/06 17:25:58",
 ["counter"] = 1,
 },
 {
@@ -413,14 +413,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/savageauction/MyAuctionAddon.lua:1 (null)",
-["session"] = 240,
 ["time"] = "2022/12/06 17:26:29",
+["session"] = 240,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/savageauction/MyAuctionAddon.lua:1 (null)",
-["session"] = 240,
 ["time"] = "2022/12/06 17:26:29",
+["session"] = 240,
 ["counter"] = 1,
 },
 {
@@ -433,14 +433,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/savageauction/core.lua:1 (null)",
-["time"] = "2022/12/06 17:27:25",
 ["session"] = 241,
+["time"] = "2022/12/06 17:27:25",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/savageauction/core.lua:1 (null)",
-["time"] = "2022/12/06 17:27:25",
 ["session"] = 241,
+["time"] = "2022/12/06 17:27:25",
 ["counter"] = 1,
 },
 {
@@ -453,14 +453,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/SavageAuction/core.lua:1 (null)",
-["session"] = 242,
 ["time"] = "2022/12/06 17:28:30",
+["session"] = 242,
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/SavageAuction/core.lua:1 (null)",
-["session"] = 242,
 ["time"] = "2022/12/06 17:28:30",
+["session"] = 242,
 ["counter"] = 1,
 },
 {
@@ -473,14 +473,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/SavageAuction/core.lua:1 Interface/AddOns/SavageAuction/core.lua:17: function arguments expected near ')'",
-["time"] = "2022/12/06 17:33:39",
 ["session"] = 243,
+["time"] = "2022/12/06 17:33:39",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/SavageAuction/core.lua:1 Interface/AddOns/SavageAuction/core.lua:17: function arguments expected near ')'",
-["time"] = "2022/12/06 17:33:39",
 ["session"] = 243,
+["time"] = "2022/12/06 17:33:39",
 ["counter"] = 1,
 },
 {
@@ -565,14 +565,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:2 File Interface/AddOns/SavageAuction/core.lua is empty.",
-["time"] = "2022/12/06 17:35:44",
 ["session"] = 275,
+["time"] = "2022/12/06 17:35:44",
 ["counter"] = 31,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface\\FrameXML\\Bindings.xml:2 File Interface/AddOns/SavageAuction/core.lua is empty.",
-["time"] = "2022/12/06 17:35:44",
 ["session"] = 275,
+["time"] = "2022/12/06 17:35:44",
 ["counter"] = 31,
 },
 {
@@ -630,26 +630,26 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/WorldQuestsList/util.lua:1 (null)",
-["session"] = 307,
 ["time"] = "2022/12/12 10:09:21",
+["session"] = 307,
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/WorldQuestsList/WorldQuestsList.lua:1 (null)",
-["session"] = 307,
 ["time"] = "2022/12/12 10:09:21",
+["session"] = 307,
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/WorldQuestsList/util.lua:1 (null)",
-["session"] = 307,
 ["time"] = "2022/12/12 10:09:21",
+["session"] = 307,
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/WorldQuestsList/WorldQuestsList.lua:1 (null)",
-["session"] = 307,
 ["time"] = "2022/12/12 10:09:21",
+["session"] = 307,
 ["counter"] = 2,
 },
 {
@@ -678,62 +678,62 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:312 Unrecognized XML: Backdrop",
-["time"] = "2022/12/12 16:58:24",
 ["session"] = 313,
+["time"] = "2022/12/12 16:58:24",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:312 Unrecognized XML attribute: bgFile",
-["time"] = "2022/12/12 16:58:24",
 ["session"] = 313,
+["time"] = "2022/12/12 16:58:24",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:312 Unrecognized XML attribute: edgeFile",
-["time"] = "2022/12/12 16:58:24",
 ["session"] = 313,
+["time"] = "2022/12/12 16:58:24",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:312 Unrecognized XML attribute: tile",
-["time"] = "2022/12/12 16:58:24",
 ["session"] = 313,
+["time"] = "2022/12/12 16:58:24",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:313 Unrecognized XML: EdgeSize",
-["time"] = "2022/12/12 16:58:24",
 ["session"] = 313,
+["time"] = "2022/12/12 16:58:24",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:314 Unrecognized XML: AbsValue",
-["time"] = "2022/12/12 16:58:24",
 ["session"] = 313,
+["time"] = "2022/12/12 16:58:24",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:314 Unrecognized XML attribute: val",
-["time"] = "2022/12/12 16:58:24",
 ["session"] = 313,
+["time"] = "2022/12/12 16:58:24",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:316 Unrecognized XML: TileSize",
-["time"] = "2022/12/12 16:58:24",
 ["session"] = 313,
+["time"] = "2022/12/12 16:58:24",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:317 Unrecognized XML: AbsValue",
-["time"] = "2022/12/12 16:58:24",
 ["session"] = 313,
+["time"] = "2022/12/12 16:58:24",
 ["counter"] = 1,
 },
 {
 ["message"] = "Interface/AddOns/Storyline/ui.xml:317 Unrecognized XML attribute: val",
-["time"] = "2022/12/12 16:58:24",
 ["session"] = 313,
+["time"] = "2022/12/12 16:58:24",
 ["counter"] = 1,
 },
 {
@@ -770,8 +770,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/DBM-DragonIsles/Liskanoth.lua:1 (null)",
-["time"] = "2022/12/14 12:58:56",
 ["session"] = 315,
+["time"] = "2022/12/14 12:58:56",
 ["counter"] = 2,
 },
 {
@@ -991,8 +991,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/EasyScrap/Frames/EasyScrapXMLFrames.xml:72 Couldn't find inherited node: AutoCastShineTemplate",
-["session"] = 532,
 ["time"] = "2024/08/06 09:26:27",
+["session"] = 532,
 ["counter"] = 15,
 },
 {
@@ -1085,8 +1085,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/Blizzard_APIDocumentationGenerated/PetConstantsDocumentation.lua:1 .../AddOns/Blizzard_APIDocumentationGenerated/PetConstantsDocumentation.lua:14: '}' expected near 'MAX_SUMMONABLE_HUNTER_PETS'",
-["time"] = "2024/08/17 16:31:22",
 ["session"] = 541,
+["time"] = "2024/08/17 16:31:22",
 ["counter"] = 6,
 },
 {
@@ -1299,14 +1299,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/MythicDungeonTools/MythicDungeonTools.toc:27 Error loading Interface/AddOns/MythicDungeonTools/Utility.lua",
-["session"] = 553,
 ["time"] = "2024/08/19 20:15:02",
+["session"] = 553,
 ["counter"] = 4,
 },
 {
 ["message"] = "Interface/AddOns/MythicDungeonTools/MythicDungeonTools.toc:35 Couldn't open Interface/AddOns/MythicDungeonTools/TheWarWithin/load_thewarwithin.xml",
-["session"] = 553,
 ["time"] = "2024/08/19 20:15:02",
+["session"] = 553,
 ["counter"] = 4,
 },
 {
@@ -1548,20 +1548,52 @@ BugGrabberDB = {
 ["counter"] = 30,
 },
 {
-["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'WorldQuestsList' tried to call the protected function 'Button:SetPassThroughButtons()'.",
-["time"] = "2024/09/07 20:36:31",
-["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
-["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `SetPassThroughButtons'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua\"]:224: in function `CheckMouseButtonPassthrough'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua\"]:209: in function `AcquirePin'\n[string \"@Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua\"]:97: in function <...haredMapDataProviders/BonusObjectiveDataProvider.lua:92>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua\"]:76: in function `FireCallbacks'\n[string \"@Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua\"]:35: in function <.../Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua:31>\n[string \"=[C]\"]: in function `accessor'\n[string \"@Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua\"]:52: in function `AddCallback'\n[string \"@Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua\"]:60: in function `AddCancelableCallback'\n[string \"@Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua\"]:92: in function `RefreshAllData'\n[string \"@Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua\"]:65: in function `OnEvent'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua\"]:99: in function `SignalEvent'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua\"]:106: in function <...ace/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua:105>\n[string \"=[C]\"]: in function `secureexecuterange'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua\"]:109: in function `OnEvent'\n[string \"@Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua\"]:148: in function <...rface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua:147>",
-["session"] = 698,
-["counter"] = 8,
-},
-{
 ["message"] = "...ib/SpecializedLibBars-1.0-900001/SpecializedLibBars-1.0.lua:1039: Action[SetPoint] failed because[Cannot anchor to a region dependent on it]: attempted from: Frame:SetPoint.",
 ["time"] = "2024/10/09 17:14:36",
 ["locals"] = "(*temporary) = Frame {\n order = 9\n ownerGroup = SkadaBarWindowSkada {\n }\n gradMap = <table> {\n }\n iconFrame = Frame {\n }\n value = 549276\n length = 321.750061\n icon = Texture {\n }\n iconTexture = 134400\n maxValue = 560701\n text = \"Yükimp\"\n timerLabel = FontString {\n }\n name = \"Player-1621-06D67496\"\n lastamount = 1\n win = <table> {\n }\n label = FontString {\n }\n callbacks = <table> {\n }\n bgtexture = Texture {\n }\n showLabel = true\n showIcon = false\n targetdist = 321.750061\n id = \"Player-1621-06D67496\"\n targetamount = 0.979624\n thickness = 26\n fixed = true\n showTimerLabel = true\n emphathize_set = false\n orientation = 1\n texture = Texture {\n }\n colors = <table> {\n }\n}\n(*temporary) = \"BOTTOMLEFT\"\n(*temporary) = Frame {\n order = 7\n ownerGroup = SkadaBarWindowSkada {\n }\n gradMap = <table> {\n }\n iconFrame = Frame {\n }\n value = 560701\n length = 321.750061\n icon = Texture {\n }\n iconTexture = 134400\n maxValue = 560701\n text = \"Adamsavage\"\n timerLabel = FontString {\n }\n name = \"Player-1621-063C318F\"\n lastamount = 0.964562\n win = <table> {\n }\n label = FontString {\n }\n callbacks = <table> {\n }\n bgtexture = Texture {\n }\n showLabel = true\n showIcon = false\n targetdist = 321.750061\n id = \"Player-1621-063C318F\"\n targetamount = 1\n thickness = 26\n fixed = false\n showTimerLabel = true\n emphathize_set = false\n orientation = 1\n texture = Texture {\n }\n colors = <table> {\n }\n}\n(*temporary) = \"TOPLEFT\"\n(*temporary) = 0\n(*temporary) = 0\n",
 ["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/AddOns/Skada/lib/SpecializedLibBars-1.0-900001/SpecializedLibBars-1.0.lua\"]:1039: in function `SortBars'\n[string \"@Interface/AddOns/Skada/BarDisplay.lua\"]:461: in function `Update'\n[string \"@Interface/AddOns/Skada/Skada.lua\"]:349: in function `UpdateDisplay'\n[string \"@Interface/AddOns/Skada/Skada.lua\"]:2057: in function `?'\n[string \"@Interface/AddOns/Ace3/AceTimer-3.0-17/AceTimer-3.0.lua\"]:55: in function <Interface/AddOns/Ace3/AceTimer-3.0/AceTimer-3.0.lua:50>",
 ["session"] = 704,
 ["counter"] = 37,
+},
+{
+["message"] = "Interface/AddOns/Sorted/List.lua:1626: attempt to perform arithmetic on local 'smoothingAmount' (a nil value)",
+["time"] = "2024/10/15 14:42:28",
+["locals"] = "self = Slider {\n smoothOppositeCurve = false\n ThumbTexture = SortedPrimaryFrameThumbTexture {\n }\n smoothTarget = 0\n doSmoothing = true\n ScrollDownButton = SortedPrimaryFrameScrollDownButton {\n }\n scrollStep = 3\n smoothDirection = false\n smoothTime = 22278.122000\n trackBG = SortedPrimaryFrameTrack {\n }\n smoothStart = 0\n ScrollUpButton = SortedPrimaryFrameScrollUpButton {\n }\n}\nf = ScrollFrame {\n columnHeadings = <table> {\n }\n groups = <table> {\n }\n freeSpace = Button {\n }\n groupHeadings = <table> {\n }\n minWidth = 400\n itemButtonTemplate = \"ContainerFrameItemButtonTemplate\"\n numVisibleEntries = 27\n columns = <table> {\n }\n hasColumnHeadings = true\n columnSettingsKey = \"itemColumnSettings\"\n scrollPos = 0\n containers = <table> {\n }\n groupingSettings = \"itemGroupingSettings\"\n lastScrollPosInteger = 0\n displayedEntryData = <table> {\n }\n containerButtons = <table> {\n }\n listFrame = Frame {\n }\n gridView = false\n entryData = <table> {\n }\n expandedCombinedItems = <table> {\n }\n updateScheduled = true\n lastResizeID = 14\n placeItem = Button {\n }\n collapsedGroups = <table> {\n }\n sortingScheduled = true\n canCombineStacks = true\n type = \"BAGS\"\n headingButtons = <table> {\n }\n head = Frame {\n }\n entryButtons = <table> {\n }\n scrollBar = Slider {\n }\n}\nsmoothingAmount = nil\n(*temporary) = 0\n(*temporary) = 22278.122000\n(*temporary) = 0.017000\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to perform arithmetic on local 'smoothingAmount' (a nil value)\"\nsmoothingAmount = nil\n",
+["stack"] = "[string \"@Interface/AddOns/Sorted/List.lua\"]:1626: in function <Interface/AddOns/Sorted/List.lua:1618>",
+["session"] = 714,
+["counter"] = 247,
+},
+{
+["message"] = "Interface/AddOns/Scrap/addons/config/options.lua:56: attempt to call method 'SendSignal' (a nil value)",
+["time"] = "2024/10/16 09:19:53",
+["locals"] = "share = CheckButton {\n calls = <table> {\n }\n}\nv = false\n(*temporary) = nil\n(*temporary) = Frame {\n subtitle = \"These options allow you to configure your junk list and automatic junk detection further.\"\n limit = false\n Footer = FontString {\n }\n title = \"Junk List |A:poi-workorders:0:0:0:0|a\"\n Children = <table> {\n }\n calls = <table> {\n }\n}\n(*temporary) = \"SETS_CHANGED\"\n(*temporary) = \"attempt to call method 'SendSignal' (a nil value)\"\nself = Frame {\n subtitle = \"These options allow you to configure your junk list and automatic junk detection further.\"\n limit = false\n Footer = FontString {\n }\n title = \"Junk List |A:poi-workorders:0:0:0:0|a\"\n Children = <table> {\n }\n calls = <table> {\n }\n}\n",
+["stack"] = "[string \"@Interface/AddOns/Scrap/addons/config/options.lua\"]:56: in function `method'\n[string \"@Interface/AddOns/Scrap/libs/Sushi-3.2-1/classes/core/Callable.lua\"]:59: in function <...ddOns/Scrap/libs/Sushi-3.2/classes/core/Callable.lua:55>\n[string \"@Interface/AddOns/Scrap/libs/Sushi-3.2-1/Sushi-3.2.lua\"]:28: in function `FireCalls'\n[string \"@Interface/AddOns/Scrap/libs/Sushi-3.2-1/classes/buttons/Clickable.lua\"]:39: in function <...s/Scrap/libs/Sushi-3.2/classes/buttons/Clickable.lua:34>",
+["session"] = 716,
+["counter"] = 1,
+},
+{
+["message"] = "Interface/AddOns/TeleportMenu/TeleportMenu.lua:565: attempt to index field 'hearthstoneButton' (a nil value)",
+["time"] = "2024/10/16 09:20:33",
+["locals"] = "rng = 168907\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 168907\n(*temporary) = nil\n(*temporary) = 5\n(*temporary) = 1\n(*temporary) = <table> {\n ScrapVisualizerScrollBarTop = ScrapVisualizerScrollBarTop {\n }\n ERR_OUT_OF_CHI = \"Not enough chi\"\n DH_HAVOC_CORE_ABILITY_2 = \"Strong melee attack that consumes Fury. If it critical strikes, some Fury is refunded.\"\n MultiCastActionButton6Cooldown = MultiCastActionButton6Cooldown {\n }\n MerchantItem9ItemButtonStock = MerchantItem9ItemButtonStock {\n }\n UNIT_NAMES_COMBATLOG_TOOLTIP = \"Color unit names.\"\n HUD_EDIT_MODE_SETTING_ACTION_BAR_HIDE_BAR_ART = \"Hide Bar Art\"\n LE_GAME_ERR_CHAT_RAID_RESTRICTED_TRIAL = 785\n SPELL_FAILED_CUSTOM_ERROR_71 = \"This partygoer wants to dance with you.\"\n LE_GAME_ERR_PET_SPELL_TARGETS_DEAD = 423\n ERROR_CLUB_TICKET_COUNT_AT_MAX_COMMUNITY = \"Can't create any more invite links for this community.\"\n RecruitAFriendFrame = RecruitAFriendFrame {\n }\n SoulbindCacheOpener_maruuk-surplus-bundleCount = SoulbindCacheOpener_maruuk-surplus-bundleCount {\n }\n TutorialFrameLeft19 = TutorialFrameLeft19 {\n }\n MultiCastActionButton2Cooldown = MultiCastActionButton2Cooldown {\n }\n ERR_TRADE_EQUIPPED_BAG = \"You can't trade equipped bags.\"\n PVP_RANK_6_1 = \"Corporal\"\n MultiBarLeftButton7 = MultiBarLeftButton7 {\n }\n OPTION_TOOLTIP_SHOW_MULTIBAR4 = \"Attached to the left side of Right Action Bar 1 by default\"\n LE_GAME_ERR_INVALID_FOLLOW_PVP_COMBAT = 377\n MerchantItem3AltCurrencyFrameItem1Text = MerchantItem3AltCurrencyFrameItem1Text {\n }\n PROFESSIONS_COLUMN_REAGENTS_NONE = \"None\"\n OPTION_SHOW_ACTION_BAR5_TOOLTIP = \"Attached to the left side of Action Bar 4 by default\"\n BINDING_NAME_NAMEPLATES = \"Show Enemy Nameplates\"\n CHAT_HEADER_SUFFIX = \": \"\n COVENANT_MISSIONS_HEALTH = \"Health\"\n MAIL_LETTER_TOOLTIP = \"Click to make a permanent\ncopy of this letter.\"\n PVPReadyDialogBottomArt = PVPReadyDialogBottomArt {\n }\n MultiBar6Button4Flash = MultiBar6Button4Flash {\n }\n CALENDAR_RAID_RESET_DESCRIPTION = \"%1$s resets at %2$s.\"\n SoulbindCacheOpener_molted-dragon-scalesCount = SoulbindCacheOpener_molted-dragon-scalesCount {\n }\n CHAT_CONFIG_OTHER_COMBAT = <table> {\n }\n ClassNameplateBarPaladinFrameRune5 = ClassNameplateBarPaladinFrameRune5 {\n }\n TutorialFrameRight19 = TutorialFrameRight19 {\n }\n BN_UNABLE_TO_RESOLVE_NAME = \"Unable to whisper '%s'. Blizzard services may be unavailable.\"\n CinematicFrameRaidBossEmoteFrame = CinematicFrameRaidBossEmoteFrame {\n }\n LE_GAME_ERR_ONLY_ONE_QUIVER = 36\n INT_SPELL_DURATION_HOURS = \"%d |4hour:hrs;\"\n BtWQuestsSearchResultFullMixin = <table> {\n }\n LOSS_OF_CONTROL_DISPLAY_FEAR = \"Feared\"\n POWERBAR_PREDICTION_COLOR_MAELSTROM_CODE = \"|cff003366\"\n AUCTIONATOR_L_CONFIG_ALTERNATE_SCAN = \"Use alternate slower scan mode by default\"\n SoulbindCacheOpener_decaying-phlegmFreeSpaceFont = SoulbindCacheOpener_decaying-phlegmFreeSpaceFont {\n }\n BankFrameItem17SearchOverlay = BankFrameItem17SearchOverlay {\n }\n AUCTIONATOR_L_DEFAULT_LIST_HEADER = \"Default Shopping List\"\n DMG_LCD = \"DMG\"\n ACTION_SPELL_MISSED_POSSESSIVE = \"1\"\n SLASH_STOPATTACK1 = \"/stopattack\"\n MAP_LEGEND_RARE_TOOLTIP = \"A special creature that provides various rewards\"\n MultiCastActionButton4HotKey = MultiCastActionButton4HotKey {\n }\n MINIMAP_TRACKING_TRAINER_CLASS = \"Class Trainer\"\n SLASH_DISMOUNT2 = \"/dismount\"\n DUNGEON_FLOOR_DRAGONBLIGHTCHROMIESCENARIO2 = \"Andorhal\"\n L = <table> {\n }\n EMOTE69_CMD1 = \"/nosepick\"\n WowTokenRedemptionFrameBg = WowTokenRedemptionFrameBg {\n }\n DetailsFrameworkPictureNumber880399 = DetailsFrameworkPictureNumber880399 {\n }\n SHIELD_BLOCK_TEMPLATE = \"%s Block\"\n AutoFollowStatus = AutoFollowStatus {\n }\n ARENA_CASUAL = \"Skirmish\"\n STABLE_PET_ABILITIES_LIST_HEADER = \"Special Abilities\"\n SendStationeryBackgroundRight = SendStationeryBackgroundRight {\n }\n MultiBarLeftButton11Name = MultiBarLeftButton11Name {\n }\n TUTORIAL61_SPELLID_DRUID = \"768\"\n CONQUEST_BAR = \"Conquest %d / %d\"\n MultiBarLeftButton9Border = MultiBarLeftButton9Border {\n }\n POSTMASTER_PIPE_KALIMDOR = \"Kalimdor\"\n UIWidgetCenterDisplayFrameText = UIWidgetCenterDisplayFrameText {\n }\n OPTION_TOOLTIP_SHOW_ACCOUNT_ACHIEVEMENTS ",
+["stack"] = "[string \"@Interface/AddOns/TeleportMenu/TeleportMenu.lua\"]:565: in function <Interface/AddOns/TeleportMenu/TeleportMenu.lua:555>\n[string \"=[C]\"]: in function `ToggleGameMenu'\n[string \"@Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.lua\"]:255: in function `TransitionBackOpeningPanel'\n[string \"@Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.lua\"]:244: in function `ExitWithCommit'\n[string \"@Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.lua\"]:213: in function `Close'\n[string \"@Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.lua\"]:56: in function <.../Blizzard_Settings_Shared/Blizzard_SettingsPanel.lua:55>",
+["session"] = 716,
+["counter"] = 3,
+},
+{
+["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'WorldQuestsList' tried to call the protected function 'Button:SetPassThroughButtons()'.",
+["time"] = "2024/09/07 20:36:31",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
+["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `SetPassThroughButtons'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua\"]:224: in function `CheckMouseButtonPassthrough'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua\"]:209: in function `AcquirePin'\n[string \"@Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua\"]:97: in function <...haredMapDataProviders/BonusObjectiveDataProvider.lua:92>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua\"]:76: in function `FireCallbacks'\n[string \"@Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua\"]:35: in function <.../Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua:31>\n[string \"=[C]\"]: in function `accessor'\n[string \"@Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua\"]:52: in function `AddCallback'\n[string \"@Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua\"]:60: in function `AddCancelableCallback'\n[string \"@Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua\"]:92: in function `RefreshAllData'\n[string \"@Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua\"]:65: in function `OnEvent'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua\"]:99: in function `SignalEvent'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua\"]:106: in function <...ace/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua:105>\n[string \"=[C]\"]: in function `secureexecuterange'\n[string \"@Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua\"]:109: in function `OnEvent'\n[string \"@Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua\"]:148: in function <...rface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua:147>",
+["session"] = 719,
+["counter"] = 10,
+},
+{
+["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Scrap' tried to call the protected function 'DeleteCursorItem()'.",
+["time"] = "2024/10/16 09:22:18",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
+["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `DeleteCursorItem'\n[string \"@Interface/AddOns/Scrap/addons/merchant/button.lua\"]:197: in function `Sell'\n[string \"@Interface/AddOns/Scrap/addons/merchant/button.lua\"]:51: in function `?'\n[string \"@Interface/AddOns/Ace3/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:109: in function <...Ons/Ace3/CallbackHandler-1.0/CallbackHandler-1.0.lua:109>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Ace3/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:19: in function <...Ons/Ace3/CallbackHandler-1.0/CallbackHandler-1.0.lua:15>\n[string \"@Interface/AddOns/Ace3/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:54: in function `SendMessage'\n[string \"@Interface/AddOns/Scrap/libs/WildAddon-1.0-2/WildAddon-1.0.lua\"]:100: in function `SendSignal'\n[string \"@Interface/AddOns/Scrap/addons/main/main.lua\"]:38: in function <Interface/AddOns/Scrap/addons/main/main.lua:38>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Ace3/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:19: in function <...Ons/Ace3/CallbackHandler-1.0/CallbackHandler-1.0.lua:15>\n[string \"@Interface/AddOns/Ace3/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:54: in function `Fire'\n[string \"@Interface/AddOns/Ace3/AceEvent-3.0-4/AceEvent-3.0.lua\"]:120: in function <Interface/AddOns/Ace3/AceEvent-3.0/AceEvent-3.0.lua:119>",
+["session"] = 720,
+["counter"] = 2,
 },
 },
 }

@@ -33,7 +33,7 @@ function addon:GetOptionsTable()
         args = {
             Version = {
                 order = 0,
-                name = "3.7.6",
+                name = "3.7.7",
                 type = "group",
                 disabled = true,
                 args = {},

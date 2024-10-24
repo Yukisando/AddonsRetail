@@ -141,3 +141,5 @@ WeakAurasTemplates: enabled
 WorldQuestsList: enabled
 DBM-Affixes: enabled
 DBM-Core: enabled
+Sorted_Scrap: enabled
+NameplateContextMenu: disabled

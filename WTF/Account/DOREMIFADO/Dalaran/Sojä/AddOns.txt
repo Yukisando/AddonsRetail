@@ -128,7 +128,7 @@ SharedMedia_Celestian: enabled
 MouseoverActionBars: disabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
-Sorted_Scrap: disabled
+Sorted_Scrap: enabled
 Sorted_Pawn: disabled
 Sorted_CanIMogIt: disabled
 WarpDeplete: disabled
@@ -205,3 +205,4 @@ TeleportCloak: enabled
 UnlimitedMapPinDistance: enabled
 DBM-Affixes: enabled
 DBM-Core: enabled
+NameplateContextMenu: disabled

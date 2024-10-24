@@ -1,0 +1,1 @@
+Peace and Quiet is a World of Warcraft addon that will automatically disable the General and LocalDefense channels when you enter an instance, raid, or arena and then re-enable them when you leave. I wrote this add-on because I was tired of all the spam that occurs in these channels when you're trying to focus on a raid.

@@ -11,14 +11,14 @@ HandyNotesDB = {
 ["Pantoufle - Dalaran"] = "Pantoufle - Dalaran",
 ["Coroutine - Dalaran"] = "Coroutine - Dalaran",
 ["Yükimp - Dalaran"] = "Yükimp - Dalaran",
-["Yükikstarter - Dalaran"] = "Yükikstarter - Dalaran",
-["Groskiki - Dalaran"] = "Groskiki - Dalaran",
+["Yükisan - Dalaran"] = "Yükisan - Dalaran",
 ["Yäta - Eitrigg"] = "Yäta - Eitrigg",
+["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
 ["Poucévoux - Dalaran"] = "Poucévoux - Dalaran",
 ["Peestache - Dalaran"] = "Peestache - Dalaran",
-["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
+["Groskiki - Dalaran"] = "Groskiki - Dalaran",
 ["Superbarbe - Dalaran"] = "Superbarbe - Dalaran",
-["Yükisan - Dalaran"] = "Yükisan - Dalaran",
+["Yükikstarter - Dalaran"] = "Yükikstarter - Dalaran",
 },
 ["profiles"] = {
 ["Elixïr - Eitrigg"] = {
@@ -41,21 +41,21 @@ HandyNotesDB = {
 },
 ["Yükimp - Dalaran"] = {
 },
-["Yükikstarter - Dalaran"] = {
-},
-["Groskiki - Dalaran"] = {
+["Yükisan - Dalaran"] = {
 },
 ["Yäta - Eitrigg"] = {
+},
+["Yukiwaifu - Dalaran"] = {
 },
 ["Poucévoux - Dalaran"] = {
 },
 ["Peestache - Dalaran"] = {
 },
-["Yukiwaifu - Dalaran"] = {
+["Groskiki - Dalaran"] = {
 },
 ["Superbarbe - Dalaran"] = {
 },
-["Yükisan - Dalaran"] = {
+["Yükikstarter - Dalaran"] = {
 },
 },
 }
@@ -71,14 +71,14 @@ HandyNotes_HandyNotesDB = {
 ["Pantoufle - Dalaran"] = "Pantoufle - Dalaran",
 ["Coroutine - Dalaran"] = "Coroutine - Dalaran",
 ["Yükimp - Dalaran"] = "Yükimp - Dalaran",
-["Yükikstarter - Dalaran"] = "Yükikstarter - Dalaran",
-["Groskiki - Dalaran"] = "Groskiki - Dalaran",
+["Yükisan - Dalaran"] = "Yükisan - Dalaran",
 ["Yäta - Eitrigg"] = "Yäta - Eitrigg",
+["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
 ["Poucévoux - Dalaran"] = "Poucévoux - Dalaran",
 ["Peestache - Dalaran"] = "Peestache - Dalaran",
-["Yukiwaifu - Dalaran"] = "Yukiwaifu - Dalaran",
+["Groskiki - Dalaran"] = "Groskiki - Dalaran",
 ["Superbarbe - Dalaran"] = "Superbarbe - Dalaran",
-["Yükisan - Dalaran"] = "Yükisan - Dalaran",
+["Yükikstarter - Dalaran"] = "Yükikstarter - Dalaran",
 },
 ["profiles"] = {
 ["Elixïr - Eitrigg"] = {
@@ -101,21 +101,21 @@ HandyNotes_HandyNotesDB = {
 },
 ["Yükimp - Dalaran"] = {
 },
-["Yükikstarter - Dalaran"] = {
-},
-["Groskiki - Dalaran"] = {
+["Yükisan - Dalaran"] = {
 },
 ["Yäta - Eitrigg"] = {
+},
+["Yukiwaifu - Dalaran"] = {
 },
 ["Poucévoux - Dalaran"] = {
 },
 ["Peestache - Dalaran"] = {
 },
-["Yukiwaifu - Dalaran"] = {
+["Groskiki - Dalaran"] = {
 },
 ["Superbarbe - Dalaran"] = {
 },
-["Yükisan - Dalaran"] = {
+["Yükikstarter - Dalaran"] = {
 },
 },
 }

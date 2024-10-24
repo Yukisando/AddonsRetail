@@ -1,20 +1,20 @@
 
 LS_GLASS_GLOBAL_CONFIG = {
 ["profileKeys"] = {
-["Yükatechisme - Dalaran"] = "Default",
-["Wifi - Dalaran"] = "Default",
 ["Yükisan - Dalaran"] = "Default",
+["Yükringe - Dalaran"] = "Default",
+["Yükatechisme - Dalaran"] = "Default",
 ["Yükidnapé - Dalaran"] = "Default",
 ["Pwout - Dalaran"] = "Default",
 ["Canplay - Dalaran"] = "Default",
 ["Feuman - Dalaran"] = "Default",
 ["Cailloux - Dalaran"] = "Default",
-["Yukiwaifu - Dalaran"] = "Default",
+["Groskiki - Dalaran"] = "Default",
 ["Pantoufle - Dalaran"] = "Default",
 ["Yükikstarter - Dalaran"] = "Default",
 ["Peestache - Dalaran"] = "Default",
-["Groskiki - Dalaran"] = "Default",
-["Yükringe - Dalaran"] = "Default",
+["Yukiwaifu - Dalaran"] = "Default",
+["Wifi - Dalaran"] = "Default",
 ["Yükimp - Dalaran"] = "Default",
 },
 ["profiles"] = {

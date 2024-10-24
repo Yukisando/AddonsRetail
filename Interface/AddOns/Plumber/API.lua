@@ -1736,6 +1736,29 @@ do  --System
     else
         API.GetMouseFocus = GetMouseFocus;
     end
+
+
+    local ModifierKeyName = {
+        LSHIFT = "Shift",
+        LCTRL = "Ctrl",
+        LALT = "Alt",
+    };
+
+    if IsMacClient and IsMacClient() then
+        --Mac OS
+        ModifierKeyName.LCTRL = "Command";
+        ModifierKeyName.LALT = "Option";
+    end
+
+    ModifierKeyName.RSHIFT = ModifierKeyName.LSHIFT;
+    ModifierKeyName.RCTRL = ModifierKeyName.LCTRL;
+    ModifierKeyName.RALT = ModifierKeyName.LALT;
+
+    API.GetModifierKeyName = function(key)
+        if key and ModifierKeyName[key] then
+            return ModifierKeyName[key]
+        end
+    end
 end
 
 do  --Player
@@ -1838,11 +1861,6 @@ do  --ObjectPool
         end
 
         self.numUnused = #self.objects;
-
-        local function Object_Release(f)
-            self:RecycleObject(f);
-        end
-        self.Object_Release = Object_Release;
     end
 
     function ObjectPoolMixin:GetTotalObjects()
@@ -1855,9 +1873,18 @@ do  --ObjectPool
         end
     end
 
+    function ObjectPoolMixin:Object_Release()
+        --Override
+    end
+
     local function CreateObjectPool(createObjectFunc)
         local pool = {};
         API.Mixin(pool, ObjectPoolMixin);
+
+        local function Object_Release(f)
+            pool:RecycleObject(f);
+        end
+        pool.Object_Release = Object_Release;
 
         pool.objects = {};
         pool.activeObjects = {};

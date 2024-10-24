@@ -12,7 +12,7 @@ RaiderIO_DB_TW_F: disabled
 RaiderIO_DB_KR_R: disabled
 RaiderIO_DB_KR_M: disabled
 RaiderIO_DB_KR_F: disabled
-Sorted_Scrap: disabled
+Sorted_Scrap: enabled
 Sorted_Pawn: disabled
 Sorted_CanIMogIt: disabled
 Sorted: disabled
@@ -136,3 +136,4 @@ WeakAurasTemplates: enabled
 WorldQuestsList: enabled
 DBM-Affixes: enabled
 DBM-Core: enabled
+NameplateContextMenu: disabled
